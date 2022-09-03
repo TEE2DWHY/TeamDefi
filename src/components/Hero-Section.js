@@ -1,0 +1,28 @@
+import React from "react";
+import "../index.css"
+
+function HeroSection() {
+    return (
+        <>
+            <div className="Hero-Section">
+                <br /> <br />
+                <div className="welcome-message">
+                    <h1 className="cta">Welcome to
+                        <br /> Our Academy<small>✨</small></h1>
+                    <br />
+                    <p style={{ color: "#fff" }}>inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo..<br />
+                        lorem ipsum illo inventore.</p>
+                    <img className="learn-img" src="learn.png" />
+                    <br />
+                    <form action="#" method="post">
+                        <span className="CTA"><input className="cta" type="email" placeholder="SatoshiNakamoto@gmail.com" required autoFocus /> <button className="btn btn-success cta" type="submit">Subscribe</button></span>
+                    </form>
+                    <br /> <br /> <br /> <br /> <br />
+                </div>
+            </div>
+
+        </>
+    )
+}
+
+export default HeroSection

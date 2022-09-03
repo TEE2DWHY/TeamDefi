@@ -1,13 +1,92 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  /* color: #fff; */
+  font-family:"Montserrat";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#about-crypto{
+  margin-top: 10%;
 }
+
+.nav-header{
+  background-color: #007aff;
+}
+/* .navbar a{
+  color:#fff
+} */
+
+.nav-list{
+  padding-left: 30%;
+}
+
+.Hero-Section{
+  background-color: #007aff;
+  background-position: top;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  /* margin: 0; */
+  /* padding: 0; */
+  margin-top: 0.1%;
+  background-image: url("../public/background.png");
+}
+
+small{
+  font-size: 20px;
+}
+
+.learn-img{
+  position: absolute;
+  left: 0;
+  margin-top: -100px;
+  /* text-align: center; */
+  width: 312px;
+}
+
+input.cta{
+  border-radius: 10px;
+  /* border: 0; */
+  border-style: none;
+  border-color: #007aff;
+  width: 30%;
+  height: 50px;
+  padding-left: 20px;
+  color: grey;
+}
+
+h1.cta{
+  font-weight: 800;
+  font-size:46px;
+  font-family: "cinzel";
+  color: #fff;
+}
+
+button.cta{
+  padding: 10px;
+  margin-left: 1%;
+  background-color: #1bd190;
+  width: 130px;
+}
+
+/* h2.learncrypto{
+font-size: 32px;
+font-weight: 600;
+line-height: 37px;
+color:#fff;
+} */
+
+img.about{
+  width: 400px;
+  margin-left: 12%;
+}
+
+/* Media Querry */
+
+@media(max-width:1200px){
+  .learn-img{
+    display: none;
+  }
+}
+
+
