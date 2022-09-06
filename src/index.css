@@ -29,6 +29,10 @@ body {
   margin-top: 10%;
 }
 
+#mission{
+  margin-top: 10%;
+}
+
 .nav-header{
   background-color: #007aff;
 }
@@ -139,6 +143,14 @@ img.about{
   margin-left:10%;
 }
 
+button.articles{
+  margin-left: 47%;
+}
+
+
+.mission{
+  margin-left: 5%;
+}
 /* Media Querry */
 
 @media(max-width:1200px){

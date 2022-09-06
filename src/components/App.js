@@ -8,6 +8,7 @@ import BitcoinFeatures from "./BitcoinFeatures";
 import Features from "./Features";
 import Articles from "./Articles";
 import articleData from "./ArticleData";
+import Mission from "./OurMission";
 
 function App() {
     const data = cardData.map(function (items) {
@@ -47,6 +48,9 @@ function App() {
                     </div>
                 </div>
             </section>
+            <br /> <br />
+            <button className="btn btn-success cta articles" type="button">All articles</button>
+            <Mission />
         </>
     )
 }
