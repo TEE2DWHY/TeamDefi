@@ -3,7 +3,7 @@ import "../index.css"
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg nav-header" >
+        <nav className="navbar  sticky-top navbar-expand-lg nav-header" >
             <div className="container-fluid">
                 <a className="navbar-brand" href="#" style={{ color: " #fff" }}>Logo</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,8 +33,8 @@ function Navbar() {
                         </li>
                     </ul>
                     <form className="d-flex" role="search">
-                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-outline-success cta" type="submit">Search</button>
+                        <input className="form-control me-2 search" type="search" placeholder="Search" aria-label="Search" />
+                        <button className="btn btn-outline-success cta search" type="submit">Search</button>
                     </form>
                 </div>
             </div>

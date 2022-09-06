@@ -4,7 +4,10 @@ import HeroSection from "./Hero-Section";
 import LearnCrypto from "./LearnCrypto";
 import Learn from "./Courses";
 import cardData from "./CardData";
-
+import BitcoinFeatures from "./BitcoinFeatures";
+import Features from "./Features";
+import Articles from "./Articles";
+import articleData from "./ArticleData";
 
 function App() {
     const data = cardData.map(function (items) {
@@ -12,11 +15,18 @@ function App() {
             {...items}
         />
     })
+
+    const dataArticle = articleData.map(function (article) {
+        return <Articles
+            {...article}
+        />
+    })
     return (
         <>
             <Navbar />
             <HeroSection />
             <LearnCrypto />
+            {/* This data is populated by the CardData.js file and contains the courses taught by team defi using props and map method */}
             <section id="learn">
                 <div className="course">
                     <br /> <br />
@@ -25,6 +35,15 @@ function App() {
                         <div className="row courses-content">
                             {data}
                         </div>
+                    </div>
+                </div>
+            </section>
+            <BitcoinFeatures />
+            <Features />
+            <section id="articles">
+                <div className="container">
+                    <div className="row articles">
+                        {dataArticle}
                     </div>
                 </div>
             </section>

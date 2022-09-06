@@ -19,6 +19,27 @@ const cardData = [
         courseContent: "What is crypto & why is it important, How does crypto work ? ",
         link1: "",
         link2: ""
+    },
+    {
+        id: 4,
+        courseTitle: "Crypto Basics",
+        courseContent: "What is crypto & why is it important, How does crypto work ? ",
+        link1: "",
+        link2: ""
+    },
+    {
+        id: 5,
+        courseTitle: "Crypto Basics",
+        courseContent: "What is crypto & why is it important, How does crypto work ? ",
+        link1: "",
+        link2: ""
+    },
+    {
+        id: 6,
+        courseTitle: "Crypto Basics",
+        courseContent: "What is crypto & why is it important, How does crypto work ? ",
+        link1: "",
+        link2: ""
     }
 ]
 
