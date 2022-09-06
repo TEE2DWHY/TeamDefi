@@ -8,7 +8,7 @@ function BitcoinFeatures() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <img className="btc-img" src="btc_treasury2022.webp" />
+                            <img className="btc-img" src="btc_treasury2022.webp" alt="" />
                         </div>
                         <div className="col-lg-6">
                             <h2>Our Why Crypto section makes a case for crypto</h2>

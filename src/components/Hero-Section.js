@@ -12,7 +12,7 @@ function HeroSection() {
                     <br />
                     <p style={{ color: "#fff" }}>inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo..<br />
                         lorem ipsum illo inventore.</p>
-                    <img className="learn-img" src="learn.png" />
+                    <img className="learn-img" src="learn.png" alt="" />
                     <br />
                     <form action="#" method="post">
                         <span className="CTA"><input className="cta" type="email" placeholder="SatoshiNakamoto@gmail.com" required autoFocus /> <button className="btn btn-success cta" type="submit">Subscribe</button></span>

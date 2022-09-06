@@ -17,7 +17,7 @@ function LearnCrypto() {
                             <button className="btn btn-success cta" type="button">Kickstart (<i class="fa-brands fa-kickstarter-k"></i>)</button>
                         </div>
                         <div className="col-lg-6">
-                            <img className="about" src="about.png" />
+                            <img className="about" src="about.png" alt="" />
                         </div>
                     </div>
                 </div>
