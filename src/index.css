@@ -30,9 +30,15 @@ body {
 }
 
 #mission{
-  margin-top: 10%;
+  margin-top: 3%;
+  background-image: url("../public/background.png");
 }
 
+#footer{
+  margin-top: 10%;
+  background-color: #007aff;
+  color: #fff;
+}
 .nav-header{
   background-color: #007aff;
 }
@@ -147,10 +153,10 @@ button.articles{
   margin-left: 47%;
 }
 
-
 .mission{
   margin-left: 5%;
 }
+
 /* Media Querry */
 
 @media(max-width:1200px){

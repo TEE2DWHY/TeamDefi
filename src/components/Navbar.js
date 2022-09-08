@@ -18,7 +18,7 @@ function Navbar() {
                             <a className="nav-link" href="/#" style={{ color: " #fff" }}>Link</a>
                         </li>
                         <li className="nav-item dropdown">
-                            <a style={{ color: " #fff" }} class="nav-link dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a style={{ color: " #fff" }} className="nav-link dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Courses
                             </a>
                             <ul className="dropdown-menu">

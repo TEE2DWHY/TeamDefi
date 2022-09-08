@@ -19,7 +19,7 @@ function Mission() {
                                 <br /> <br />
                                 We regularly add new content to the Crypto blog to expose new perspectives on cryptocurrency, bust myths, provide suggestions to help you grow your crypto stack as well creative ways to just keep learning.
                                 <br /> <br />
-                                If don't understand the unique language of the subject, our crypto glossary will help, while you can extend your learning with a guide to popular crypto books and podcasts.
+                                If you don't understand the unique language of the subject, our crypto glossary will help, while you can extend your learning with a guide to popular crypto books and podcasts.
                                 <br /> <br />
                                 Team Defi - Profitability and Development all in One.</p>
                         </div>

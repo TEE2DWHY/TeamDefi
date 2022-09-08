@@ -9,6 +9,7 @@ import Features from "./Features";
 import Articles from "./Articles";
 import articleData from "./ArticleData";
 import Mission from "./OurMission";
+import Footer from "./Footer";
 
 function App() {
     const data = cardData.map(function (items) {
@@ -51,6 +52,7 @@ function App() {
             <br /> <br />
             <button className="btn btn-success cta articles" type="button">All articles</button>
             <Mission />
+            <Footer />
         </>
     )
 }
