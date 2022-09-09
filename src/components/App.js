@@ -6,6 +6,7 @@ import Learn from "./Courses";
 import cardData from "./CardData";
 import BitcoinFeatures from "./BitcoinFeatures";
 import Features from "./Features";
+import FeatureData from "./FeatureData";
 import Articles from "./Articles";
 import articleData from "./ArticleData";
 import Mission from "./OurMission";
@@ -15,6 +16,12 @@ function App() {
     const data = cardData.map(function (items) {
         return <Learn
             {...items}
+        />
+    })
+
+    const dataFeatures = FeatureData.map(function (features) {
+        return <Features
+            {...features}
         />
     })
 
@@ -41,7 +48,16 @@ function App() {
                 </div>
             </section>
             <BitcoinFeatures />
-            <Features />
+            <section id="Features">
+                <br /> <br />
+                <h2>Learn Crypto features </h2>
+                <br />
+                <div className="container">
+                    <div className="row">
+                        {dataFeatures}
+                    </div>
+                </div>
+            </section>
             <section id="articles">
                 <div className="container">
                     <div className="row articles">
