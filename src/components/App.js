@@ -66,7 +66,10 @@ function App() {
                 </div>
             </section>
             <br /> <br />
-            <button className="btn btn-success cta articles" type="button">All articles</button>
+            <div style={{ textAlign: "center" }}>
+                <button className="btn btn-success cta" type="button">All articles</button>
+            </div>
+
             <Mission />
             <Footer />
         </>
