@@ -1,9 +1,12 @@
 import React from "react";
+// import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+// import Lol from "../pages/Lol";
 import "../index.css"
 
 function Navbar() {
     return (
         <nav className="navbar  sticky-top navbar-expand-lg nav-header" >
+
             <div className="container-fluid">
                 <a className="navbar-brand" href="/#" style={{ color: " #fff" }}>Logo</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,7 +18,12 @@ function Navbar() {
                             <a className="nav-link active" aria-current="page" href="/#" style={{ color: "#fff" }}>Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/#" style={{ color: " #fff" }}>Link</a>
+                            {/* <Router>
+                                <Link to="/lol" className="nav-link" style={{ color: " #fff" }}>Link</Link>
+                                <Routes>
+                                    <Route path="/lol" component={<Lol />} />
+                                </Routes>
+                            </Router> */}
                         </li>
                         <li className="nav-item dropdown">
                             <a style={{ color: " #fff" }} className="nav-link dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,3 +52,4 @@ function Navbar() {
 }
 
 export default Navbar;
+

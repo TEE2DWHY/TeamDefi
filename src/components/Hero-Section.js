@@ -15,7 +15,7 @@ function HeroSection() {
                     <img className="learn-img" src="learn.png" alt="" />
                     <br />
                     <form action="#" method="post">
-                        <span className="CTA"><input className="cta" type="email" placeholder="SatoshiNakamoto@gmail.com" required autoFocus /> <button className="btn btn-success cta" type="submit">Subscribe</button></span>
+                        <span className="CTA"><input className="cta" type="email" placeholder="SatoshiNakamoto@gmail.com" required /> <button className="btn btn-success cta" type="submit">Subscribe</button></span>
                     </form>
                     <br /> <br /> <br /> <br /> <br />
                 </div>

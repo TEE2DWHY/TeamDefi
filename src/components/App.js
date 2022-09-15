@@ -39,7 +39,7 @@ function App() {
             <section id="learn">
                 <div className="course">
                     <br /> <br />
-                    <h2>Choose what you want to learn🕶</h2>
+                    <h2 style={{ textAlign: "center" }}>Choose what you want to learn🕶</h2>
                     <div className="container">
                         <div className="row courses-content">
                             {data}
@@ -50,7 +50,7 @@ function App() {
             <BitcoinFeatures />
             <section id="Features">
                 <br /> <br />
-                <h2>Learn Crypto features </h2>
+                <h2 style={{ textAlign: "center" }}>Learn Crypto features </h2>
                 <br />
                 <div className="container">
                     <div className="row">
@@ -72,6 +72,8 @@ function App() {
 
             <Mission />
             <Footer />
+
+
         </>
     )
 }
