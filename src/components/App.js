@@ -58,8 +58,10 @@ function App() {
                     </div>
                 </div>
             </section>
+
             <section id="articles">
                 <div className="container">
+                    <h2 style={{ textAlign: "center" }}>Articles <i class="fa-solid fa-book-open"></i></h2>
                     <div className="row articles">
                         {dataArticle}
                     </div>

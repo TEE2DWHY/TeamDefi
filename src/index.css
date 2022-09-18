@@ -144,6 +144,8 @@ img.about{
 .course-card:hover{
   background-color: #007aff;
   color:#fff;
+  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 .btc-img{
@@ -183,6 +185,11 @@ img.about{
 .btc-img{
   width: 250px;
    margin-bottom: 4%;
+}
+
+.course-card:hover{
+  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 }
