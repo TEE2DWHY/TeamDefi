@@ -39,7 +39,7 @@ function App() {
             <section id="learn">
                 <div className="course">
                     <br /> <br />
-                    <h2 style={{ textAlign: "center" }}>Choose what you want to learn🕶</h2>
+                    <h2 style={{ textAlign: "center" }}>Choose what you want to learn<br /><i class="fa-brands fa-bitcoin"></i> <i class="fa-brands fa-ethereum"></i> <i class="fa-brands fa-hive"></i></h2>
                     <div className="container">
                         <div className="row courses-content">
                             {data}
@@ -50,7 +50,7 @@ function App() {
             <BitcoinFeatures />
             <section id="Features">
                 <br /> <br />
-                <h2 style={{ textAlign: "center" }}>Learn Crypto features </h2>
+                <h2 style={{ textAlign: "center" }}>Learn Crypto features <i class="fa-solid fa-chart-simple"></i></h2>
                 <br />
                 <div className="container">
                     <div className="row">

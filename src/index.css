@@ -164,6 +164,15 @@ img.about{
   margin-left: 5%;
 }
 
+i{
+  color: #007aff;
+}
+
+i:hover{
+  color: #1bd190;
+   animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
 /* Media Querry */
 
 @media(max-width:1200px){
@@ -172,6 +181,9 @@ img.about{
     text-align: center;
   }
 
+  #mission{
+    margin-top: 9%;
+  }
   .learn-img{
     display: none;
   }
@@ -183,7 +195,7 @@ img.about{
 }
 
 .btc-img{
-  width: 250px;
+  width: 300px;
    margin-bottom: 4%;
 }
 
@@ -192,6 +204,10 @@ img.about{
   animation-duration: 2s; /* don't forget to set a duration! */
 }
 
+h4{
+  font-size: 15px;
+  font-style: italic;
+}
 }
 
 
