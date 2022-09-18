@@ -5,7 +5,7 @@ function Articles(props) {
         <>
 
             <div className="col-lg-4">
-                <div className="card" style={{ width: "18rem" }}>
+                <div className="card" style={{ width: "18rem", marginTop: "4%" }}>
                     <img src={props.img} className="card-img-top" alt="" />
                     <div className="card-body">
                         <h5 className="card-text">{props.content}</h5>

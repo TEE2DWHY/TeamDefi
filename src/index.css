@@ -64,6 +64,7 @@ body {
 
 small{
   font-size: 20px;
+  animation: jello;
 }
 
 .learn-img{
@@ -72,6 +73,8 @@ small{
   margin-top: -100px;
   /* text-align: center; */
   width: 312px;
+  animation: backInLeft;
+  animation-duration: 3s;
 }
 
 input.search{
@@ -94,6 +97,8 @@ h1.cta{
   font-size:46px;
   font-family: "cinzel";
   color: #fff;
+  animation: flash;
+  animation-duration: 2s;
 }
 
 button.cta{
@@ -160,9 +165,26 @@ img.about{
 /* Media Querry */
 
 @media(max-width:1200px){
+
+  body{
+    text-align: center;
+  }
+
   .learn-img{
     display: none;
   }
+
+  img.about{
+  width: 300px;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.btc-img{
+  width: 250px;
+   margin-bottom: 4%;
+}
+
 }
 
 
