@@ -100,7 +100,7 @@ input.cta{
 h1.cta{
   font-weight: 800;
   font-size:46px;
-  font-family: "cinzel";
+  /* font-family: "cinzel"; */
   color: #fff;
   animation: flash;
   animation-duration: 2s;
