@@ -47,12 +47,16 @@ body {
 .nav-header{
   background-color: #007aff;
 }
+.nav-nav{
+  text-align: right;
+}
 /* .navbar a{
   color:#fff
 } */
 
 .nav-list{
   padding-left: 30%;
+  text-align: right;
 }
 
 .Hero-Section{
@@ -218,8 +222,19 @@ h4{
    text-align: left;
 }
 
-.nav-list{
-  text-align: right;
+
+
+input.cta{
+  width: 70%;
+  margin-bottom: 3%;
+}
+
+button.cta{
+    padding: 10px;
+    margin: auto;
+    background-color: #1bd190;
+    width: 130px;
+    display: block;
 }
 }
 

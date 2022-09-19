@@ -40,10 +40,8 @@ function Navbar() {
                             <a className="nav-link" href="/#" style={{ color: " #fff" }}>Projects</a>
                         </li>
                     </ul>
-                    <form className="d-flex" role="search">
-                        <input className="form-control me-2 search" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-outline-success cta search" type="submit">Search</button>
-                    </form>
+
+                    <a className="nav-link active nav-nav" aria-current="page" href="/#" style={{ color: "#fff" }}>Connect Wallet</a>
                 </div>
             </div>
         </nav >
