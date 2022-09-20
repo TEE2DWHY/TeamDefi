@@ -117,6 +117,11 @@ button.cta{
   width: 130px;
 }
 
+button.cta:hover{
+  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
 button.search{
   height:40px;
 
