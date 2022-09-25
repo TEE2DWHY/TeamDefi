@@ -41,7 +41,7 @@ function Navbar() {
                         </li>
                     </ul>
 
-                    <a className="nav-link active nav-nav" aria-current="page" href="/#" style={{ color: "#fff" }}>Connect Wallet</a>
+                    <a className="nav-link active nav-nav" aria-current="page" href="/#" style={{ color: "#fff" }}>CONNECT WALLET</a>
                 </div>
             </div>
         </nav >
