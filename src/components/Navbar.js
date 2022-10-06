@@ -1,7 +1,6 @@
 import React from "react";
-// import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-// import Lol from "../pages/Lol";
 import "../index.css"
+import { Link } from "react-router-dom"
 
 function Navbar() {
     return (
@@ -37,7 +36,7 @@ function Navbar() {
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/#" style={{ color: " #fff" }}>Projects</a>
+                            <Link to="/glossary" className="nav-link" style={{ color: " #fff" }}>Glossary</Link>
                         </li>
                     </ul>
 

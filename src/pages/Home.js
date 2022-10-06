@@ -1,18 +1,18 @@
 import React from "react";
-import Navbar from "./Navbar";
-import HeroSection from "./Hero-Section";
-import LearnCrypto from "./LearnCrypto";
-import Learn from "./Courses";
-import cardData from "./CardData";
-import BitcoinFeatures from "./BitcoinFeatures";
-import Features from "./Features";
-import FeatureData from "./FeatureData";
-import Articles from "./Articles";
-import articleData from "./ArticleData";
-import Mission from "./OurMission";
-import Footer from "./Footer";
+import Navbar from "../components/Navbar";
+import HeroSection from "../components/Hero-Section";
+import LearnCrypto from "../components/LearnCrypto";
+import Learn from "../components/Courses";
+import cardData from "../components/CardData";
+import BitcoinFeatures from "../components/BitcoinFeatures";
+import Features from "../components/Features";
+import FeatureData from "../components/FeatureData";
+import Articles from "../components/Articles";
+import articleData from "../components/ArticleData";
+import Mission from "../components/OurMission";
+import Footer from "../components/Footer";
 
-function App() {
+function Home() {
     const data = cardData.map(function (items) {
         return <Learn
             {...items}
@@ -80,4 +80,4 @@ function App() {
     )
 }
 
-export default App;
+export default Home;
