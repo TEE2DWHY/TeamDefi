@@ -47,8 +47,19 @@ body {
 
 #ultimate-store-of-value{
   text-align: center;
-  margin-top: 5%;
+  background-image: url("../public/background.png");
 }
+
+#melting-ice{
+  margin-top: 9%;
+  margin-left: 6%;
+  margin-bottom: 5%;
+}
+
+#Learn-Crypto-Basics{
+  text-align: center;
+}
+
 .navbar-expand-lg .navbar-nav {
     margin-left: 70px;
   }
@@ -222,8 +233,45 @@ h2.ultimate{
   line-height: 100%;
   padding: 0 15px;
   margin-bottom: 29px;
-  font-weight: bold;
+  font-weight: 400;
+  color: #181818;
 }
+
+.bitcoin-time{
+  width: 700px;
+  height: 300px;
+-webkit-box-shadow: 3px 0px 13px -7px #ABD9FF;
+-moz-box-shadow: 3px 0px 13px -7px #ABD9FF;
+box-shadow: 3px 0px 13px -7px #ABD9FF;
+margin-bottom: 10px;
+}
+
+.ice-cube{
+  width: 454px;
+  width: 308px;
+  display: block;
+  margin: auto;
+}
+
+.whycrypto-container{
+background: #efddd4;
+margin: auto;
+width: 80%;
+border-radius: 16px;
+padding: 20px;
+}
+
+.LearnBanner{
+  width: 240px;
+  height: 240px;
+}
+
+button.learn{
+   padding: 10px 40px;
+  margin-left: 1%;
+  background-color: #1bd190;
+}
+
 /* Media Querry */
 
 @media(max-width:1200px){
@@ -275,6 +323,11 @@ button.cta{
     background-color: #1bd190;
     width: 130px;
     display: block;
+}
+
+.bitcoin-time{
+  width: 400px;
+  height: 200px;
 }
 
 }
