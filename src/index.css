@@ -60,6 +60,11 @@ body {
   text-align: center;
 }
 
+#understand-crypto{
+  margin-top: 9%;
+  margin-left: 6%;
+}
+
 .navbar-expand-lg .navbar-nav {
     margin-left: 70px;
   }
@@ -258,7 +263,7 @@ background: #efddd4;
 margin: auto;
 width: 80%;
 border-radius: 16px;
-padding: 20px;
+padding: 15px;
 }
 
 .LearnBanner{
@@ -270,6 +275,22 @@ button.learn{
    padding: 10px 40px;
   margin-left: 1%;
   background-color: #1bd190;
+  width: 60%;
+}
+
+.usdollar{
+  width: 600px;
+  -webkit-box-shadow: 3px 0px 13px -7px #ABD9FF;
+-moz-box-shadow: 3px 0px 13px -7px #ABD9FF;
+box-shadow: 3px 0px 13px -7px #ABD9FF;
+margin-bottom: 10px;
+}
+
+.understand-crypto{
+  width: 480px;
+  height: 285px;
+  display: block;
+  margin: auto;
 }
 
 /* Media Querry */
@@ -328,6 +349,19 @@ button.cta{
 .bitcoin-time{
   width: 400px;
   height: 200px;
+}
+
+button.learn{
+  width: 100%;
+}
+
+.usdollar{
+  width: 300px;
+}
+
+.understand-crypto{
+  width: 100%;
+  height: 240px;
 }
 
 }

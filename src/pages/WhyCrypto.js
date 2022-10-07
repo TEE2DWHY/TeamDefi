@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar"
+import Footer from "../components/Footer"
 function WhyCrypto() {
     return (
         <>
@@ -9,7 +10,7 @@ function WhyCrypto() {
                     <h1 className="cta">Why
                         Cry<span style={{ color: "#1bd190" }}>pto??</span></h1>
                     <br />
-                    <p style={{ color: "#fff" }}>Not convinced about the case for crypto? Let's see if we can change your mind💙.</p>
+                    <p style={{ color: "#fff" }}>Not convinced about the case for crypto? Let's see if we can change your mind💌.</p>
                     <br /> <br />
                 </div>
             </div>
@@ -52,7 +53,34 @@ function WhyCrypto() {
                     </div>
 
                 </div>
+                <br /> <br />
+                <h2 style={{ fontWeight: "600" }}>Money printer goes <br />
+                    <span style={{ color: "#1bd190" }}>BRRRR!</span></h2>
+                <p>Almost half of all USD in circulation was printed in the last two years. <br />
+                    As more money is created, its purchasing power declines and <br /> investors search for scarce assets like Bitcoin, which become more valuable.</p>
+                <br /> <br />
+                <h4>Growth of the US Dollar Money Supply</h4>
+                <img className="usdollar" src="USdollarM1MoneyStock2022.webp" alt="usdollar" />
+                <br /> <br />
+                <a href="https://fred.stlouisfed.org/series/WM1NS">Source: Board of Governors of the <br /> Federal Reserve System (US)</a>
             </section>
+            <section id="understand-crypto">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <h1>Understand Crypto - TL;DR</h1>
+                            <h4>If you want the short story about crypto head to our TL;DR section.</h4>
+                            <p>Short answers to all the most common questions and misconceptions about crypto for anyone who doesn’t want the full story.</p>
+                            <button className="btn btn-outline-success" type="submit">Learn More <i class="fa-solid fa-right-to-bracket"></i></button>
+                        </div>
+                        <div className="col-lg-6">
+                            <img className="understand-crypto" src="Understand Crypto.webp" alt="understand-crypto" />
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <Footer />
         </>
     )
 }
