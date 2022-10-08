@@ -71,7 +71,7 @@ function WhyCrypto() {
                             <h1>Understand Crypto - TL;DR</h1>
                             <h4>If you want the short story about crypto head to our TL;DR section.</h4>
                             <p>Short answers to all the most common questions and misconceptions about crypto for anyone who doesn’t want the full story.</p>
-                            <button className="btn btn-outline-success" type="submit">Learn More <i class="fa-solid fa-right-to-bracket"></i></button>
+                            <button className="btn btn-outline-success" type="button">Learn More <i class="fa-solid fa-right-to-bracket"></i></button>
                         </div>
                         <div className="col-lg-6">
                             <img className="understand-crypto" src="Understand Crypto.webp" alt="understand-crypto" />
