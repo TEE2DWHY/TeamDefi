@@ -36,7 +36,7 @@ const cardData = [
     {
         id: 6,
         courseTitle: "Blockchain Development",
-        courseContent: "What is crypto & why is it important, How does crypto work ? ",
+        courseContent: "Web3, Dapps dev, smart contracts, various blockchain architecture etc.",
         link1: "",
         link2: ""
     }

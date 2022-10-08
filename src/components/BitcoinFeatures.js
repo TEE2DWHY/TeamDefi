@@ -18,7 +18,7 @@ function BitcoinFeatures() {
                             <br />
                             Find out how Bitcoin has performed against Gold, mankind's most popular store of value for the last 6,000 years. See how an Austrian Economist in the 1980s predicted a currency outside of the government's control.
                             <br /> <br />
-                            <Link to="/whycrypto"><button className="btn btn-outline-success" type="submit">Visit Why Crypto <i class="fa-solid fa-right-to-bracket"></i></button></Link>
+                            <Link to="/whycrypto"><button className="btn btn-outline-success" type="button" style={{ padding: "10px" }}>Visit Why Crypto <i class="fa-solid fa-right-to-bracket"></i></button></Link>
                         </div>
                     </div>
                 </div>
