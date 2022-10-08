@@ -346,6 +346,10 @@ button.cta{
     display: block;
 }
 
+a{
+  text-decoration: none;
+}
+
 .bitcoin-time{
   width: 400px;
   height: 200px;
