@@ -9,7 +9,7 @@ function Mission() {
                     <div className="row mission">
                         <div className="col-lg-12">
                             <h1 style={{ fontWeight: "bolder" }}>Our Mission</h1>
-                            <p className="mission-paragraphs" style={{ color: "#000" }}>Team Defi is a free education platform designed to help users easily learn about cryptocurrency, with simple, relevant and engaging content.
+                            <p className="mission-paragraphs" style={{ opacity: "0.6" }}>Team Defi is a free education platform designed to help users easily learn about cryptocurrency, with simple, relevant and engaging content.
                                 <br /> <br />
                                 We appreciate that for beginners, learning about cryptocurrency is both complex and unfamiliar, so we've designed the site to be accessible to newcomers for a full crypto knowledge base divided into five categories.
                                 <br /> <br />

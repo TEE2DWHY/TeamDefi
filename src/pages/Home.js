@@ -50,7 +50,7 @@ function Home() {
             <BitcoinFeatures />
             <section id="Features">
                 <br /> <br />
-                <h2 style={{ textAlign: "center", fontWeight: "bolder" }}>Crypto features <i class="fa-solid fa-chart-simple"></i></h2>
+                <h2 style={{ textAlign: "center", fontWeight: "bolder" }}>Features <i class="fa-solid fa-chart-simple"></i></h2>
                 <br />
                 <div className="container">
                     <div className="row">
@@ -61,7 +61,7 @@ function Home() {
 
             <section id="articles">
                 <div className="container">
-                    <h2 style={{ textAlign: "center", borde: "none", fontWeight: "bolder" }}>Articles <i class="fa-solid fa-book-open"></i></h2>
+                    <h2 style={{ textAlign: "center", border: "none", fontWeight: "bolder" }}>Articles <i class="fa-solid fa-book-open"></i></h2>
                     <div className="row articles">
                         {dataArticle}
                     </div>

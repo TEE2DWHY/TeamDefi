@@ -293,6 +293,23 @@ margin-bottom: 10px;
   margin: auto;
 }
 
+/* About Section*/
+.about-us{
+  text-align: center;
+}
+
+.details{
+  margin-top: 4%;
+  /* margin-left: 6%; */
+}
+
+.top-secret{
+  width: 300px;
+  height: 300px;
+  animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
 /* Media Querry */
 
 @media(max-width:1200px){
