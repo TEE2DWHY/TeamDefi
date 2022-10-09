@@ -1,25 +1,25 @@
 const FeatureData = [
     {
         id: 1,
-        title: "Card title",
+        title: "Built For Beginners",
         logo: "logo",
-        content: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        content: "We’ve conducted face-to-face interviews with people who are new to cryptocurrency to understand what they find confusing and how they want to learn.",
         link1: "Card link",
         link2: "Another link"
     },
     {
         id: 2,
-        title: "Card title",
+        title: "Continuous Learning",
         logo: "logo",
-        content: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        content: "Once you’ve worked your way through our structured content you can keep learning through our resource with features from the wider crypto ecosystem and broaden your knowledge.",
         link1: "Card link",
         link2: "Another link"
     },
     {
         id: 3,
-        title: "Card title",
+        title: "Helpful Glossary",
         logo: "logo",
-        content: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        content: "Crypto has a language all of its own, so our resource provides an exhaustive crypto Glossary with lots of definitions, ensuring you understand the language of crypto.",
         link1: "Card link",
         link2: "Another link"
     }

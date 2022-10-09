@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 
 function Footer() {
@@ -26,8 +27,8 @@ function Footer() {
                                     <li className="nav-item mb-2"><a href="/#" className="nav-link p-0" style={{ color: "#fff" }}>Home</a></li>
                                     <li className="nav-item mb-2"><a href="/#" className="nav-link p-0" style={{ color: "#fff" }}>Features</a></li>
                                     <li className="nav-item mb-2"><a href="/#" className="nav-link p-0" style={{ color: "#fff" }}>Pricing</a></li>
-                                    <li className="nav-item mb-2"><a href="/#" className="nav-link p-0" style={{ color: "#fff" }}>FAQs</a></li>
-                                    <li className="nav-item mb-2"><a href="/#" className="nav-link p-0" style={{ color: "#fff" }}>About</a></li>
+                                    <li className="nav-item mb-2"><Link to="/about" className="nav-link p-0" style={{ color: "#fff" }}>About</Link></li>
+                                    <li className="nav-item mb-2"><a href="https://wa.me/+2348168262613" className="nav-link p-0" style={{ color: "#fff" }}>Contact Us</a></li>
                                 </ul>
                             </div>
 
@@ -47,11 +48,11 @@ function Footer() {
 
                         <div className="d-flex justify-content-between py-4 my-4 border-top">
                             <p style={{ fontSize: "14px" }}>© {year} Team Defi, Inc. All rights reserved.</p>
-                            <ul className="list-unstyled d-flex">
+                            {/* <ul className="list-unstyled d-flex">
                                 <li className="ms-3"><a className="link-dark" href="/#"><svg className="bi" width="24" height="24"><use href="#twitter"></use></svg></a></li>
                                 <li className="ms-3"><a className="link-dark" href="/#"><svg className="bi" width="24" height="24"><use href="#instagram"></use></svg></a></li>
                                 <li className="ms-3"><a className="link-dark" href="/#"><svg className="bi" width="24" height="24"><use href="#facebook"></use></svg></a></li>
-                            </ul>
+                            </ul> */}
                         </div>
                     </footer>
                 </div>

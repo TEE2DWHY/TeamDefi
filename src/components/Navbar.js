@@ -38,6 +38,9 @@ function Navbar() {
                         <li className="nav-item">
                             <Link to="/glossary" className="nav-link" style={{ color: " #fff" }}>Glossary</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link to="/about" className="nav-link" style={{ color: " #fff" }}>About</Link>
+                        </li>
                     </ul>
 
                     <a className="nav-link active nav-nav" aria-current="page" href="/#" style={{ color: "#fff" }}>CONNECT WALLET</a>

@@ -8,7 +8,7 @@ function HeroSection() {
                 <br /> <br />
                 <div className="welcome-message">
                     <h1 className="cta">Welcome to
-                        <br /> Our Aca<span style={{ color: "#1bd190" }}>demy</span><small>✨</small></h1>
+                        <br /> Our Aca<span style={{ color: "#1bd190" }}>demy</span></h1>
                     <br />
                     <p style={{ color: "#fff" }}>inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo..<br />
                         lorem ipsum illo inventore.</p>

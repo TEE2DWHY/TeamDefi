@@ -50,7 +50,7 @@ function Home() {
             <BitcoinFeatures />
             <section id="Features">
                 <br /> <br />
-                <h2 style={{ textAlign: "center", fontWeight: "bolder" }}>Learn Crypto features <i class="fa-solid fa-chart-simple"></i></h2>
+                <h2 style={{ textAlign: "center", fontWeight: "bolder" }}>Crypto features <i class="fa-solid fa-chart-simple"></i></h2>
                 <br />
                 <div className="container">
                     <div className="row">
