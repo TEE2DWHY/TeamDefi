@@ -1,11 +1,15 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-
+import { Link } from "react-router-dom"
 function About() {
     return (
         <>
             <Navbar />
             <br /> <br />
+            <div className="container">
+                <p style={{ fontSize: "13px" }}><Link to="/"><span className="redierction">Home</span></Link> /<span style={{ opacity: "0.6" }}> About</span></p>
+            </div>
+            <br />
             <div className="about-us">
                 <h1 style={{ fontWeight: "900" }}>About Team Defi</h1>
                 <br />

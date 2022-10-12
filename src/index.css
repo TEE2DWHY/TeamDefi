@@ -174,9 +174,9 @@ img.about{
 .course-card{
   margin-bottom: 5%;
   border-color: #B1E1FF;
-    padding: 22px;
-    background: #fff;
-    box-shadow: 0 100px 80px rgb(70 125 249 / 4%), 0 41.7776px 33.4221px rgb(70 125 249 / 3%), 0 22.3363px 17.869px rgb(70 125 249 / 2%), 0 12.5216px 10.0172px rgb(70 125 249 / 2%), 0 6.6501px 5.32008px rgb(70 125 249 / 2%), 0 2.76726px 2.21381px rgb(70 125 249 / 1%);
+  padding: 22px;
+  background: #fff;
+  box-shadow: 0 100px 80px rgb(70 125 249 / 4%), 0 41.7776px 33.4221px rgb(70 125 249 / 3%), 0 22.3363px 17.869px rgb(70 125 249 / 2%), 0 12.5216px 10.0172px rgb(70 125 249 / 2%), 0 6.6501px 5.32008px rgb(70 125 249 / 2%), 0 2.76726px 2.21381px rgb(70 125 249 / 1%);
 }
 
 .course-card:hover{
@@ -308,6 +308,26 @@ margin-bottom: 10px;
   height: 300px;
   animation: backInRight; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+/* Tool Section */
+.redierction:hover{
+  color:#1bd190
+}
+
+.blockchain-logo{
+  width: 273px;
+  height: 29.9px;
+  display: block;
+  margin: auto;
+}
+
+.tools-card{
+  margin-bottom: 5%;
+  border-color: #B1E1FF;
+  background: #fff;
+  box-shadow: 0 100px 80px rgb(70 125 249 / 4%), 0 41.7776px 33.4221px rgb(70 125 249 / 3%), 0 22.3363px 17.869px rgb(70 125 249 / 2%), 0 12.5216px 10.0172px rgb(70 125 249 / 2%), 0 6.6501px 5.32008px rgb(70 125 249 / 2%), 0 2.76726px 2.21381px rgb(70 125 249 / 1%);
+  border-radius: 7px;
 }
 
 /* Media Querry */
