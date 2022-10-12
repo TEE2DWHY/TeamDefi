@@ -321,6 +321,39 @@ margin-bottom: 10px;
   display: block;
   margin: auto;
 }
+.etherscan-logo{
+  width: 132.14px;
+  height: 29.99px;
+  display: block;
+  margin: auto;
+}
+.coinigy-logo{
+  display: block;
+  margin: auto;
+  width: 76.25px;
+  height: 30px;
+}
+
+.tradedash-logo{
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: auto;
+}
+
+.tradingview-logo{
+  display: block;
+  margin: auto;
+  width: 51.33px;
+  height: 30px;
+}
+
+.Cryptowatch-logo{
+  display: block;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+}
 
 .tools-card{
   margin-bottom: 5%;
