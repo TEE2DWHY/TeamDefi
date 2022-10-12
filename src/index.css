@@ -330,6 +330,27 @@ margin-bottom: 10px;
   border-radius: 7px;
 }
 
+button.visit-site{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -.02em;
+    margin: 0;
+    flex-shrink: 0;
+    /* opacity: 0; */
+    height: 38px;
+    color: #181818;
+    background: #fff;
+    border: 2px solid #1cbb82;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button.visit-site:hover{
+   background: #1cbb82;
+   color:#fff;
+}
+
 /* Media Querry */
 
 @media(max-width:1200px){
@@ -405,6 +426,8 @@ button.learn{
   height: 240px;
 }
 
+button.visit-site{
+  width:100%
 }
 
-
+}
