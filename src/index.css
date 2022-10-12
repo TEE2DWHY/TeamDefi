@@ -355,6 +355,34 @@ margin-bottom: 10px;
   height: 30px;
 }
 
+.coinmarketcap-logo{
+  display: block;
+  margin: auto;
+  width: 30px;
+  height: 30px;
+}
+
+.cryptocompare-logo{
+  display: block;
+  margin: auto;
+  width: 43.24px;
+  height: 30px;
+}
+
+.Graphana-logo{
+  width: 182.75px;
+  height: 29.99px;
+  display: block;
+  margin: auto;
+}
+
+.txstats-logo{
+  display: block;
+  margin: auto;
+  width: 33.19px;
+  height: 30px;
+} 
+
 .tools-card{
   margin-bottom: 5%;
   border-color: #B1E1FF;
