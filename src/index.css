@@ -412,6 +412,23 @@ button.visit-site:hover{
    color:#fff;
 }
 
+.k-b {
+  font-size: 50px;
+}
+
+.tool-visit{
+   color: #1c96eb;
+  text-align: center;
+}
+
+.tool-visit:hover{
+  color:#1cbb82;
+}
+
+
+a{
+  text-decoration: none;
+}
 /* Media Querry */
 
 @media(max-width:1200px){

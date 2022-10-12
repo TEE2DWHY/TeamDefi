@@ -157,7 +157,7 @@ function Tools() {
                                         <h3 style={{ fontWeight: "700", marginBottom: "15px" }}>Coinmarketcap</h3>
                                     </div>
                                     <div className="col-lg-6" style={{ textAlign: "center" }}>
-                                        <button className="visit-site"> visit site <i class="fa-solid fa-arrow-right"></i></button>
+                                        <a href="https://coinmarketcap.com/"><button className="visit-site"> visit site <i class="fa-solid fa-arrow-right"></i></button></a>
                                         <br /> <br />
                                     </div>
                                     <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}>Cryptocurrency market cap rankings, charts, and more.</p>
@@ -174,7 +174,7 @@ function Tools() {
                                         <h3 style={{ fontWeight: "700", marginBottom: "15px" }}>CryptoCompare</h3>
                                     </div>
                                     <div className="col-lg-6" style={{ textAlign: "center" }}>
-                                        <button className="visit-site"> visit site <i class="fa-solid fa-arrow-right"></i></button>
+                                        <a href="https://www.cryptocompare.com/"><button className="visit-site"> visit site <i class="fa-solid fa-arrow-right"></i></button></a>
                                         <br /> <br />
                                     </div>
                                     <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}>All the latest streaming pricing data in the world of cryptocurrencies.</p>
@@ -200,7 +200,7 @@ function Tools() {
                                         <h3 style={{ fontWeight: "700", marginBottom: "15px" }}>Graphana Optech Dashboards</h3>
                                     </div>
                                     <div className="col-lg-6" style={{ textAlign: "center" }}>
-                                        <button className="visit-site"> visit site <i class="fa-solid fa-arrow-right"></i></button>
+                                        <a href="https://grafana.com/"><button className="visit-site"> visit site <i class="fa-solid fa-arrow-right"></i></button></a>
                                         <br /> <br />
                                     </div>
                                     <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}>Grafana.com provides a central repository where the community can come together to discover and share dashboards.</p>
@@ -217,7 +217,7 @@ function Tools() {
                                         <h3 style={{ fontWeight: "700", marginBottom: "15px" }}>Txstats</h3>
                                     </div>
                                     <div className="col-lg-6" style={{ textAlign: "center" }}>
-                                        <button className="visit-site"> visit site <i class="fa-solid fa-arrow-right"></i></button>
+                                        <a href="https://txstats.com/dashboard/db/home-dashboard?orgId=1"><button className="visit-site"> visit site <i class="fa-solid fa-arrow-right"></i></button></a>
                                         <br /> <br />
                                     </div>
                                     <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}> <br />Txstats.com provides a series of dashboards centered around a specific element of Bitcoin transactions.</p>
@@ -227,6 +227,8 @@ function Tools() {
                     </div>
                 </div>
             </div>
+            <br /> <br />
+            <Link to="/knowledge-base"><h2 className="tool-visit"> <span className="visit">visit:</span> <span className="k-b">Knowledge base </span><i class="fa-solid fa-arrow-right"></i></h2></Link>
             <Footer />
         </>
     )
