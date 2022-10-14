@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 function Navbar() {
     return (
-        <nav className="navbar  sticky-top navbar-expand-lg nav-header" >
+        <nav className="navbar navbar-expand-lg nav-header" >
 
             <div className="container-fluid">
                 <a className="navbar-brand" href="/#" style={{ color: " #fff" }}><img className="logo" src="blockchain.png" alt="" /></a>
@@ -35,18 +35,21 @@ function Navbar() {
                                 <li><a className="dropdown-item" href="/#">Something else here</a></li>
                             </ul>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <Link to="/glossary" className="nav-link" style={{ color: " #fff" }}>Glossary</Link>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <Link to="/about" className="nav-link" style={{ color: " #fff" }}>About</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/tools" className="nav-link" style={{ color: " #fff" }}>Tools</Link>
                         </li>
                     </ul>
 
                     <a className="nav-link active nav-nav" aria-current="page" href="/#" style={{ color: "#fff" }}>CONNECT WALLET</a>
                 </div>
             </div>
-        </nav >
+        </nav>
 
     )
 }

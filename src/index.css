@@ -405,12 +405,19 @@ button.visit-site{
     border-radius: 6px;
     padding-left: 20px;
     padding-right: 20px;
+    opacity: 0;
+}
+
+.tools-card:hover button.visit-site{
+   opacity: 1;
+   transition: all 1s ease
 }
 
 button.visit-site:hover{
    background: #1cbb82;
    color:#fff;
 }
+
 
 .k-b {
   font-size: 50px;
@@ -506,6 +513,9 @@ button.learn{
 
 button.visit-site{
   width:100%
+}
+button.visit-site{
+    opacity: 1;
 }
 
 }

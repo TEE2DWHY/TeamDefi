@@ -191,7 +191,7 @@ function Tools() {
                 <div className="container tool">
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="tools-cont tools-card">
+                            <div className="tools-card">
                                 <div className="img-cont" style={{ backgroundColor: "#467df9", height: "80px", width: "100%", borderRadius: "14px 13px 0px 0px", padding: "25px" }}>
                                     <img className="Graphana-logo" src="Graphana Optech Dashboards_logo.webp" alt="Graphana-logo" />
                                 </div>
