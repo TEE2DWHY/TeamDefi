@@ -141,6 +141,13 @@ button.cta{
   width: 130px;
 }
 
+button.kickstart{
+  padding: 10px;
+  margin-left: 1%;
+  background-color: #1bd190;
+  width: 130px;
+}
+
 button.cta:hover{
   animation: pulse; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
@@ -438,7 +445,7 @@ a{
 }
 /* Media Querry */
 
-@media(max-width:1200px){
+@media (max-width:1200px){
 
   body{
     text-align: center;
@@ -450,6 +457,9 @@ a{
   .learn-img{
     display: none;
   }
+  button.kickstart{
+    width: 100%;
+}
 
   img.about{
   width: 300px;
