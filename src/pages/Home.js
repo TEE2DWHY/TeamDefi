@@ -69,7 +69,7 @@ function Home() {
             </section>
             <br /> <br />
             <div style={{ textAlign: "center" }}>
-                <button className="btn btn-success cta" type="button">All articles</button>
+                <button className="btn btn-success articles" type="button">All articles</button>
             </div>
 
             <Mission />
