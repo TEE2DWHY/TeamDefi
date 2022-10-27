@@ -39,10 +39,10 @@ function Navbar() {
                             <Link to="/glossary" className="nav-link" style={{ color: " #fff" }}>Glossary</Link>
                         </li> */}
                         <li className="nav-item">
-                            <Link to="/about" className="nav-link" style={{ color: " #fff" }}>About</Link>
+                            <Link to="/tools" className="nav-link" style={{ color: " #fff" }}>Tools</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/tools" className="nav-link" style={{ color: " #fff" }}>Tools</Link>
+                            <Link to="/about" className="nav-link" style={{ color: " #fff" }}>About</Link>
                         </li>
                     </ul>
 

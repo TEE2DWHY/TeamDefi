@@ -47,7 +47,7 @@ body {
 
 #ultimate-store-of-value{
   text-align: center;
-  background-image: url("../public/background.png");
+  /* background-image: url("../public/background.png"); */
 }
 
 #melting-ice{
@@ -449,6 +449,21 @@ button.visit-site:hover{
 a{
   text-decoration: none;
 }
+/* BLOG */
+.blog-card{
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 20px 20px rgb(70 125 249 / 4%), 0 41.7776px 33.4221px rgb(70 125 249 / 3%), 0 22.3363px 17.869px rgb(70 125 249 / 2%), 0 12.5216px 10.0172px rgb(70 125 249 / 2%), 0 6.6501px 5.32008px rgb(70 125 249 / 2%), 0 2.76726px 2.21381px rgb(70 125 249 / 1%);
+    text-decoration: none;
+    transition: .2s;
+    margin: 60px 10%  3px 10%;
+    padding: 10px;
+}
+
+
 /* Media Querry */
 
 @media (max-width:1200px){
@@ -536,5 +551,7 @@ button.visit-site{
 button.visit-site{
     opacity: 1;
 }
+.blog-card{
 
+}
 }

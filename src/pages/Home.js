@@ -11,6 +11,7 @@ import Articles from "../components/Articles";
 import articleData from "../components/ArticleData";
 import Mission from "../components/OurMission";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom"
 
 function Home() {
     const data = cardData.map(function (items) {
@@ -69,7 +70,7 @@ function Home() {
             </section>
             <br /> <br />
             <div style={{ textAlign: "center" }}>
-                <button className="btn btn-success articles" type="button">All articles</button>
+                <Link to="/blog"><button className="btn btn-success articles" type="button">All articles</button></Link>
             </div>
 
             <Mission />

@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
+import { Link } from "react-router-dom"
 function WhyCrypto() {
     return (
         <>
@@ -16,6 +17,10 @@ function WhyCrypto() {
             </div>
 
             <section id="ultimate-store-of-value">
+                <br /> <br />
+                <div className="container" style={{ textAlign: "left" }}>
+                    <p style={{ fontSize: "13px" }}><Link to="/"><span className="redierction">Home</span></Link> /<span style={{ opacity: "0.6" }}> About</span></p>
+                </div>
                 <br /> <br />
                 <h2 className="ultimate">Bitcoin — the ultimate <br />store of value</h2>
                 <p>In just over a decade Bitcoin has established itself as a superior store <br /> of value to gold, cherished by man for over 6,000 years.</p>

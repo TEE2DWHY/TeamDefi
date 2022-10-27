@@ -6,6 +6,7 @@ import KnowledgeBase from "./pages/KnowledgeBase"
 import CryptoBasic from "./pages/CryptoBasic"
 import About from "./pages/About"
 import Tools from "./pages/Tools"
+import Blog from "./pages/Blog"
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                 <Route path="/crypto-basics" element={<CryptoBasic />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/tools" element={<Tools />} />
+                <Route path="/blog" element={<Blog />} />
             </Routes>
         </BrowserRouter>
     )
