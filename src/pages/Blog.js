@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
-import blogData from "../components/Data";
+import blogData from "../components/BlogData";
 
 const Blog = (props) => {
 
@@ -39,9 +39,8 @@ const Blog = (props) => {
                     </div>
                 </div>
                 <div className="container">
-                    <div className="row articles">
+                    <div className="row">
                         {blogData.map((items) => (
-
                             <div className="col-lg-4">
                                 <div className="card" style={{ width: "18rem", marginTop: "10%", borderRadius: "12px", cursor: "pointer" }}>
 
@@ -49,14 +48,25 @@ const Blog = (props) => {
                                     <div className="card-body">
                                         <h5 className="card-text">{items.content}</h5>
                                     </div>
-
                                 </div>
                             </div>
                         ))}
                     </div>
                 </div>
 
-
+                <div className="whycrypto-container" style={{ marginTop: "5%" }}>
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <img className="LearnBanner" src="LearnBanner.webp" alt="" />
+                        </div>
+                        <div className="col-lg-6">
+                            <br /> <br />
+                            <h3>Learn Crypto Basics</h3>
+                            <p>Start from scratch or brush up on your knowledge withStart from scratch or brush up on your knowledge with</p>
+                            <button className="btn btn-success learn" type="submit">Start Learning</button>
+                        </div>
+                    </div>
+                </div>
             </section>
             <Footer />
         </>

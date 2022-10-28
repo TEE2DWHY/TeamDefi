@@ -228,7 +228,7 @@ function Tools() {
                 </div>
             </div>
             <br /> <br />
-            <Link to="/knowledge-base"><h2 className="tool-visit"> <span className="visit">visit:</span> <span className="k-b">Knowledge base </span><i class="fa-solid fa-arrow-right"></i></h2></Link>
+            <Link to="/academy"><h2 className="tool-visit"> <span className="visit">visit:</span> <span className="k-b">Knowledge base </span><i class="fa-solid fa-arrow-right"></i></h2></Link>
             <Footer />
         </>
     )

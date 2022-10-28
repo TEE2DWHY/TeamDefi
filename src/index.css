@@ -463,6 +463,39 @@ a{
     padding: 10px;
 }
 
+/* ACADEMY*/
+.academy-header:hover{
+  background-image: url("../public/background.png");
+}
+
+h1.wta{
+  font-size: 80px;
+  font-weight: 900;
+  padding-top: 10%;
+  text-align: center;
+  letter-spacing: .025em;
+}
+
+.course-card1{
+  background-color: #2769ff;
+  width: 90%;
+  display: block;
+  margin: auto;
+  border-radius: 41px 39px 29px 26px;
+  -webkit-border-radius: 41px 39px 29px 26px;
+  -moz-border-radius: 41px 39px 29px 26px;
+  margin-top: 3%;
+}
+
+.course-card1:hover{
+  background: radial-gradient(circle 20vmax at var(--cursorX, -100%) var(--cursorY, -100%), transparent 0, rgba(39, 105, 255, 0.5) 50%, #2769ff 100%);
+}
+
+.academy1{
+  width: 344px;
+  height: 300px;
+  margin: 20px;
+}
 
 /* Media Querry */
 
