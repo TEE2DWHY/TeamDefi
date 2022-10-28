@@ -497,6 +497,36 @@ h1.wta{
   margin: 20px;
 }
 
+.academy-details{
+  background-color: #5181f1;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  width: 20%;
+  font-size: 14px;
+  display: inline;
+  margin-left: 8px;
+}
+
+.academy-button{
+  background: #fff;
+  border-radius: 46px;
+  box-shadow: #fff;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 19px 39px 21px 40px;
+  text-decoration: none;
+  display: block;
+  margin: 15px 0;
+  color:#007aff;
+  border: none;
+}
+
+.academy-button:hover {
+  background: #F9F9F9;
+  text-decoration: none;
+}
+
 /* Media Querry */
 
 @media (max-width:1200px){
@@ -584,7 +614,7 @@ button.visit-site{
 button.visit-site{
     opacity: 1;
 }
-.blog-card{
-
+.academy-button{
+  margin: 15px auto 20px auto ;
 }
 }
