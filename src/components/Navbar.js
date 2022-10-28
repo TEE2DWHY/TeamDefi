@@ -24,7 +24,7 @@ function Navbar() {
                                 </Routes>
                             </Router> */}
                         </li>
-                        <li className="nav-item dropdown">
+                        {/* <li className="nav-item dropdown">
                             <a style={{ color: " #fff" }} className="nav-link dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Resources
                             </a>
@@ -34,10 +34,13 @@ function Navbar() {
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><a className="dropdown-item" href="/#">Something else here</a></li>
                             </ul>
-                        </li>
+                        </li> */}
                         {/* <li className="nav-item">
                             <Link to="/glossary" className="nav-link" style={{ color: " #fff" }}>Glossary</Link>
                         </li> */}
+                        <li className="nav-item">
+                            <Link to="/academy" className="nav-link" style={{ color: " #fff" }}>Academy</Link>
+                        </li>
                         <li className="nav-item">
                             <Link to="/tools" className="nav-link" style={{ color: " #fff" }}>Tools</Link>
                         </li>

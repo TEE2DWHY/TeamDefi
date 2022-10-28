@@ -478,7 +478,7 @@ h1.wta{
 
 .course-card1{
   background-color: #2769ff;
-  width: 90%;
+  width: 95%;
   display: block;
   margin: auto;
   border-radius: 41px 39px 29px 26px;
@@ -613,6 +613,10 @@ button.visit-site{
 }
 button.visit-site{
     opacity: 1;
+}
+
+h1.wta{
+  font-size: 40px;
 }
 .academy-button{
   margin: 15px auto 20px auto ;

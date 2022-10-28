@@ -39,7 +39,7 @@ const Blog = (props) => {
                     </div>
                 </div>
                 <div className="container">
-                    <div className="row">
+                    <div className="row articles">
                         {blogData.map((items) => (
                             <div className="col-lg-4">
                                 <div className="card" style={{ width: "18rem", marginTop: "10%", borderRadius: "12px", cursor: "pointer" }}>

@@ -48,6 +48,7 @@ const OurCourses = () => {
                 </div>
             </div>
             <br /> <br />
+
         </>
     )
 }
