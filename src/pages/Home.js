@@ -40,7 +40,7 @@ function Home() {
             <section id="learn">
                 <div className="course">
                     <br /> <br />
-                    <h2 style={{ textAlign: "center", fontWeight: "bolder" }}>Resource... <br></br><br /><i class="fa-brands fa-bitcoin"></i> <i class="fa-brands fa-ethereum"></i> <i class="fa-brands fa-hive"></i></h2>
+                    <h2 style={{ textAlign: "center", fontWeight: "900" }}>Choose want you want to learn <br></br><br /><i class="fa-brands fa-bitcoin"></i> <i class="fa-brands fa-ethereum"></i> <i class="fa-brands fa-hive"></i></h2>
                     <div className="container">
                         <div className="row courses-content">
                             {data}

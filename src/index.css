@@ -141,6 +141,13 @@ button.cta{
   width: 130px;
 }
 
+button.subscribe{
+  padding: 10px;
+  margin-left: 1%;
+  background-color: #1bd190;
+  width: 130px;
+}
+
 button.kickstart{
   padding: 10px;
   margin-left: 1%;
@@ -176,9 +183,9 @@ img.about{
   margin-left: 12%;
 }
 
-.course{
+/* .course{
   margin-left: 5%;
-}
+} */
 
 .courses-content{
   margin-top: 5%;
@@ -203,9 +210,9 @@ img.about{
   width: 300px;
 }
 
-.articles{
+/* .articles{
   margin-left:10%;
-}
+} */
 
 /* button.articles{
   margin-left: 47%;
@@ -542,7 +549,7 @@ h1.wta{
     display: none;
   }
   button.articles{
-    width: 80%;
+    width: 90%;
   }
   button.kickstart{
     width: 100%;
@@ -579,6 +586,14 @@ input.cta{
 }
 
 button.cta{
+    padding: 10px;
+    margin: auto;
+    background-color: #1bd190;
+    width: 100%;
+    display: block;
+}
+
+button.subscribe{
     padding: 10px;
     margin: auto;
     background-color: #1bd190;

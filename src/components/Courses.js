@@ -7,7 +7,7 @@ function Learn(props) {
         <>
 
             <div className="col-lg-4">
-                <div className="card course-card" style={{ width: "21em" }}>
+                <div className="card course-card" style={{ width: "", borderRadius: "12px", cursor: "pointer", display: "block", margin: "5% auto" }}>
                     <div className="card-body">
                         <h5 className="card-title"><i class={props.class}></i> {props.courseTitle}</h5>
                         {/* <h6 className="card-subtitle mb-2 text-muted">{props.courseContent}</h6> */}

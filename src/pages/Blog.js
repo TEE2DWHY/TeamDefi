@@ -41,8 +41,8 @@ const Blog = (props) => {
                 <div className="container">
                     <div className="row articles">
                         {blogData.map((items) => (
-                            <div className="col-lg-4">
-                                <div className="card" style={{ width: "18rem", marginTop: "10%", borderRadius: "12px", cursor: "pointer" }}>
+                            <div className="col-lg-4 col-md-12 col-sm-12">
+                                <div className="card" style={{ width: "", borderRadius: "12px", cursor: "pointer", display: "block", margin: "5% auto" }}>
 
                                     <img src={items.img} className="card-img-top" alt="" />
                                     <div className="card-body">

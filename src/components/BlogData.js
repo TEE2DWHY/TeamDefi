@@ -1,7 +1,7 @@
 const blogData = [
     {
         img: "satoshi.webp",
-        content: "The Legacy Of Satoshi Nakamoto"
+        content: "The Legacy Of Satoshi"
     },
     {
         img: "Defi-comes-to- XRP-&-Dogecoin.webp",
@@ -13,7 +13,7 @@ const blogData = [
     },
     {
         img: "satoshi.webp",
-        content: "The Legacy Of Satoshi Nakamoto"
+        content: "The Legacy Of Satoshi"
     },
     {
         img: "Defi-comes-to- XRP-&-Dogecoin.webp",

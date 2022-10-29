@@ -1,7 +1,7 @@
 const cardData = [
     {
         id: 1,
-        class: "fa-solid fa-gears",
+        class: "fa-solid fa-chart-simple",
         courseTitle: "Crypto Basics",
         courseContent: "What is crypto & why is it important, How does crypto work ?, what is a blockchain ",
         link1: "/crypto-basics",
