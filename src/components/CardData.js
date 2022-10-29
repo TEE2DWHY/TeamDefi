@@ -3,48 +3,55 @@ const cardData = [
         id: 1,
         class: "fa-solid fa-chart-simple",
         courseTitle: "Crypto Basics",
-        courseContent: "What is crypto & why is it important, How does crypto work ?, what is a blockchain ",
-        link1: "/crypto-basics",
+        list1: "What is crypto & why is it important",
+        list2: "How does crypto work ?",
+        list3: "what is a blockchain ",
+        listclassicon: "fa-solid fa-spinner"
     },
     {
         id: 2,
         class: "fa-solid fa-money-bill-1-wave",
         courseTitle: "How to earn crypto",
-        courseContent: "Earning by learning & working, Hodling, DCA & Passive Interest, Trading, Defi & Mining",
-        link1: "",
-        link2: ""
+        list1: "Earning by learning & working",
+        list2: "Hodling, DCA & Passive Interest",
+        list3: "Trading, Defi & Mining",
+        listclassicon: "fa-solid fa-spinner"
     },
     {
         id: 3,
         class: "fa-solid fa-magnifying-glass-chart",
         courseTitle: "How to trade crypto",
-        courseContent: "Understanding risk, Investing vs Trading, Technical & Fundamental Analysis ",
-        link1: "",
-        link2: ""
+        list1: "Understanding risk",
+        list2: "Investing vs Trading",
+        list3: "Technical & Fundamental Analysis",
+        listclassicon: "fa-solid fa-spinner"
     },
     {
         id: 4,
         class: "fa-solid fa-bitcoin-sign",
         courseTitle: "How to use crypto",
-        courseContent: "How to secure your crypto, Making transactions; Buying & Selling Advanced crypto use-cases",
-        link1: "",
-        link2: ""
+        list1: "How to secure your crypto",
+        list2: " Making transactions",
+        list3: " Buying & Selling Advanced",
+        listclassicon: "fa-solid fa-spinner"
     },
     {
         id: 5,
         class: "fa-solid fa-building",
         courseTitle: "How to build with crypto",
-        courseContent: "Bitcoin's architecture, The role of a Full Node, The role of a Miner",
-        link1: "",
-        link2: ""
+        list1: "Bitcoin's architecture",
+        list2: " The role of a Full Node",
+        list3: " The role of a Miner",
+        listclassicon: "fa-solid fa-spinner"
     },
     {
         id: 6,
         class: "fa-brands fa-hive",
         courseTitle: "Blockchain Development",
-        courseContent: "Web3, Dapps dev, smart contracts, various blockchain architecture etc.",
-        link1: "",
-        link2: ""
+        list1: "Distributed Ledger",
+        list2: " Peer-to-peer network – P2P",
+        list3: " Consensus Mechanism",
+        listclassicon: "fa-solid fa-spinner"
     }
 ]
 

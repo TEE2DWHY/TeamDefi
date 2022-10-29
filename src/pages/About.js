@@ -53,7 +53,7 @@ function About() {
                         <br /> <br />
                         <h3>Learn Crypto Basics</h3>
                         <p>Start from scratch or brush up on your knowledge withStart from scratch or brush up on your knowledge with</p>
-                        <button className="btn btn-success learn" type="submit">Start Learning</button>
+                        <Link to="/academy"><button className="btn btn-success learn" type="submit">Start Learning</button></Link>
                     </div>
                 </div>
 

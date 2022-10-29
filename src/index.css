@@ -27,7 +27,7 @@ body {
 #Features{
   background-image: url("../public/background.png");
   margin-top: 10%;
-  margin-left: 6%;
+  /* margin-left: 6%; */
 }
 
 #articles{
@@ -138,7 +138,7 @@ button.cta{
   padding: 10px;
   margin-left: 1%;
   background-color: #1bd190;
-  width: 130px;
+  width: 100%;
 }
 
 button.subscribe{
@@ -154,6 +154,21 @@ button.kickstart{
   background-color: #1bd190;
   width: 130px;
 }
+
+button.video{
+  background-color: #fff;
+  color:#181818;
+  margin-left: 3%;
+  width: 140px;
+  padding: 10px;
+  font-weight: 900;
+}
+
+button.video:hover{
+  background-color: #1bd190;
+  color: #fff;
+}
+
 button.articles{
   padding: 10px;
   margin-left: 1%;
@@ -199,11 +214,26 @@ img.about{
   box-shadow: 0 100px 80px rgb(70 125 249 / 4%), 0 41.7776px 33.4221px rgb(70 125 249 / 3%), 0 22.3363px 17.869px rgb(70 125 249 / 2%), 0 12.5216px 10.0172px rgb(70 125 249 / 2%), 0 6.6501px 5.32008px rgb(70 125 249 / 2%), 0 2.76726px 2.21381px rgb(70 125 249 / 1%);
 }
 
-.course-card:hover{
+.course-card:hover {
   background-color: #007aff;
   color:#fff;
   animation: pulse; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+ul.courses{
+  list-style: none;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+li.course-list{
+  margin-bottom: 10px;
+  opacity: 0.6;
+}
+
+.course-card:hover li.course-list{
+ opacity: 1;
 }
 
 .btc-img{
@@ -553,7 +583,13 @@ h1.wta{
   }
   button.kickstart{
     width: 100%;
-}
+  }
+
+  button.video{
+    width: 98%;
+    margin-top: 3%;
+    border-color: #1cbb82;
+  }
 
   img.about{
   width: 300px;
