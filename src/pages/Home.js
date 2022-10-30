@@ -3,18 +3,18 @@ import Navbar from "../components/Navbar";
 import HeroSection from "../components/Hero-Section";
 import LearnCrypto from "../components/LearnCrypto";
 import Learn from "../components/Courses";
-import cardData from "../components/CardData";
+import courseSection from "../components/Data";
 import BitcoinFeatures from "../components/BitcoinFeatures";
 import Features from "../components/Features";
-import FeatureData from "../components/FeatureData";
+import { FeatureData } from "../components/Data";
 import Articles from "../components/Articles";
-import articleData from "../components/ArticleData";
+import { articleData } from "../components/Data";
 import Mission from "../components/OurMission";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom"
 
 function Home() {
-    const data = cardData.map(function (items) {
+    const data = courseSection.map(function (items) {
         return <Learn
             {...items}
         />
