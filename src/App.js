@@ -7,6 +7,7 @@ import About from "./pages/About"
 import Tools from "./pages/Tools"
 import Blog from "./pages/Blog"
 import OurCourses from "./pages/Academy"
+import KnowledgeBase from "./pages/KnowledgeBase"
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/tools" element={<Tools />} />
                 <Route path="/blog" element={<Blog />} />
                 <Route path="/academy" element={<OurCourses />} />
+                <Route path="/knowledgeBase" element={<KnowledgeBase />} />
             </Routes>
         </BrowserRouter>
     )

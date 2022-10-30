@@ -181,6 +181,28 @@ button.cta:hover{
   animation-duration: 2s; /* don't forget to set a duration! */
 }
 
+button.k-b{
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -.02em;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #1cbb82;
+    padding: 16px 5px;
+    transition: .2s;
+    margin-bottom: 0;
+}
+
+button.k-b:hover{
+  background-color: #1cbb82;
+  color: #fff;
+  transition: all 2s ease;
+}
+
 button.search{
   height:40px;
 
@@ -468,10 +490,6 @@ button.visit-site:hover{
    color:#fff;
 }
 
-
-.k-b {
-  font-size: 50px;
-}
 
 .tool-visit{
    color: #1c96eb;

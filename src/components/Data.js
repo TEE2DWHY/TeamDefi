@@ -6,7 +6,8 @@ const courseSection = [
         list1: "What is crypto & why is it important",
         list2: "How does crypto work ?",
         list3: "what is a blockchain ",
-        listclassicon: "fa-solid fa-spinner"
+        listclassicon: "fa-solid fa-spinner",
+        link: "/knowledgeBase/#cryptobasics"
     },
     {
         id: 2,
@@ -125,6 +126,122 @@ export const articleData = [
     }
 ]
 
+export const cryptoBasics = [
+    {
+        courseTitle: "Bitcoins Limitation",
+        courseContent: "Learn how Bitcoin's design compromises speed for decentralisation creating limitations on low value transactions.",
+        link: ""
+    },
+    {
+        courseTitle: "A fork in the road",
+        courseContent: "Learn what a ‘fork’ is; how they occur when people disagree about the ways to develop and improve cryptocurrencies.",
+        link: ""
+    },
+    {
+        courseTitle: "How Bitcoin works",
+        courseContent: "Learn how Bitcoin achieves sound money and trust, through a combination of cryptography and economic incentive. Find out what bitcoin mining is, and how it works",
+        link: ""
+    },
+    {
+        courseTitle: "What is De-Fi",
+        courseContent: "Learn what cryptocurrency is, what you can do with it & why it has value. Learn about Bitcoin & sound money.",
+        link: ""
+    },
+    {
+        courseTitle: "What is cryptocurrency?",
+        courseContent: "Learn what cryptocurrency is, what you can do with it & why it has value. Learn about Bitcoin & sound money.",
+        link: ""
+    },
+    {
+        courseTitle: "What is cryptocurrency?",
+        courseContent: "Learn what cryptocurrency is, what you can do with it & why it has value. Learn about Bitcoin & sound money.",
+        link: ""
+    },
+]
+
+export const EarnCrypto = [
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+]
+
+export const tradeCrypto = [
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+]
+
+export const useCrypto = [
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+]
+
+export const buildCrypto = [
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+]
 
 
 export default courseSection

@@ -48,15 +48,10 @@ function Footer() {
 
                         <div className="d-flex justify-content-between py-4 my-4 border-top">
                             <p style={{ fontSize: "14px" }}>© {year} Team Defi, Inc. All rights reserved.</p>
-                            {/* <ul className="list-unstyled d-flex">
-                                <li className="ms-3"><a className="link-dark" href="/#"><svg className="bi" width="24" height="24"><use href="#twitter"></use></svg></a></li>
-                                <li className="ms-3"><a className="link-dark" href="/#"><svg className="bi" width="24" height="24"><use href="#instagram"></use></svg></a></li>
-                                <li className="ms-3"><a className="link-dark" href="/#"><svg className="bi" width="24" height="24"><use href="#facebook"></use></svg></a></li>
-                            </ul> */}
                         </div>
                     </footer>
                 </div>
-            </section >
+            </section>
         </>
     )
 }
