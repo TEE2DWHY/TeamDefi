@@ -22,7 +22,7 @@ function App() {
                 <Route path="/tools" element={<Tools />} />
                 <Route path="/blog" element={<Blog />} />
                 <Route path="/academy" element={<OurCourses />} />
-                <Route path="/knowledgeBase" element={<KnowledgeBase />} />
+                <Route path="/knowledgeBase/" element={<KnowledgeBase />} />
             </Routes>
         </BrowserRouter>
     )

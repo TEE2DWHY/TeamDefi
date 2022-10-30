@@ -7,7 +7,7 @@ const courseSection = [
         list2: "How does crypto work ?",
         list3: "what is a blockchain ",
         listclassicon: "fa-solid fa-spinner",
-        link: "/knowledgeBase/#cryptobasics"
+        link: "/knowledgeBase/"
     },
     {
         id: 2,
@@ -143,18 +143,18 @@ export const cryptoBasics = [
         link: ""
     },
     {
-        courseTitle: "What is De-Fi",
-        courseContent: "Learn what cryptocurrency is, what you can do with it & why it has value. Learn about Bitcoin & sound money.",
+        courseTitle: "What is a blockchain",
+        courseContent: "What are the unique characteristics of a blockchain? What are the problems they solve & how do they do it?",
         link: ""
     },
     {
-        courseTitle: "What is cryptocurrency?",
-        courseContent: "Learn what cryptocurrency is, what you can do with it & why it has value. Learn about Bitcoin & sound money.",
+        courseTitle: "AMM Explained: Automated Market Makers & How They Work",
+        courseContent: "Learn about automated market makers or AMMs that let you trade crypto without intermediaries, combining Smart Contracts and incentives for liquidity provision.",
         link: ""
     },
     {
-        courseTitle: "What is cryptocurrency?",
-        courseContent: "Learn what cryptocurrency is, what you can do with it & why it has value. Learn about Bitcoin & sound money.",
+        courseTitle: "What are decentralized exchanges.",
+        courseContent: "Learn about a decentralised exchange (DEX) and how it works, the advantages and disadvantages over a centralised exchange (CEX) and why DEXs are important",
         link: ""
     },
 ]

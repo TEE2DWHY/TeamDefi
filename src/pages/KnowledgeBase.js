@@ -23,7 +23,7 @@ const KnowledgeBase = (props) => {
                         <div className="col-lg-4">
                             <div className="card course-card" style={{ borderRadius: "12px", cursor: "pointer", display: "block", margin: "5% auto" }}>
                                 <div className="card-body">
-                                    <h5 className="card-title">{basics.courseTitle}</h5>
+                                    <h5 className="card-title" style={{ fontWeight: "bolder" }}>{basics.courseTitle}</h5>
                                     <h6 className="card-subtitle mb-2" style={{ margin: "40px 0", padding: "10px" }}>{basics.courseContent}</h6>
                                 </div>
                                 <Link to={basics.link}><button className="k-b" type="button">Learn it now</button></Link>
@@ -42,7 +42,7 @@ const KnowledgeBase = (props) => {
                         <div className="col-lg-4">
                             <div className="card course-card" style={{ width: "", borderRadius: "12px", cursor: "pointer", display: "block", margin: "5% auto" }}>
                                 <div className="card-body">
-                                    <h5 className="card-title">{earn.courseTitle}</h5>
+                                    <h5 className="card-title" style={{ fontWeight: "bolder" }}>{earn.courseTitle}</h5>
                                     <h6 className="card-subtitle mb-2 text-muted">{earn.courseContent}</h6>
                                     <Link to={earn.link}><button className="btn btn-success cta" type="button">Learn it now</button></Link>
                                 </div>
