@@ -262,17 +262,10 @@ li.course-list{
   width: 300px;
 }
 
-/* .articles{
-  margin-left:10%;
-} */
-
-/* button.articles{
-  margin-left: 47%;
-} */
-
-/* .mission{
-  margin-left: 5%;
-} */
+.mission-paragraphs{
+  opacity: 0.6;
+  margin: 0 20px;
+}
 
 i{
   color: #007aff;
