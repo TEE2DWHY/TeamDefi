@@ -7,7 +7,7 @@ const courseSection = [
         list2: "How does crypto work ?",
         list3: "what is a blockchain ",
         listclassicon: "fa-solid fa-spinner",
-        link: "/knowledgeBase/"
+        link: "/crypto-basics"
     },
     {
         id: 2,
@@ -16,7 +16,8 @@ const courseSection = [
         list1: "Earning by learning & working",
         list2: "Hodling, DCA & Passive Interest",
         list3: "Trading, Defi & Mining",
-        listclassicon: "fa-solid fa-spinner"
+        listclassicon: "fa-solid fa-spinner",
+        link: "/earn-crypto"
     },
     {
         id: 3,
@@ -25,7 +26,8 @@ const courseSection = [
         list1: "Understanding risk",
         list2: "Investing vs Trading",
         list3: "Technical & Fundamental Analysis",
-        listclassicon: "fa-solid fa-spinner"
+        listclassicon: "fa-solid fa-spinner",
+        link: "/trade-crypto"
     },
     {
         id: 4,
@@ -34,7 +36,8 @@ const courseSection = [
         list1: "How to secure your crypto",
         list2: " Making transactions",
         list3: " Buying & Selling Advanced",
-        listclassicon: "fa-solid fa-spinner"
+        listclassicon: "fa-solid fa-spinner",
+        link: "/use-crypto"
     },
     {
         id: 5,
@@ -43,7 +46,8 @@ const courseSection = [
         list1: "Bitcoin's architecture",
         list2: " The role of a Full Node",
         list3: " The role of a Miner",
-        listclassicon: "fa-solid fa-spinner"
+        listclassicon: "fa-solid fa-spinner",
+        link: "/build-crypto"
     },
     {
         id: 6,
@@ -159,87 +163,120 @@ export const cryptoBasics = [
     },
 ]
 
-export const EarnCrypto = [
+export const earncrypto = [
     {
-
+        courseTitle: "Earning crypto - risk vs reward",
+        courseContent: "Learn how the crypto economy works, the different types of opportunity & how to decide which is right for you but measuring risk vs reward.",
+        link: ""
     },
     {
-
+        courseTitle: "Faucets & the free crypto myth",
+        courseContent: "Learn what a bitcoin faucet is, their history, how bitcoin faucet's work & why crypto is never really free.",
+        link: ""
     },
     {
-
+        courseTitle: "Learning & earning",
+        courseContent: "How you can earn crypto through watching educational videos? Why crypto uses the 'learn & earn' model.",
+        link: ""
     },
     {
-
+        courseTitle: "Earning by promoting crypto",
+        courseContent: "Learn how crypto has its own gig economy. An introduction to referral, bounty & affiliate schemes.",
+        link: ""
     },
     {
-
+        courseTitle: "Working for crypto",
+        courseContent: "Discover the opportunities to earn crypto from micro-tasking, freelance & full time employment. What skills are in demand.",
+        link: ""
     },
     {
-
-    },
-]
-
-export const tradeCrypto = [
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
-    },
-    {
-
+        courseTitle: "Stacking Sats: DCA & hodling",
+        courseContent: "How to earn crypto from prudent investment strategies. Learn what the term stacking sats mean, how to dollar cost average and the meaning of hodl.",
+        link: ""
     },
 ]
 
-export const useCrypto = [
+export const tradecrypto = [
     {
-
+        courseTitle: "What is cryptocurrency trading?",
+        courseContent: "Learn what cryptocurrency trading involves & the concept of risk. Understand the difference between Technical & Fundamental Analysis and the level of commitment required.",
+        link: ""
     },
     {
-
+        courseTitle: "Where do crypto prices come from?",
+        courseContent: "Learn how exchanges work, how price is formed, the idea of price discovery & the influence of volatility.",
+        link: ""
     },
     {
-
+        courseTitle: "What are crypto price charts?",
+        courseContent: "Understand the information crypto price charts provide &. how to interpret it. Learn about Candlesticks.",
+        link: ""
     },
     {
-
+        courseTitle: "Understanding crypto trading volume",
+        courseContent: "Learn what the volume of trading can tell you about crypto price. Find out about some of the popular volume based technical indicators.",
+        link: ""
     },
     {
-
+        courseTitle: "What is Technical Analysis?",
+        courseContent: "Understand what Technical Analysis means & learn about some of the most common Technical Indicators.",
+        link: ""
     },
     {
-
+        courseTitle: "Leading & lagging indicators",
+        courseContent: "Understand the difference between Leading & Lagging indicators, what they tell you & common examples of each.",
+        link: ""
     },
 ]
 
-export const buildCrypto = [
+export const usecrypto = [
     {
-
+        courseTitle: "What are Smart Contracts?",
+        courseContent: "Discover the world of Smart Contracts, how they work, their benefits and drawbacks and how they can shape the future.",
+        link: ""
     },
     {
-
+        courseTitle: "Security, Wallets & Keys",
+        courseContent: "Learn how to securely store crypto but understanding about wallets & private keys.",
+        link: ""
     },
     {
-
+        courseTitle: "Sending & Receiving Crypto",
+        courseContent: "Learn how to set up a crypto wallet & the process for sending/receiving crypto.",
+        link: ""
     },
     {
-
+        courseTitle: "Where you buy crypto",
+        courseContent: "An introduction to crypto exchanges & how crypto is bought and sold.",
+        link: ""
     },
     {
-
+        courseTitle: "How to buy crypto",
+        courseContent: "Walking through the process of buying crypto for the first time",
+        link: ""
     },
     {
+        courseTitle: "Selling & Converting Crypto",
+        courseContent: "Walking through the process of selling crypto for fiat, or converting to another cryptocurrency.",
+        link: ""
+    },
+]
 
+export const buildcrypto = [
+    {
+        courseTitle: "What is Bitcoin's architecture?",
+        courseContent: "Understand Bitcoin's architecture as a monetary system and how it compares to fiat money. Learn its core functions, such as money creation and the role of different participants.",
+        link: ""
+    },
+    {
+        courseTitle: "What role does a Bitcoin Full Node play",
+        courseContent: "Learn the role that a Bitcoin Full Node plays in ensuring that the decentralised monetary system works and how you can run a Full Node.",
+        link: ""
+    },
+    {
+        courseTitle: "What role does a Bitcoin Miner play",
+        courseContent: "Learn the role that a Bitcoin Miner plays in ensuring that the decentralised monetary system works and how you can participate in Bitcoin mining.",
+        link: ""
     },
 ]
 

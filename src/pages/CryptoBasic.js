@@ -1,24 +1,30 @@
-import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { cryptoBasics } from "../components/Data";
+import { Link } from "react-router-dom"
 function CryptoBasic() {
     return (
         <>
             <section>
                 <Navbar />
-                {/* <div className="container glossary-container">
+                <br /> <br />
+                <div className="container" id="cryptobasics">
+                    <h2>Crypto Basics</h2>
                     <div className="row">
-                        <div className="col-lg-6">
-                            <p>Home <span style={{ color: "#007aff", opacity: "0.6" }}>/
-                                Glossary of terms </span> <br /> <br /> <span style={{ color: "#1c96eb" }}>316 GLOSSARY DEFINITIONS OF COMMON CRYPTO TERMS </span></p>
-                            <h1 className="h1-glossary">Glossary <br />of terms</h1>
-                            <p>Get familiar with various cryptocurrecy <br /> terminologies by checking through our glossary.</p>
-                        </div>
-                        <div className="col-lg-6">
-                            <img className="bitcoin" src="bitcoin.gif" alt="" />
-                        </div>
+                        {cryptoBasics.map((basics) => (
+                            <div className="col-lg-4">
+                                <div className="card course-card" style={{ height: "380px", borderRadius: "12px", cursor: "pointer", display: "block", margin: "5% auto" }}>
+                                    <div className="card-body">
+                                        <h5 className="card-title" style={{ fontWeight: "bolder" }}>{basics.courseTitle}</h5>
+                                        <h6 className="card-subtitle mb-2" style={{ margin: "40px 0", padding: "10px" }}>{basics.courseContent}</h6>
+                                    </div>
+                                    <Link to={basics.link}><button className="k-b" type="button">Learn it now</button></Link>
+                                </div>
+                            </div>
+
+                        ))}
                     </div>
-                </div> */}
+                </div>
                 <Footer />
             </section>
         </>
