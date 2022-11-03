@@ -5,6 +5,7 @@ import WhyCrypto from "./pages/WhyCrypto"
 import CryptoBasic from "./pages/CryptoBasic"
 import About from "./pages/About"
 import Tools from "./pages/Tools"
+import OurCourses from "./pages/Academy"
 import Blog from "./pages/Blog"
 import EarnCrypto from "./pages/EarnCrypto"
 import TradeCrypto from "./pages/TradeCrypto"
@@ -22,6 +23,7 @@ function App() {
                 <Route path="/crypto-basics" element={<CryptoBasic />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/tools" element={<Tools />} />
+                <Route path="/academy" element={<OurCourses />} />
                 <Route path="/blog" element={<Blog />} />
                 <Route path="/use-crypto" element={<UseCrypto />} />
                 <Route path="/trade-crypto" element={<TradeCrypto />} />

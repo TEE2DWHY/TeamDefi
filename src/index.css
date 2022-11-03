@@ -512,7 +512,7 @@ a{
 }
 
 /* ACADEMY*/
-.academy-header:hover{
+.academy-header:hover, .nav:hover{
   background-image: url("../public/background.png");
 }
 
@@ -522,6 +522,8 @@ h1.wta{
   padding-top: 10%;
   text-align: center;
   letter-spacing: .025em;
+  animation: flipInX; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 .course-card1{
@@ -533,6 +535,7 @@ h1.wta{
   -webkit-border-radius: 41px 39px 29px 26px;
   -moz-border-radius: 41px 39px 29px 26px;
   margin-top: 3%;
+  z-index: 2;
 }
 
 .course-card1:hover{
@@ -573,6 +576,47 @@ h1.wta{
 .academy-button:hover {
   background: #F9F9F9;
   text-decoration: none;
+}
+
+.FAQ-bitcoin{
+  background-color: #141821;
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0px 0px 42px 36px;
+-webkit-border-radius: 0px 0px 42px 36px;
+-moz-border-radius: 0px 0px 42px 36px;
+z-index: 0;
+}
+.FAQ1{
+ text-align: center;
+ margin: 10% 0;
+}
+.join-channel{
+   background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #0a090a;
+  padding: 16px 28px 16px 27px;
+  text-decoration: none;
+}
+
+button.all-courses{
+   padding: 10px;
+  margin-left: 1%;
+  background-color: #5181f1;
+  width: 350px;
+}
+
+button.all-courses:hover{
+  background-color: #EEEEEE;
+  color:#181818;
 }
 
 /* Media Querry */

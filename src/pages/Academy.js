@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from "react-router-dom"
 
 const OurCourses = () => {
     return (
@@ -48,7 +48,19 @@ const OurCourses = () => {
                 </div>
             </div>
             <br /> <br />
-
+            <div style={{ textAlign: "center" }}>
+                <Link to="/blog"><button className="btn btn-success all-courses" type="button">See All Courses <i class="fa-solid fa-up-right-and-down-left-from-center" style={{ color: "#fff" }}></i></button></Link>
+            </div>
+            <br /> <br />
+            <div className='FAQ-bitcoin'>
+                <div className='row'>
+                    <div className='col-lg-12 FAQ1'>
+                        <h3 style={{ color: "#fff" }}>Join our community</h3>
+                        <p style={{ opacity: "0.6", color: "#fff", margin: "30px" }}>Join our channel for the latest updates or to get involved with Team De-fi.</p>
+                        <button className='join-channel'> <i class="fa-brands fa-telegram" style={{ color: "#000" }}></i> join community</button>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

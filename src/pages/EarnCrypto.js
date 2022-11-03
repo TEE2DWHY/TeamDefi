@@ -9,7 +9,7 @@ const EarnCrypto = () => {
             <Navbar />
             <br /> <br />
             <div className="container">
-                <h2>Step 2: How to Earn Crypto</h2>
+                <h2>How to Earn Crypto</h2>
                 <div className="row">
                     {earncrypto.map((basics) => (
                         <div className="col-lg-4">
