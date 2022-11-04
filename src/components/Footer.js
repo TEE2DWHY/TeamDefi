@@ -11,21 +11,21 @@ function Footer() {
                     <footer className="py-5">
                         <div className="row">
                             <div className="col-6 col-md-2 mb-3">
-                                <h5>Section</h5>
+                                <h5 style={{ color: "#fff", opacity: "0.6" }}>Consider</h5>
                                 <ul className="nav flex-column">
-                                    <li className="nav-item mb-2"><a href="/#" className="nav-link p-0" style={{ color: "#fff" }}>Home</a></li>
-                                    <li className="nav-item mb-2"><a href="/#" className="nav-link p-0" style={{ color: "#fff" }}>Features</a></li>
-                                    <li className="nav-item mb-2"><a href="/#" className="nav-link p-0" style={{ color: "#fff" }}>Pricing</a></li>
-                                    <li className="nav-item mb-2"><a href="/#" className="nav-link p-0" style={{ color: "#fff" }}>FAQs</a></li>
-                                    <li className="nav-item mb-2"><a href="/#" className="nav-link p-0" style={{ color: "#fff" }}>About</a></li>
+                                    <li className="nav-item mb-2"><Link to="crypto-basics" className="nav-link p-0" style={{ color: "#fff" }}>Crypto Basics</Link></li>
+                                    <li className="nav-item mb-2"><Link to="/earn-crypto" className="nav-link p-0" style={{ color: "#fff" }}>Earning Crypto</Link></li>
+                                    <li className="nav-item mb-2"><Link to="/whycrypto" className="nav-link p-0" style={{ color: "#fff" }}>Why Crypto</Link></li>
+                                    <li className="nav-item mb-2"><Link to="/trade-crypto" className="nav-link p-0" style={{ color: "#fff" }}>Trading Crypto</Link></li>
+                                    <li className="nav-item mb-2"><a href="/#" className="nav-link p-0" style={{ color: "#fff" }}>Crypto Criticisms</a></li>
                                 </ul>
                             </div>
 
                             <div className="col-6 col-md-2 mb-3">
-                                <h5>Section</h5>
+                                <h5 style={{ color: "#fff", opacity: "0.6" }}>Resources</h5>
                                 <ul className="nav flex-column">
                                     <li className="nav-item mb-2"><a href="/#" className="nav-link p-0" style={{ color: "#fff" }}>Home</a></li>
-                                    <li className="nav-item mb-2"><a href="#Features" className="nav-link p-0" style={{ color: "#fff" }}>Features</a></li>
+                                    <li className="nav-item mb-2"><Link to="/blog" className="nav-link p-0" style={{ color: "#fff" }}>Blog</Link></li>
                                     <li className="nav-item mb-2"><Link to="/tools" className="nav-link p-0" style={{ color: "#fff" }}>Tools</Link></li>
                                     <li className="nav-item mb-2"><Link to="/about" className="nav-link p-0" style={{ color: "#fff" }}>About</Link></li>
                                     <li className="nav-item mb-2"><a href="https://wa.me/+2348168262613" className="nav-link p-0" style={{ color: "#fff" }}>Contact Us</a></li>

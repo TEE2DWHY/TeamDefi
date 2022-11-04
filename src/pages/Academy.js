@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 
 const OurCourses = () => {
+    const year = new Date().getFullYear()
     return (
         <>
             <nav class="navbar navbar-expand-lg nav">
@@ -61,6 +62,10 @@ const OurCourses = () => {
                     </div>
                 </div>
             </div>
+
+            <footer>
+                <p style={{ textAlign: "center", opacity: "0.8", marginTop: "3%" }}>{year} Team Defi. <br />  All rights reserved. Designed by <a href="https://lucent-buttercream-1a7dd9.netlify.app/">Tee2dWhy</a></p>
+            </footer>
         </>
     )
 }
