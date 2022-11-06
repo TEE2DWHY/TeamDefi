@@ -17,28 +17,6 @@ function Navbar() {
                             <Link to="/" className="nav-link active" aria-current="page" href="/#" style={{ color: "#fff" }}>Home</Link>
                         </li>
                         <li className="nav-item">
-                            {/* <Router>
-                                <Link to="/lol" className="nav-link" style={{ color: " #fff" }}>Link</Link>
-                                <Routes>
-                                    <Route path="/lol" component={<Lol />} />
-                                </Routes>
-                            </Router> */}
-                        </li>
-                        {/* <li className="nav-item dropdown">
-                            <a style={{ color: " #fff" }} className="nav-link dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Resources
-                            </a>
-                            <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="/#">Action</a></li>
-                                <li><a className="dropdown-item" href="/#">Another action</a></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><a className="dropdown-item" href="/#">Something else here</a></li>
-                            </ul>
-                        </li> */}
-                        {/* <li className="nav-item">
-                            <Link to="/glossary" className="nav-link" style={{ color: " #fff" }}>Glossary</Link>
-                        </li> */}
-                        <li className="nav-item">
                             <Link to="/academy" className="nav-link" style={{ color: " #fff" }}>Academy</Link>
                         </li>
                         <li className="nav-item">
@@ -49,7 +27,7 @@ function Navbar() {
                         </li>
                     </ul>
 
-                    <a className="nav-link active nav-nav" aria-current="page" href="/#" style={{ color: "#fff" }}>CONNECT WALLET</a>
+                    <button className="nav-link active nav-nav join-community" aria-current="page" href="/#"><i class="fa-brands fa-telegram" style={{ marginRight: "5px", fontSize: "16px" }}></i> JOIN COMMUNITY</button>
                 </div>
             </div>
         </nav>

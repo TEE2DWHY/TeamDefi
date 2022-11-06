@@ -49,6 +49,36 @@ const OurCourses = () => {
                 </div>
             </div>
             <br /> <br />
+
+            <section id="library">
+                <div className="container">
+                    <h1 className="library">Library</h1>
+                    <h2 className="materials">The storage of all materials inside the Academy</h2>
+                    <div className='course-card2'>
+                        <br /> <br /> <br />
+                        <div className='course-card3'>
+                            <div className='row'>
+                                <div className='col-lg-6'>
+                                    <img className='academy2' src="bitcoin.webp" alt='academy' />
+                                </div>
+                                <div className='col-lg-6'>
+                                    <h2 style={{ color: "#fff", marginTop: "10%" }}>Getting to Know <br />Cryptocurrencies: <br /> A Beginners Guide</h2>
+                                    <p style={{ color: "#fff", fontSize: "16px", marginTop: "5%" }}>This is the first course in the Academy, <br /> designed for complete newcomers to cryptocurrencies</p>
+                                    <div className='academy-details'> <i class="fa-solid fa-person-chalkboard" style={{ color: "#fff" }}></i> 8 lessons</div>
+                                    <div className='academy-details'> <i class="fa-solid fa-clock" style={{ color: "#fff" }}></i> 60 minutes</div>
+                                    <div className='academy-details'> <i class="fa-solid fa-chart-simple" style={{ color: "#fff" }}></i> Basics</div>
+
+                                    <button className='academy-button'>Start Learning</button>
+                                </div>
+                            </div>
+                        </div>
+                        <br /> <br /> <br />
+                    </div>
+                </div>
+
+            </section>
+
+
             <div style={{ textAlign: "center" }}>
                 <Link to="/blog"><button className="btn btn-success all-courses" type="button">See All Courses <i class="fa-solid fa-up-right-and-down-left-from-center" style={{ color: "#fff" }}></i></button></Link>
             </div>

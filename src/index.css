@@ -13,7 +13,6 @@ body {
 
 #about-crypto{
   margin-top: 10%;
-   /* background-image: url("../public/background.png"); */
 }
 
 #learn{
@@ -75,13 +74,30 @@ body {
 .nav-nav{
   text-align: right;
 }
-/* .navbar a{
-  color:#fff
-} */
 
 .nav-list{
   padding-left: 30%;
   text-align: right;
+}
+
+button.nav-nav{
+  text-decoration: none;
+    color: #2769ff;
+    background-color: #fff;
+    border-radius: 6px;
+    transition: .2s ease;
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+}
+
+button.nav-nav:hover{
+  background-color: #d9e2ed;
+   color: #2769ff;
 }
 
 .Hero-Section{
@@ -536,7 +552,6 @@ h1.wta{
   -webkit-border-radius: 41px 39px 29px 26px;
   -moz-border-radius: 41px 39px 29px 26px;
   margin-top: 3%;
-  z-index: 2;
 }
 
 .course-card1:hover{
@@ -547,6 +562,12 @@ h1.wta{
   width: 344px;
   height: 300px;
   margin: 20px;
+}
+
+.academy2{
+  width: 400px;
+  height: 150px;
+  margin-top: 9%;
 }
 
 .academy-details{
@@ -618,6 +639,48 @@ button.all-courses{
 button.all-courses:hover{
   background-color: #EEEEEE;
   color:#181818;
+}
+
+
+#library{
+  background-image: radial-gradient(20vmax at 867px 403.667px, transparent 0px, rgba(246, 247, 249, 0.5) 50%, rgb(246, 247, 249) 100%);
+}
+
+h1.library{
+    position: relative;
+    margin-bottom: 2rem;
+    font-size: 6.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+h2.materials{
+    position: relative;
+    font-size: 1.125rem;
+    color: #8a8c90;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.course-card2{
+  background-color: #fff;
+  width: 100%;
+  display: block;
+  margin: auto;
+  border-radius: 41px 39px 29px 26px;
+  -webkit-border-radius: 41px 39px 29px 26px;
+  -moz-border-radius: 41px 39px 29px 26px;
+  margin-top: 3%;
+}
+
+.course-card3{
+  background-color: #2769ff;
+  width: 95%;
+  display: block;
+  margin:auto;
+  border-radius: 41px 39px 29px 26px;
+  -webkit-border-radius: 41px 39px 29px 26px;
+  -moz-border-radius: 41px 39px 29px 26px;
 }
 
 /* Media Querry */
