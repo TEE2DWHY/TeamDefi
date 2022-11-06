@@ -280,5 +280,47 @@ export const buildcrypto = [
     },
 ]
 
+export const academyData = [
+    {
+        img: "Ukraine_DAO.webp",
+        content: "UkraineDAO: Exploring the world's first war-time DAO",
+        alt: ""
+    },
+    {
+        img: "Soulbound.webp",
+        content: "What are Soulbound Tokens and why are they important to Web3?",
+        alt: ""
+    },
+    {
+        img: "layer_2.webp",
+        content: "What is layer 2 and how does it work?",
+        alt: ""
+    },
+    {
+        img: "Beyond_collectables.webp",
+        content: "Beyond collectables and gaming: How will NFTs look like in the future?",
+        alt: ""
+    },
+    {
+        img: "Cryptocurrency_Scarcity.webp",
+        content: "Cryptocurrency, Scarcity and Trust in Modern Money",
+        alt: ""
+    },
+    {
+        img: "Crypto_Footprint.webp",
+        content: "How Traceable is Crypto? Understand Your Crypto Footprint",
+        alt: ""
+    },
+    {
+        img: "bitcoin.webp",
+        content: "Where Crypto Prices Come From",
+        alt: ""
+    },
+    {
+        img: "Why_Crypto.webp",
+        content: "Why Crypto?",
+        alt: ""
+    }
+]
 
 export default courseSection
