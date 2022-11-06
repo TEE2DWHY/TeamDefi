@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 import { academyData } from "../components/Data"
 
 const OurCourses = () => {
@@ -21,9 +21,6 @@ const OurCourses = () => {
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/#">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href='/#'>Disabled</a>
                             </li>
                         </ul>
                     </div>
@@ -68,7 +65,8 @@ const OurCourses = () => {
                         </div>))}
                 </div>
             </div>
-
+            <br /> <br />
+            <p style={{ textAlign: "center", opacity: "0.6" }}>You’ve viewed 8 of 8 materials</p>
             {/* <div style={{ textAlign: "center" }}>
                 <Link to="/blog"><button className="btn btn-success all-courses" type="button">See All Courses <i class="fa-solid fa-up-right-and-down-left-from-center" style={{ color: "#fff" }}></i></button></Link>
             </div> */}
@@ -83,8 +81,8 @@ const OurCourses = () => {
                 </div>
             </div>
 
-            <footer>
-                <p style={{ textAlign: "center", opacity: "0.8", marginTop: "3%" }}>{year} Team Defi. <br />  All rights reserved. Designed by <a href="https://lucent-buttercream-1a7dd9.netlify.app/">Tee2dWhy</a></p>
+            <footer style={{ marginTop: "10%" }}>
+                <p style={{ textAlign: "center", opacity: "0.8", marginTop: "3%" }}>{year} <Link to="/" style={{ color: "#000", opacity: "0.8", textDecoration: "underline" }}>Team Defi</Link>. <br />  All rights reserved. Designed by <a href="https://lucent-buttercream-1a7dd9.netlify.app/">Tee2dWhy</a></p>
             </footer>
         </>
     )

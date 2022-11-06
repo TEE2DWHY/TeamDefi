@@ -558,6 +558,10 @@ h1.wta{
   background: radial-gradient(circle 20vmax at var(--cursorX, -100%) var(--cursorY, -100%), transparent 0, rgba(39, 105, 255, 0.5) 50%, #2769ff 100%);
 }
 
+.navbar-collapse{
+  justify-content: flex-end;
+}
+
 .academy1{
   width: 344px;
   height: 300px;
@@ -596,13 +600,13 @@ h1.wta{
 
 .FAQ-bitcoin{
   background-color: #141821;
-  width: 95%;
+  width: 100%;
   display: block;
   margin: 0 auto;
   border-radius: 0px 0px 42px 36px;
--webkit-border-radius: 0px 0px 42px 36px;
--moz-border-radius: 0px 0px 42px 36px;
-z-index: 0;
+  -webkit-border-radius: 0px 0px 42px 36px;
+  -moz-border-radius: 0px 0px 42px 36px;
+  overflow: hidden;
 }
 .FAQ1{
  text-align: center;
@@ -795,6 +799,9 @@ h1.wta{
 
 h1.library{
   font-size: 40px;
+}
+.navbar-collapse{
+text-align: right;
 }
 
 }
