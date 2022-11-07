@@ -323,4 +323,23 @@ export const academyData = [
     }
 ]
 
+export const coursePage = [
+    {
+        header: "Module 1: What is Cryptocurrency?",
+        subheader: "Understand the concept of cryptocurrency as a new type of digital money",
+        lessons: "4 lessons",
+        img: "about module.webp"
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+
+]
+
 export default courseSection

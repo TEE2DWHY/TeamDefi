@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
+import { coursePage } from "../components/Data"
 
 const Courses = () => {
-    const year = new Date().getFullYear()
+    const year = new Date().getFullYear
     return (
-        <>
+        <div className="courses-page">
             <nav class="navbar navbar-expand-lg nav">
                 <div class="container-fluid">
                     <a className="navbar-brand" href="/#" style={{ color: " #fff" }}><img className="logo" src="blockchain.png" alt="" /></a>
@@ -19,17 +20,46 @@ const Courses = () => {
                                 <Link class="nav-link active" aria-current="page" to="/academy"><i class="fa-solid fa-house"></i> Campus</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#library"><i class="fa-solid fa-book-open-reader"></i> Library</a>
+                                <Link class="nav-link" to="/about"><i class="fa-solid fa-book-open-reader"></i> About</Link>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+            <br /> <br /> <br />
+            <section>
+                <div className="container course-container">
+                    {coursePage.map((items) => (
+                        <div className="courses">
+
+                            <div className="row">
+                                <div className="col-lg-10">
+                                    <h2 className="module-header">{items.header}<span className="grey" style={{ opacity: "0.6" }}> {items.subheader}</span></h2>
+                                </div>
+                                <div className="col-lg-2">
+                                    <p className="lesson-count">{items.lessons}</p>
+                                </div>
+                            </div>
+                            <br />
+                            <div className="row">
+                                <div className="col-lg-6">
+                                    <img src={items.img} alt="" className="course-img" />
+                                </div>
+                                <div className="col-lg-6 course-details">
+                                    <div className="lessons">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </section>
 
             <footer style={{ marginTop: "5%" }}>
                 <p style={{ textAlign: "center", opacity: "0.8", marginTop: "3%" }}>{year} <Link to="/" style={{ color: "#000", opacity: "0.8", textDecoration: "underline" }}>Team Defi</Link>. <br />  All rights reserved. Designed by <a href="https://lucent-buttercream-1a7dd9.netlify.app/">Tee2dWhy</a></p>
             </footer>
-        </>
+        </div>
     )
 }
 
