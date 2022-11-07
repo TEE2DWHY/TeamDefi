@@ -10,6 +10,7 @@ import Blog from "./pages/Blog"
 import EarnCrypto from "./pages/EarnCrypto"
 import TradeCrypto from "./pages/TradeCrypto"
 import UseCrypto from "./pages/UseCrypto"
+import Courses from "./pages/Courses"
 import BuildCrypto from "./pages/BuildCrypto"
 import ScrollToTop from "./components/Top"
 
@@ -31,6 +32,7 @@ function App() {
                     <Route path="/trade-crypto" element={<TradeCrypto />} />
                     <Route path="/earn-crypto" element={<EarnCrypto />} />
                     <Route path="/build-crypto" element={<BuildCrypto />} />
+                    <Route path="/Courses" element={<Courses />} />
                 </Routes>
             </ScrollToTop>
         </BrowserRouter>

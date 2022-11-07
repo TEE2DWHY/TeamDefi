@@ -7,20 +7,20 @@ const OurCourses = () => {
         <>
             <nav class="navbar navbar-expand-lg nav">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/#">Navbar</a>
+                    <a className="navbar-brand" href="/#" style={{ color: " #fff" }}><img className="logo" src="blockchain.png" alt="" /></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/#">Home</a>
+                                <a class="nav-link" href="/#"><button className="sign-in">Sign in</button></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/#">Features</a>
+                                <Link class="nav-link active" aria-current="page" to="/academy"><i class="fa-solid fa-house"></i> Campus</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/#">Pricing</a>
+                                <a class="nav-link" href="#library"><i class="fa-solid fa-book-open-reader"></i> Library</a>
                             </li>
                         </ul>
                     </div>
@@ -58,7 +58,7 @@ const OurCourses = () => {
                             <div className="card" style={{ width: "", borderRadius: "12px", cursor: "pointer", display: "block", margin: "5% auto" }}>
                                 <img src={items.img} className="card-img-top academy-img" alt={items.alt} />
                                 <div className="card-body">
-                                    <h5 className="card-text">{items.content}</h5>
+                                    <h5 className="card-text academy-content">{items.content}</h5>
                                 </div>
                             </div>
 
@@ -81,7 +81,7 @@ const OurCourses = () => {
                 </div>
             </div>
 
-            <footer style={{ marginTop: "10%" }}>
+            <footer style={{ marginTop: "5%" }}>
                 <p style={{ textAlign: "center", opacity: "0.8", marginTop: "3%" }}>{year} <Link to="/" style={{ color: "#000", opacity: "0.8", textDecoration: "underline" }}>Team Defi</Link>. <br />  All rights reserved. Designed by <a href="https://lucent-buttercream-1a7dd9.netlify.app/">Tee2dWhy</a></p>
             </footer>
         </>

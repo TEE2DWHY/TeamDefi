@@ -545,13 +545,12 @@ h1.wta{
 
 .course-card1{
   background-color: #2769ff;
-  width: 95%;
+  width: 100%;
   display: block;
   margin: auto;
-  border-radius: 41px 39px 29px 26px;
-  -webkit-border-radius: 41px 39px 29px 26px;
-  -moz-border-radius: 41px 39px 29px 26px;
-  margin-top: 3%;
+  border-radius: 0px 0px 42px 36px;
+  margin-top: 1%;
+  overflow: hidden;
 }
 
 .course-card1:hover{
@@ -560,8 +559,23 @@ h1.wta{
 
 .navbar-collapse{
   justify-content: flex-end;
+  font-size: 18px;
+  padding-right: 10px;
 }
 
+button.sign-in{
+    flex-shrink: 0;
+    color: #2769ff;
+    background: #dfe9ff;
+    border-radius: 3.75rem;
+    border: none;
+    padding: 5px 20px;
+}
+
+button.sign-in:hover{
+    background-color: #2769ff;
+    color:#fff
+}
 .academy1{
   width: 344px;
   height: 300px;
@@ -658,27 +672,6 @@ h2.materials{
     color: #8a8c90;
     font-weight: 400;
     line-height: 1.2;
-}
-
-.course-card2{
-  background-color: #fff;
-  width: 100%;
-  display: block;
-  margin: auto;
-  border-radius: 41px 39px 29px 26px;
-  -webkit-border-radius: 41px 39px 29px 26px;
-  -moz-border-radius: 41px 39px 29px 26px;
-  margin-top: 3%;
-}
-
-.course-card3{
-  background-color: #2769ff;
-  width: 95%;
-  display: block;
-  margin:auto;
-  border-radius: 41px 39px 29px 26px;
-  -webkit-border-radius: 41px 39px 29px 26px;
-  -moz-border-radius: 41px 39px 29px 26px;
 }
 
 .academy-img{
@@ -802,6 +795,9 @@ h1.library{
 }
 .navbar-collapse{
 text-align: right;
+}
+.academy-content{
+  font-size: 14px;
 }
 
 }
