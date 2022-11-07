@@ -32,7 +32,7 @@ function App() {
                     <Route path="/trade-crypto" element={<TradeCrypto />} />
                     <Route path="/earn-crypto" element={<EarnCrypto />} />
                     <Route path="/build-crypto" element={<BuildCrypto />} />
-                    <Route path="/Courses" element={<Courses />} />
+                    <Route path="/course-pack" element={<Courses />} />
                 </Routes>
             </ScrollToTop>
         </BrowserRouter>

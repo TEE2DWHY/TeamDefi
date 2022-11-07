@@ -27,11 +27,12 @@ const Courses = () => {
                 </div>
             </nav>
             <br /> <br /> <br />
+            <h1 className="welcome-header">The Complete Crypto-Stack Course <img className="crypto-stack" src="image_8_f6ed3c2990.webp" alt="crypto-stack" /></h1>
             <section>
                 <div className="container course-container">
                     {coursePage.map((items) => (
                         <div className="courses">
-
+                            <hr />
                             <div className="row">
                                 <div className="col-lg-10">
                                     <h2 className="module-header">{items.header}<span className="grey" style={{ opacity: "0.6" }}> {items.subheader}</span></h2>
@@ -47,7 +48,10 @@ const Courses = () => {
                                 </div>
                                 <div className="col-lg-6 course-details">
                                     <div className="lessons">
-
+                                        <h1 className="lesson-details">{items.details1}</h1>
+                                        <h1 className="lesson-details">{items.details2}</h1>
+                                        <h1 className="lesson-details">{items.details3}</h1>
+                                        <h1 className="lesson-details">{items.details4}</h1>
                                     </div>
                                 </div>
                             </div>

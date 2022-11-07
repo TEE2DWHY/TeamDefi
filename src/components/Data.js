@@ -328,7 +328,11 @@ export const coursePage = [
         header: "Module 1: What is Cryptocurrency?",
         subheader: "Understand the concept of cryptocurrency as a new type of digital money",
         lessons: "4 lessons",
-        img: "about module.webp"
+        img: "about module.webp",
+        details1: "ibuiub4uin1",
+        details2: "uibuviu",
+        details3: "ibfby4fiu",
+        details4: "ubiubv"
     },
     {
 
