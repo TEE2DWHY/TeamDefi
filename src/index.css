@@ -694,6 +694,10 @@ h2.materials{
 .course-img{
   width: 100%;
   margin-bottom: 1.125rem;
+  height: 50vh;
+  border-radius: 28px 27px 22px 30px;
+-webkit-border-radius: 28px 27px 22px 30px;
+-moz-border-radius: 28px 27px 22px 30px;
   }
 
 .module-header{
@@ -724,6 +728,11 @@ h2.materials{
 .crypto-stack{
   width: 100px;
   height: 100px;
+}
+
+.course-details{
+  height: 50vh;
+  overflow-y: scroll;
 }
 
 .welcome-header{

@@ -48,10 +48,13 @@ const Courses = () => {
                                 </div>
                                 <div className="col-lg-6 course-details">
                                     <div className="lessons">
-                                        <h1 className="lesson-details">{items.details1}</h1>
-                                        <h1 className="lesson-details">{items.details2}</h1>
-                                        <h1 className="lesson-details">{items.details3}</h1>
-                                        <h1 className="lesson-details">{items.details4}</h1>
+                                        <h1 className="lesson-details"><p style={{ opacity: "0.6", fontSize: "12px" }}>{items.unit1}</p> {items.details1}</h1>
+
+                                        <h1 className="lesson-details"><p style={{ opacity: "0.6", fontSize: "12px" }}>{items.unit2}</p> {items.details2}</h1>
+
+                                        <h1 className="lesson-details"><p style={{ opacity: "0.6", fontSize: "12px" }}>{items.unit3}</p> {items.details3}</h1>
+
+                                        <h1 className="lesson-details"><p style={{ opacity: "0.6", fontSize: "12px" }}>{items.unit4}</p>{items.details4}</h1>
                                     </div>
                                 </div>
                             </div>

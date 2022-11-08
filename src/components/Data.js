@@ -329,12 +329,29 @@ export const coursePage = [
         subheader: "Understand the concept of cryptocurrency as a new type of digital money",
         lessons: "4 lessons",
         img: "about module.webp",
-        details1: "ibuiub4uin1",
-        details2: "uibuviu",
-        details3: "ibfby4fiu",
-        details4: "ubiubv"
+        unit1: "Lesson 1",
+        unit2: "Lesson 2",
+        unit3: "Lesson 3",
+        unit4: "Lesson 4",
+        details1: "Bitcoin and the birth of cryptocurrency",
+        details2: "Cryptocurrency as an entirely new type of money",
+        details3: "Why cryptocurrency is real money",
+        details4: "A universal currency available to all"
     },
     {
+
+        header: "Module 2: Cryptocurrency in Our World: Why More People Are Using Crypto",
+        subheader: "Understand why more people are using crypto and the challenges in adoption",
+        lessons: "4 lessons",
+        img: "Rectangle.webp",
+        unit1: "Lesson 1",
+        unit2: "Lesson 2",
+        unit3: "Lesson 3",
+        unit4: "Lesson 4",
+        details1: "Crypto adoption continues to rise",
+        details2: "Solving existing money problems",
+        details3: "Who uses crypto?",
+        details4: "Cryptocurrency challenges"
 
     },
     {
