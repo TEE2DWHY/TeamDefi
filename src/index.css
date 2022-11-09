@@ -758,6 +758,11 @@ h2.materials{
     border-radius: 100%;
     transition: background-color .3s;
 }
+/* Crypto=Basics */
+.crypto-basics{
+  width:100%;
+  margin: 60px 0;
+}
 /* Media Querry */
 
 @media (max-width:1200px){

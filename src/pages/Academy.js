@@ -67,9 +67,7 @@ const OurCourses = () => {
             </div>
             <br /> <br />
             <p style={{ textAlign: "center", opacity: "0.6" }}>You’ve viewed 8 of 8 materials</p>
-            {/* <div style={{ textAlign: "center" }}>
-                <Link to="/blog"><button className="btn btn-success all-courses" type="button">See All Courses <i class="fa-solid fa-up-right-and-down-left-from-center" style={{ color: "#fff" }}></i></button></Link>
-            </div> */}
+            <Link to="/"><h2 className="tool-visit"><span className="k-b">Exit Academy </span><i class="fa-solid fa-arrow-right"></i></h2></Link>
             <br /> <br />
             <div className='FAQ-bitcoin'>
                 <div className='row'>

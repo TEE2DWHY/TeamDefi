@@ -134,7 +134,7 @@ export const cryptoBasics = [
     {
         courseTitle: "Bitcoins Limitation",
         courseContent: "Learn how Bitcoin's design compromises speed for decentralisation creating limitations on low value transactions.",
-        link: ""
+        link: "/bitcoins-limitation"
     },
     {
         courseTitle: "A fork in the road",

@@ -13,6 +13,7 @@ import UseCrypto from "./pages/UseCrypto"
 import Courses from "./pages/Courses"
 import BuildCrypto from "./pages/BuildCrypto"
 import ScrollToTop from "./components/Top"
+import BitcoinLimitation from "./pages/BitcoinLimitation"
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
                     <Route path="/earn-crypto" element={<EarnCrypto />} />
                     <Route path="/build-crypto" element={<BuildCrypto />} />
                     <Route path="/course-pack" element={<Courses />} />
+                    <Route path="/bitcoins-limitation" element={<BitcoinLimitation />} />
                 </Routes>
             </ScrollToTop>
         </BrowserRouter>
