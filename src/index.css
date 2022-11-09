@@ -696,8 +696,8 @@ h2.materials{
   margin-bottom: 1.125rem;
   height: 50vh;
   border-radius: 28px 27px 22px 30px;
--webkit-border-radius: 28px 27px 22px 30px;
--moz-border-radius: 28px 27px 22px 30px;
+  -webkit-border-radius: 28px 27px 22px 30px;
+  -moz-border-radius: 28px 27px 22px 30px;
   }
 
 .module-header{
@@ -873,6 +873,19 @@ text-align: right;
   margin: auto;
   width: 80px;
   height: 80px;
+}
+.course-img{
+  width: 100%;
+  height: 90%;
+  margin-bottom: 1.125rem;
+  border-radius: 28px 27px 22px 30px;
+-webkit-border-radius: 28px 27px 22px 30px;
+-moz-border-radius: 28px 27px 22px 30px;
+  }
+
+  .course-details{
+  height: 100%;
+  overflow-y: none;
 }
 
 }
