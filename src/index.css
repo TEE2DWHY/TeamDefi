@@ -331,6 +331,7 @@ h2.ultimate{
 -moz-box-shadow: 3px 0px 13px -7px #ABD9FF;
 box-shadow: 3px 0px 13px -7px #ABD9FF;
 margin-bottom: 10px;
+overflow: hidden;
 }
 
 .ice-cube{
@@ -739,6 +740,23 @@ h2.materials{
   text-align: center;
   font-weight: 600;
   font-style: italic;
+}
+
+.play-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    color: #fff;
+    background-color: #303643;
+    border-radius: 100%;
+    transition: background-color .3s;
 }
 /* Media Querry */
 

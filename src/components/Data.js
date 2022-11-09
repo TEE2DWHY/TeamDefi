@@ -352,13 +352,35 @@ export const coursePage = [
         details2: "Solving existing money problems",
         details3: "Who uses crypto?",
         details4: "Cryptocurrency challenges"
-
     },
     {
 
+        header: "Module 3: Becoming an expert in the world of Technical Analysis: Why Technicals are essential",
+        subheader: "Understand why more people aren't profitable due to poor technical analysis knowledge",
+        lessons: "4 lessons",
+        img: "What are the regulatory threats to crypto.webp",
+        unit1: "Lesson 1",
+        unit2: "Lesson 2",
+        unit3: "Lesson 3",
+        unit4: "Lesson 4",
+        details1: "Crypto adoption continues to rise",
+        details2: "Solving existing money problems",
+        details3: "Who uses crypto?",
+        details4: "Cryptocurrency challenges"
     },
     {
-
+        header: "Module 4: Difference between Cashflow and Capital Gains: Battle of passive income?",
+        subheader: "Understand the ultimate difference between a trader and an investor.",
+        lessons: "4 lessons",
+        img: "pegged.webp",
+        unit1: "Lesson 1",
+        unit2: "Lesson 2",
+        unit3: "Lesson 3",
+        unit4: "Lesson 4",
+        details1: "Types of Income",
+        details2: "Crypto common source of income",
+        details3: "How to cashflow cryptocurrencies",
+        details4: "Becoming profitable with cashflow"
     },
 
 ]

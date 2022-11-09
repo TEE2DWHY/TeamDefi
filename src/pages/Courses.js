@@ -35,7 +35,7 @@ const Courses = () => {
                             <hr />
                             <div className="row">
                                 <div className="col-lg-10">
-                                    <h2 className="module-header">{items.header}<span className="grey" style={{ opacity: "0.6" }}> {items.subheader}</span></h2>
+                                    <h2 className="module-header">{items.header} <br /><span className="grey" style={{ opacity: "0.6", fontSize: "22px" }}> {items.subheader}</span></h2>
                                 </div>
                                 <div className="col-lg-2">
                                     <p className="lesson-count">{items.lessons}</p>
@@ -43,8 +43,9 @@ const Courses = () => {
                             </div>
                             <br />
                             <div className="row">
-                                <div className="col-lg-6">
+                                <div className="col-lg-6" style={{ alignItems: "center", justifyContent: "center", position: "relative", display: "flex" }}>
                                     <img src={items.img} alt="" className="course-img" />
+                                    <button className="play-video"><i className="fa-solid fa-play" style={{ color: "#fff" }}></i></button>
                                 </div>
                                 <div className="col-lg-6 course-details">
                                     <div className="lessons">
