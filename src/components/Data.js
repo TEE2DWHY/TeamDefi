@@ -139,7 +139,7 @@ export const cryptoBasics = [
     {
         courseTitle: "A fork in the road",
         courseContent: "Learn what a ‘fork’ is; how they occur when people disagree about the ways to develop and improve cryptocurrencies.",
-        link: ""
+        link: "/a-fork-in-the-road"
     },
     {
         courseTitle: "How Bitcoin works",
