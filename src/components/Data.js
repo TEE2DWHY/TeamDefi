@@ -144,7 +144,7 @@ export const cryptoBasics = [
     {
         courseTitle: "How Bitcoin works",
         courseContent: "Learn how Bitcoin achieves sound money and trust, through a combination of cryptography and economic incentive. Find out what bitcoin mining is, and how it works",
-        link: ""
+        link: "/how-bitcoin-works"
     },
     {
         courseTitle: "What is a blockchain",
