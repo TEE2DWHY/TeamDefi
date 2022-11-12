@@ -77,7 +77,7 @@ const Blockchain = () => {
                 <br /> <br />
                 <p style={{ opacity: "0.6" }}>Let's break down these three things into what they are. </p>
                 <br /> <br />
-                <ul>
+                <ul className='container'>
                     <li style={{ opacity: "0.6" }}><span style={{ fontWeight: "900" }}>Data</span>- The data recorded on a blockchain can vary depending on what is using the technology. For example, as a currency, Bitcoin uses a blockchain to record it's transaction data - which is why its referred to as a ledger.
                         <br /> <br />
                         Other uses include supply chain data management, healthcare data and identity records; the sky's the limit, so long as the information can be digitised. The point is that blockchains can securely store many different types of data.   </li>
