@@ -95,7 +95,7 @@ const Blockchain = () => {
                         <br /> <br />
                         Crucially, it is trivial to confirm that Y2 is the correct output of the Hash, but almost impossible to work out what the Input was.</li>
                     <br /> <br />
-                    <div className="container" style={{ background: "#ecf2fe", padding: "60px", borderRadius: "16px", marginBottom: "20px" }}>
+                    <div className="" style={{ background: "#ecf2fe", padding: "60px", borderRadius: "16px", marginBottom: "20px" }}>
                         <div className="row">
                             <div className="col-lg-12">
                                 <p style={{ letterSpacing: "0.2em", fontSize: "24px" }}>Hashing is how websites can store your passwords, confirm they are valid when you input them, but not be able to know what they are.</p>
