@@ -16,6 +16,7 @@ import ScrollToTop from "./components/Top"
 import BitcoinLimitation from "./pages/BitcoinLimitation"
 import Fork from "./pages/Fork"
 import HowBitcoinWorks from "./pages/HowBitcoinWorks"
+import Blockchain from "./pages/Blockchain"
 
 
 function App() {
@@ -39,7 +40,7 @@ function App() {
                     <Route path="/bitcoins-limitation" element={<BitcoinLimitation />} />
                     <Route path="/a-fork-in-the-road" element={<Fork />} />
                     <Route path="/how-bitcoin-works" element={<HowBitcoinWorks />} />
-
+                    <Route path="/how-blockchain-works" element={<Blockchain />} />
                 </Routes>
             </ScrollToTop>
         </BrowserRouter>

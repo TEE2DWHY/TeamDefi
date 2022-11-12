@@ -149,7 +149,7 @@ export const cryptoBasics = [
     {
         courseTitle: "What is a blockchain",
         courseContent: "What are the unique characteristics of a blockchain? What are the problems they solve & how do they do it?",
-        link: ""
+        link: "/how-blockchain-works"
     },
     {
         courseTitle: "AMM Explained: Automated Market Makers & How They Work",
