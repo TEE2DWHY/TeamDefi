@@ -18,6 +18,7 @@ import Fork from "./pages/Fork"
 import HowBitcoinWorks from "./pages/HowBitcoinWorks"
 import Blockchain from "./pages/Blockchain"
 import MarketMakers from "./pages/MarketMakers"
+import Dex from "./pages/Dex"
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
                     <Route path="/how-bitcoin-works" element={<HowBitcoinWorks />} />
                     <Route path="/how-blockchain-works" element={<Blockchain />} />
                     <Route path="/market-makers" element={<MarketMakers />} />
+                    <Route path="/decentralized-exchanges" element={<Dex />} />
                 </Routes>
             </ScrollToTop>
         </BrowserRouter>

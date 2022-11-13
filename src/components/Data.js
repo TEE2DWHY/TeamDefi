@@ -159,7 +159,7 @@ export const cryptoBasics = [
     {
         courseTitle: "What are decentralized exchanges.",
         courseContent: "Learn about a decentralised exchange (DEX) and how it works, the advantages and disadvantages over a centralised exchange (CEX) and why DEXs are important",
-        link: ""
+        link: "/decentralized-exchanges"
     },
 ]
 
