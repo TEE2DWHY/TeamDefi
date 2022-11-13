@@ -74,7 +74,27 @@ const OurCourses = () => {
                     <div className='col-lg-12 FAQ1'>
                         <h3 style={{ color: "#fff" }}>Join our community</h3>
                         <p style={{ opacity: "0.6", color: "#fff", margin: "30px" }}>Join our channel for the latest updates or to get involved with Team De-fi.</p>
-                        <button className='join-channel'> <i class="fa-brands fa-telegram" style={{ color: "#000" }}></i> join community</button>
+                        <button className='join-channel' data-bs-toggle="modal" data-bs-target="#exampleModal"> <i class="fa-brands fa-telegram" style={{ color: "#000" }}></i> join community</button>
+                    </div>
+                    {/* Modal */}
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style={{ fontSize: "14px" }}>Hello Mate <i class="fa-solid fa-hands-clapping"></i></h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body" style={{ fontSize: "14px" }}>
+                                    Due to our policies in ensuring that only interested/serious participants are found on our social media platforms, we strongly recommend you get in touch with one of our admins.
+                                    <br />
+                                    We promise that the process isn't a tedious one. We're happy to have you around!😊💙
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style={{ fontSize: "14px" }}>Close</button>
+                                    <a href="https://wa.me/+2349032533461"><button type="button" class="btn btn-primary" style={{ fontSize: "14px" }}>Get in touch</button></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

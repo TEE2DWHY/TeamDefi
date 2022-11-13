@@ -100,6 +100,27 @@ button.nav-nav:hover{
    color: #2769ff;
 }
 
+button.footer{
+    text-decoration: none;
+    color: #2769ff;
+    background-color: #fff;
+    border-radius: 6px;
+    transition: .2s ease;
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+}
+
+button.footer:hover{
+   color: #2769ff;
+}
+
+
 .Hero-Section{
   background-color: #007aff;
   background-position: top;
