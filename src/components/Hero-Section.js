@@ -11,7 +11,7 @@ function HeroSection() {
                         <br /> Our Aca<span style={{ color: "#1bd190" }}>demy</span></h1>
                     <br />
                     <p style={{ color: "#fff", padding: "0 20px" }}>Learn Crypto is a platform introducing users to the world of cryptocurrency.<br />
-                        One of crypto obstacles to understanding crypto is that it is both complex and unfamiliar.
+                        One of the major obstacles to understanding crypto is that it is both complex and unfamiliar.
                         <br /><span style={{ fontStyle: "italic" }}>Have no fears. We're here to help! <i class="fa-solid fa-handshake-angle" style={{ color: "#fff" }}></i></span></p>
                     <img className="learn-img" src="learn.png" alt="" />
                     <br />
