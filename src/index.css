@@ -100,12 +100,11 @@ button.nav-nav:hover{
    color: #2769ff;
 }
 
-button.footer{
+button.join{
     text-decoration: none;
     color: #2769ff;
     background-color: #fff;
     border-radius: 6px;
-    transition: .2s ease;
     display: inline-flex;
     align-items: center;
     padding: 6px 12px;
@@ -116,7 +115,7 @@ button.footer{
     padding: 10px;
 }
 
-button.footer:hover{
+button.join:hover{
    color: #2769ff;
 }
 

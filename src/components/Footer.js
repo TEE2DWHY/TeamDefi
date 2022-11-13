@@ -34,29 +34,15 @@ function Footer() {
 
                             <br /> <br />
                             <div className="col-md-6 offset-md-1 mb-3">
-                                <h5>BE PART OF OUR COMMUNITY <i class="fa-solid fa-people-group" style={{ color: "#fff" }}></i></h5>
-                                <p>Get monthly digest of whats new and exciting about cryptocurrencies from us.</p>
-                                <button className="nav-link active footer" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ textAlign: "center" }}><i class="fa-brands fa-telegram" style={{ marginRight: "5px", fontSize: "16px" }}></i> JOIN COMMUNITY</button>
-                                {/* Modal */}
-                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h1 class="modal-title fs-5" id="exampleModalLabel" style={{ fontSize: "14px" }}>Hello Mate <i class="fa-solid fa-hands-clapping"></i></h1>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body" style={{ fontSize: "14px" }}>
-                                                Due to our policies in ensuring that only interested/serious participants are found on our social media platforms, we strongly recommend you get in touch with one of our admins.
-                                                <br />
-                                                We promise that the process isn't a tedious one. We're happy to have you around!😊💙
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style={{ fontSize: "14px" }}>Close</button>
-                                                <a href="https://wa.me/+2349032533461"><button type="button" class="btn btn-primary" style={{ fontSize: "14px" }}>Get in touch</button></a>
-                                            </div>
-                                        </div>
+                                <form>
+                                    <h5>BE PART OF OUR COMMUNITY <i class="fa-solid fa-people-group" style={{ color: "#fff" }}></i></h5>
+                                    <p>Get monthly digest of whats new and exciting about cryptocurrencies from us.</p>
+                                    <div className="d-flex w-100 gap-2">
+                                        <label for="newsletter1" className="visually-hidden">Email address</label>
+                                        <input id="newsletter1" type="email" className="form-control" placeholder="Email address" required />
+                                        <button className="btn btn-primary" type="button">Subscribe</button>
                                     </div>
-                                </div>
+                                </form>
                             </div>
                         </div>
 
