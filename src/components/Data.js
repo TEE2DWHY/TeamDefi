@@ -154,7 +154,7 @@ export const cryptoBasics = [
     {
         courseTitle: "AMM Explained: Automated Market Makers & How They Work",
         courseContent: "Learn about automated market makers or AMMs that let you trade crypto without intermediaries, combining Smart Contracts and incentives for liquidity provision.",
-        link: ""
+        link: "/market-makers"
     },
     {
         courseTitle: "What are decentralized exchanges.",

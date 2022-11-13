@@ -17,6 +17,7 @@ import BitcoinLimitation from "./pages/BitcoinLimitation"
 import Fork from "./pages/Fork"
 import HowBitcoinWorks from "./pages/HowBitcoinWorks"
 import Blockchain from "./pages/Blockchain"
+import MarketMakers from "./pages/MarketMakers"
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
                     <Route path="/a-fork-in-the-road" element={<Fork />} />
                     <Route path="/how-bitcoin-works" element={<HowBitcoinWorks />} />
                     <Route path="/how-blockchain-works" element={<Blockchain />} />
+                    <Route path="/market-makers" element={<MarketMakers />} />
                 </Routes>
             </ScrollToTop>
         </BrowserRouter>
