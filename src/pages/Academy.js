@@ -26,7 +26,7 @@ const OurCourses = () => {
                     </div>
                 </div>
             </nav>
-
+            <br />
             <div className='academy-header'>
                 <h1 className='wta'>Welcome to the Academy</h1>
             </div>

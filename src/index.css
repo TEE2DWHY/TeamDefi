@@ -590,7 +590,7 @@ button.sign-in{
     background: #dfe9ff;
     border-radius: 3.75rem;
     border: none;
-    padding: 5px 20px;
+    padding: 3px 20px;
 }
 
 button.sign-in:hover{
