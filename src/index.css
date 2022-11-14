@@ -561,7 +561,7 @@ h1.wta{
   text-align: center;
   letter-spacing: .025em;
   animation: flipInX; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-duration: 2.5s; /* don't forget to set a duration! */
 }
 
 .course-card1{
