@@ -7,7 +7,7 @@ const OurCourses = () => {
         <>
             <nav class="navbar navbar-expand-lg nav">
                 <div class="container-fluid">
-                    <a className="navbar-brand" href="/#" style={{ color: " #fff" }}><img className="logo" src="blockchain.png" alt="" /></a>
+                    <Link className="navbar-brand" to="/academy" style={{ color: " #fff" }}><img className="logo" src="blockchain.png" alt="" /></Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -99,7 +99,7 @@ const OurCourses = () => {
                 </div>
             </div>
 
-            <footer style={{ marginTop: "5%" }}>
+            <footer style={{ marginTop: "5%", marginBottom: "0" }}>
                 <p style={{ textAlign: "center", opacity: "0.8", marginTop: "3%" }}>{year} <Link to="/" style={{ color: "#000", opacity: "0.8", textDecoration: "underline" }}>Team Defi</Link>. <br />  All rights reserved. Designed by <a href="https://lucent-buttercream-1a7dd9.netlify.app/">Tee2dWhy</a></p>
             </footer>
         </>

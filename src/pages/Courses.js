@@ -7,7 +7,7 @@ const Courses = () => {
         <div className="courses-page">
             <nav class="navbar navbar-expand-lg nav">
                 <div class="container-fluid">
-                    <a className="navbar-brand" href="/#" style={{ color: " #fff" }}><img className="logo" src="blockchain.png" alt="" /></a>
+                    <Link className="navbar-brand" href="/course-pack" style={{ color: " #fff" }}><img className="logo" src="blockchain.png" alt="" /></Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
