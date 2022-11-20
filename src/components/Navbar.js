@@ -18,7 +18,7 @@ function Navbar() {
                         </li>
                         <li className="nav-item position-relative">
                             <Link to="/academy" className="nav-link" style={{ color: " #fff" }}>Academy
-                                <span class="position-absolute top-0 start-100 translate-middle badge squared-pill bg-success">
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
                                     new
                                     <span class="visually-hidden">unread messages</span>
                                 </span>
