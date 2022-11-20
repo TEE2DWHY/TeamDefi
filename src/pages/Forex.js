@@ -30,7 +30,7 @@ const Forex = () => {
 
             <div className="container">
                 <h1 style={{ display: "inline" }}>What do we provide? </h1>
-                <br />
+                <br /> <br />
                 <p className="provide-p col-lg-7">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum, quaerat dolorem doloremque quos iure in asperiores.Optio a voluptas magnam, maxime et quaerat laboriosam voluptates quibusdam perspiciatis quos ab molestias est pariatur cumque recusandae.
                 </p>
@@ -43,7 +43,7 @@ const Forex = () => {
                         </div>
                         <div className="col-lg-9">
                             <h3 className="provision-h3">Advocacy Partnerships</h3>
-                            <p className="provision-p col-lg-7">Become a Learn Crypto brand ambassador and be part of the journey upskilling and informing the world about cryptocurrency.</p>
+                            <p className="provision-p col-lg-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum.</p>
                         </div>
                     </div>
                 </div>
@@ -51,11 +51,11 @@ const Forex = () => {
                 <div className="cont-provision">
                     <div className="row">
                         <div className="col-lg-3">
-                            <img className="prov-img1" src="provide1.svg" alt="provide1" />
+                            <img className="prov-img1" src="Finance.gif" alt="provide1" />
                         </div>
                         <div className="col-lg-9">
-                            <h3 className="provision-h3">Advocacy Partnerships</h3>
-                            <p className="provision-p col-lg-7">Become a Learn Crypto brand ambassador and be part of the journey upskilling and informing the world about cryptocurrency.</p>
+                            <h3 className="provision-h3">Helpful Resource(s)</h3>
+                            <p className="provision-p col-lg-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum.</p>
                         </div>
                     </div>
                 </div>
@@ -63,11 +63,11 @@ const Forex = () => {
                 <div className="cont-provision">
                     <div className="row">
                         <div className="col-lg-3">
-                            <img className="prov-img1" src="provide1.svg" alt="provide1" />
+                            <img className="prov-img1" src="provide3.svg" alt="provide1" />
                         </div>
                         <div className="col-lg-9">
-                            <h3 className="provision-h3">Advocacy Partnerships</h3>
-                            <p className="provision-p col-lg-7">Become a Learn Crypto brand ambassador and be part of the journey upskilling and informing the world about cryptocurrency.</p>
+                            <h3 className="provision-h3">On-Time Market Analysis</h3>
+                            <p className="provision-p col-lg-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum.</p>
                         </div>
                     </div>
                 </div>
