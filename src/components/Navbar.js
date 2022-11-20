@@ -16,8 +16,13 @@ function Navbar() {
                         <li className="nav-item">
                             <Link to="/" className="nav-link active" aria-current="page" href="/#" style={{ color: "#fff" }}>Home</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link to="/academy" className="nav-link" style={{ color: " #fff" }}>Academy</Link>
+                        <li className="nav-item position-relative">
+                            <Link to="/academy" className="nav-link" style={{ color: " #fff" }}>Academy
+                                <span class="position-absolute top-0 start-100 translate-middle badge squared-pill bg-success">
+                                    new
+                                    <span class="visually-hidden">unread messages</span>
+                                </span>
+                            </Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/tools" className="nav-link" style={{ color: " #fff" }}>Tools</Link>
