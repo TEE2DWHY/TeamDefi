@@ -35,7 +35,7 @@ function Footer() {
                             <br /> <br />
                             <div className="col-md-6 offset-md-1 mb-3">
                                 <form>
-                                    <h5>BE PART OF OUR COMMUNITY <i class="fa-solid fa-people-group" style={{ color: "#fff" }}></i></h5>
+                                    <h5>BE PART OF OUR COMMUNITY <i className="fa-solid fa-people-group" style={{ color: "#fff" }}></i></h5>
                                     <p>Get monthly digest of whats new and exciting about cryptocurrencies from us.</p>
                                     <div className="d-flex w-100 gap-2">
                                         <label for="newsletter1" className="visually-hidden">Email address</label>

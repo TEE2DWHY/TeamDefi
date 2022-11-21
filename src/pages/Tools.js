@@ -27,7 +27,7 @@ function Tools() {
                                         <h3 style={{ fontWeight: "700", marginBottom: "15px" }}>Blockchain</h3>
                                     </div>
                                     <div className="col-lg-6" style={{ textAlign: "center" }}>
-                                        <a href="https://www.blockchain.com/"><button className="visit-site"> visit site <i class="fa-solid fa-arrow-right"></i></button></a>
+                                        <a href="https://www.blockchain.com/"><button className="visit-site"> visit site <i className="fa-solid fa-arrow-right"></i></button></a>
                                         <br /> <br />
                                     </div>
                                     <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}>Blockchain.com claims to be the most secure exchange to buy, sell and trade cryptocurrency. Trusted by millions since 2011 with over $1 Trillion in crypto transactions.</p>
@@ -44,7 +44,7 @@ function Tools() {
                                         <h3 style={{ fontWeight: "700", marginBottom: "15px" }}>Etherscan</h3>
                                     </div>
                                     <div className="col-lg-6" style={{ textAlign: "center" }}>
-                                        <a href="https://etherscan.io/"><button className="visit-site"> visit site <i class="fa-solid fa-arrow-right"></i></button></a>
+                                        <a href="https://etherscan.io/"><button className="visit-site"> visit site <i className="fa-solid fa-arrow-right"></i></button></a>
                                         <br /> <br />
                                     </div>
                                     <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}>Etherscan allows you to explore and search for transactions, addresses, tokens, prices and other activities taking place on the Ethereum blockchain.</p>
@@ -70,7 +70,7 @@ function Tools() {
                                         <h3 style={{ fontWeight: "700", marginBottom: "15px" }}>Coinigy</h3>
                                     </div>
                                     <div className="col-lg-6" style={{ textAlign: "center" }}>
-                                        <a href="https://www.coinigy.com/"><button className="visit-site"> visit site <i class="fa-solid fa-arrow-right"></i></button></a>
+                                        <a href="https://www.coinigy.com/"><button className="visit-site"> visit site <i className="fa-solid fa-arrow-right"></i></button></a>
                                         <br /> <br />
                                     </div>
                                     <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}>Coinigy lets you trade on every Bitcoin exchange through one account. Coinigy is a powerful and intuitive tool for managing your digital wallet portfolio.</p>
@@ -87,7 +87,7 @@ function Tools() {
                                         <h3 style={{ fontWeight: "700", marginBottom: "15px" }}>Tradedash</h3>
                                     </div>
                                     <div className="col-lg-6" style={{ textAlign: "center" }}>
-                                        <a href="https://global.bittrex.com/trade/btc-usd"><button className="visit-site"> visit site <i class="fa-solid fa-arrow-right"></i></button></a>
+                                        <a href="https://global.bittrex.com/trade/btc-usd"><button className="visit-site"> visit site <i className="fa-solid fa-arrow-right"></i></button></a>
                                         <br /> <br />
                                     </div>
                                     <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}>Tradedash is a trading tool that provides professional and personal customers with a secure, customizable trading experience.Tradedash offers real-time data from support trading platforms. </p>
@@ -113,7 +113,7 @@ function Tools() {
                                         <h3 style={{ fontWeight: "700", marginBottom: "15px" }}>TradingView</h3>
                                     </div>
                                     <div className="col-lg-6" style={{ textAlign: "center" }}>
-                                        <a href="https://www.tradingview.com/"> <button className="visit-site"> visit site <i class="fa-solid fa-arrow-right"></i></button></a>
+                                        <a href="https://www.tradingview.com/"> <button className="visit-site"> visit site <i className="fa-solid fa-arrow-right"></i></button></a>
                                         <br /> <br />
                                     </div>
                                     <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}>TradingView is a social network for traders and investors with live quotes, stock charts and expert trading ideas.</p>
@@ -130,7 +130,7 @@ function Tools() {
                                         <h3 style={{ fontWeight: "700", marginBottom: "15px" }}>Cryptowat.ch</h3>
                                     </div>
                                     <div className="col-lg-6" style={{ textAlign: "center" }}>
-                                        <a href="https://cryptowat.ch/"><button className="visit-site"> visit site <i class="fa-solid fa-arrow-right"></i></button></a>
+                                        <a href="https://cryptowat.ch/"><button className="visit-site"> visit site <i className="fa-solid fa-arrow-right"></i></button></a>
                                         <br /> <br />
                                     </div>
                                     <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}>Watch, analyze and trade Bitcoin, Ethereum, and more on every exchange from one terminal.</p>
@@ -157,7 +157,7 @@ function Tools() {
                                         <h3 style={{ fontWeight: "700", marginBottom: "15px" }}>Coinmarketcap</h3>
                                     </div>
                                     <div className="col-lg-6" style={{ textAlign: "center" }}>
-                                        <a href="https://coinmarketcap.com/"><button className="visit-site"> visit site <i class="fa-solid fa-arrow-right"></i></button></a>
+                                        <a href="https://coinmarketcap.com/"><button className="visit-site"> visit site <i className="fa-solid fa-arrow-right"></i></button></a>
                                         <br /> <br />
                                     </div>
                                     <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}>Cryptocurrency market cap rankings, charts, and more.</p>
@@ -217,7 +217,7 @@ function Tools() {
                                         <h3 style={{ fontWeight: "700", marginBottom: "15px" }}>Txstats</h3>
                                     </div>
                                     <div className="col-lg-6" style={{ textAlign: "center" }}>
-                                        <a href="https://txstats.com/dashboard/db/home-dashboard?orgId=1"><button className="visit-site"> visit site <i class="fa-solid fa-arrow-right"></i></button></a>
+                                        <a href="https://txstats.com/dashboard/db/home-dashboard?orgId=1"><button className="visit-site"> visit site <i className="fa-solid fa-arrow-right"></i></button></a>
                                         <br /> <br />
                                     </div>
                                     <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}> <br />Txstats.com provides a series of dashboards centered around a specific element of Bitcoin transactions.</p>
@@ -228,7 +228,7 @@ function Tools() {
                 </div>
             </div>
             <br /> <br />
-            <Link to="/academy"><h2 className="tool-visit"> <span className="visit">visit:</span> <span className="k-b">Knowledge base </span><i class="fa-solid fa-arrow-right"></i></h2></Link>
+            <Link to="/academy"><h2 className="tool-visit"> <span className="visit">visit:</span> <span className="k-b">Knowledge base </span><i className="fa-solid fa-arrow-right"></i></h2></Link>
             <Footer />
         </>
     )

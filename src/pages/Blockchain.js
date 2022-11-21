@@ -153,7 +153,7 @@ const Blockchain = () => {
                 <p style={{ opacity: "0.6" }}>Not only is this almost impossible to do, with the difficulty growing as the number of nodes grows, it doesn’t make economic sense. Thus, blockchain's are a secure and decentralised way of storing data, with those qualities improving as the blockchains grow.. </p>
             </div>
             <br /> <br />
-            <Link to="/academy"><h2 className="tool-visit"><span className="k-b">Proceed to Academy? </span><i class="fa-solid fa-arrow-right"></i></h2></Link>
+            <Link to="/academy"><h2 className="tool-visit"><span className="k-b">Proceed to Academy? </span><i className="fa-solid fa-arrow-right"></i></h2></Link>
             <Footer />
         </>
     )

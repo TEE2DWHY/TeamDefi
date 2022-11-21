@@ -808,7 +808,7 @@ h2.materials{
 .banner{
   display: block;
   margin: 8% auto;
-  overflow: hidden;
+  overflow:hidden;
 }
 
 .btn-financials{
@@ -868,6 +868,7 @@ h2.materials{
   font-weight: 400;
   font-size: 16px;
   color: #181818;
+  padding: 0px 10px;
 }
 
 /* Media Querry */
@@ -1020,6 +1021,11 @@ text-align: right;
 
 .prov-img1{
   width: 100%;
+}
+
+.banner{
+ width: 300px;
+ height: 300px;
 }
 
 }

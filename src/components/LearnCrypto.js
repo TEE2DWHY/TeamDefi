@@ -14,8 +14,8 @@ function LearnCrypto() {
                                 <br /> <br />
                                 You can proceed by starting with the basics of cryptocurrecies or choose from our other available courses.
                             </p>
-                            <Link to="/academy"><button className="btn btn-success kickstart" type="button">Kickstart <i style={{ color: "#fff" }} class="fa-brands fa-kickstarter-k"></i></button></Link>
-                            <button className="btn btn-outline-light video" type="button"><i class="fa-solid fa-play" style={{ color: "#000" }}></i>  Watch Video</button>
+                            <Link to="/academy"><button className="btn btn-success kickstart" type="button">Kickstart <i style={{ color: "#fff" }} className="fa-brands fa-kickstarter-k"></i></button></Link>
+                            <button className="btn btn-outline-light video" type="button"><i className="fa-solid fa-play" style={{ color: "#000" }}></i>  Watch Video</button>
                         </div>
                         <div className="col-lg-6">
                             <img className="about" src="about.png" alt="" />

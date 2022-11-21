@@ -5,22 +5,22 @@ const OurCourses = () => {
     const year = new Date().getFullYear()
     return (
         <>
-            <nav class="navbar navbar-expand-lg nav">
-                <div class="container-fluid">
+            <nav className="navbar navbar-expand-lg nav">
+                <div className="container-fluid">
                     <Link className="navbar-brand" to="/academy" style={{ color: " #fff" }}><img className="logo" src="blockchain.png" alt="" /></Link>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="/#"><button className="sign-in">Sign in</button></a>
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                                <a className="nav-link" href="/#"><button className="sign-in">Sign in</button></a>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link active" aria-current="page" to="/academy"><i class="fa-solid fa-house"></i> Campus</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link active" aria-current="page" to="/academy"><i class="fa-solid fa-house"></i> Campus</Link>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#library"><i class="fa-solid fa-book-open-reader"></i> Library</a>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#library"><i className="fa-solid fa-book-open-reader"></i> Library</a>
                             </li>
                         </ul>
                     </div>
@@ -67,31 +67,31 @@ const OurCourses = () => {
             </div>
             <br /> <br />
             <p style={{ textAlign: "center", opacity: "0.6" }}>You’ve viewed 8 of 8 materials</p>
-            <Link to="/"><h2 className="tool-visit"><span className="k-b">Exit Academy </span><i class="fa-solid fa-arrow-right"></i></h2></Link>
+            <Link to="/"><h2 className="tool-visit"><span className="k-b">Exit Academy </span><i className="fa-solid fa-arrow-right"></i></h2></Link>
             <br /> <br />
             <div className='FAQ-bitcoin'>
                 <div className='row'>
                     <div className='col-lg-12 FAQ1'>
                         <h3 style={{ color: "#fff" }}>Join our community</h3>
                         <p style={{ opacity: "0.6", color: "#fff", margin: "30px" }}>Join our channel for the latest updates or to get involved with Team De-fi.</p>
-                        <button className='join-channel' data-bs-toggle="modal" data-bs-target="#exampleModal"> <i class="fa-brands fa-telegram" style={{ color: "#000" }}></i> join community</button>
+                        <button className='join-channel' data-bs-toggle="modal" data-bs-target="#exampleModal"> <i className="fa-brands fa-telegram" style={{ color: "#000" }}></i> join community</button>
                     </div>
                     {/* Modal */}
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel" style={{ fontSize: "14px" }}>Hello Mate <i class="fa-solid fa-hands-clapping"></i></h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal-dialog modal-dialog-centered">
+                            <div className="modal-content">
+                                <div className="modal-header">
+                                    <h1 className="modal-title fs-5" id="exampleModalLabel" style={{ fontSize: "14px" }}>Hello Mate <i className="fa-solid fa-hands-clapping"></i></h1>
+                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body" style={{ fontSize: "14px" }}>
+                                <div className="modal-body" style={{ fontSize: "14px" }}>
                                     Due to our policies in ensuring that only interested/serious participants are found on our social media platforms, we strongly recommend you get in touch with one of our admins.
                                     <br />
                                     We promise that the process isn't a tedious one. We're happy to have you around!😊💙
                                 </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style={{ fontSize: "14px" }}>Close</button>
-                                    <a href="https://wa.me/+2349032533461"><button type="button" class="btn btn-primary" style={{ fontSize: "14px" }}>Get in touch</button></a>
+                                <div className="modal-footer">
+                                    <button type="button" className="btn btn-secondary" data-bs-dismiss="modal" style={{ fontSize: "14px" }}>Close</button>
+                                    <a href="https://wa.me/+2349032533461"><button type="button" className="btn btn-primary" style={{ fontSize: "14px" }}>Get in touch</button></a>
                                 </div>
                             </div>
                         </div>

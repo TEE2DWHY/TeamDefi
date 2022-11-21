@@ -5,22 +5,22 @@ const Courses = () => {
     const year = new Date().getFullYear
     return (
         <div className="courses-page">
-            <nav class="navbar navbar-expand-lg nav">
-                <div class="container-fluid">
+            <nav className="navbar navbar-expand-lg nav">
+                <div className="container-fluid">
                     <Link className="navbar-brand" href="/course-pack" style={{ color: " #fff" }}><img className="logo" src="blockchain.png" alt="" /></Link>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="/#"><button className="sign-in">Sign in</button></a>
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                                <a className="nav-link" href="/#"><button className="sign-in">Sign in</button></a>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link active" aria-current="page" to="/academy"><i class="fa-solid fa-house"></i> Campus</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link active" aria-current="page" to="/academy"><i class="fa-solid fa-house"></i> Campus</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link class="nav-link" to="/about"><i class="fa-solid fa-book-open-reader"></i> About</Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/about"><i className="fa-solid fa-book-open-reader"></i> About</Link>
                             </li>
                         </ul>
                     </div>

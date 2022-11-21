@@ -17,8 +17,8 @@ const Forex = () => {
                         <h1 className="header-financials">Want to Understand the Financial Markets?</h1>
                         <br />
                         <p className="understand-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum, quaerat dolorem doloremque quos iure in asperiores. Optio a voluptas magnam, maxime et quaerat laboriosam voluptates quibusdam perspiciatis quos ab molestias est pariatur cumque recusandae.</p>
-                        <button type="button" class="btn-financials">  <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
-                            <span class="visually-hidden">Loading...</span>
+                        <button type="button" className="btn-financials">  <span className="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                            <span className="visually-hidden">Loading...</span>
                             Get Started...</button>
                     </div>
                     <div className="col-lg-6">
@@ -68,6 +68,23 @@ const Forex = () => {
                         <div className="col-lg-9">
                             <h3 className="provision-h3">On-Time Market Analysis</h3>
                             <p className="provision-p col-lg-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum.</p>
+                        </div>
+                    </div>
+                </div>
+                <br /> <br />
+                <div className="financial-form">
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <h1 style={{ fontSize: "38px" }}>
+                                Contact us for partnership
+                            </h1>
+                            <br />
+                            <p className="provision-p" style={{ opacity: "0.6" }}>
+                                Ask us how we can update your day-to-day and long term strategies with the future of decentralised technology through consultancy, education and bespoke solutions.
+                            </p>
+                        </div>
+                        <div className="col-lg-6">
+
                         </div>
                     </div>
                 </div>

@@ -12,7 +12,7 @@ function HeroSection() {
                     <br />
                     <p style={{ color: "#fff", padding: "0 20px" }}>At Team DeFi we introduce our users to the world of cryptocurrency.<br />
                         One of the major obstacles to understanding crypto is that it is both complex and unfamiliar.
-                        <br /><span style={{ fontStyle: "italic" }}>Have no fears. We're here to help! <i class="fa-solid fa-handshake-angle" style={{ color: "#fff" }}></i></span></p>
+                        <br /><span style={{ fontStyle: "italic" }}>Have no fears. We're here to help! <i className="fa-solid fa-handshake-angle" style={{ color: "#fff" }}></i></span></p>
                     <img className="learn-img" src="learn.png" alt="" />
                     <br />
                     <form action="#" method="post">
