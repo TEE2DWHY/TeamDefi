@@ -7,7 +7,7 @@ function LearnCrypto() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <h1 style={{ color: "#000" }} className="learncrypto">About Team Defi...</h1>
+                            <h1 className="header-financials">About Team Defi...</h1>
                             <p style={{ marginTop: "26px", opacity: "0.6" }}>
 
                                 Team Defi is a an educational platform designed to help users easily learn about cryptocurrency, with simple, relevant and engaging content.

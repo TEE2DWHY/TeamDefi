@@ -27,6 +27,8 @@ const TradeCrypto = () => {
                     ))}
                 </div>
             </div>
+            <br /> <br />
+            <Link to="/financial-markets"><h2 className="tool-visit"><span className="k-b">Our Financial Market Section </span><i className="fa-solid fa-arrow-right"></i></h2></Link>
             <Footer />
         </>
     )

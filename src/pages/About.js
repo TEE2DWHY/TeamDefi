@@ -11,7 +11,7 @@ function About() {
             </div>
             <br />
             <div className="about-us">
-                <h1 style={{ fontWeight: "900" }}>About Team Defi</h1>
+                <h1 className="header-financials">About Team Defi</h1>
                 <br />
                 <p>Team Defi is a free learning platform introducing users to the world of cryptocurrency.
                     <br />
