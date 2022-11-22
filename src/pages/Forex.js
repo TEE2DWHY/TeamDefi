@@ -85,16 +85,24 @@ const Forex = () => {
                         </div>
                         <div className="col-lg-6 financial-form">
                             <span className="col-lg-6" >
-                                <input style={{ borderRadius: "7px", border: "2px solid grey", padding: "20px", margin: "10px" }}
+                                <input style={{ borderRadius: "7px", border: "2px solid #B1E1FF", padding: "20px", margin: "10px" }}
                                     type="text"
                                     placeholder="FirstName" />
                             </span>
                             <span className="col-lg-6">
-                                <input style={{ borderRadius: "7px", border: "2px solid grey", padding: "20px" }}
+                                <input style={{ borderRadius: "7px", border: "2px solid #B1E1FF", padding: "20px" }}
                                     type="text"
                                     placeholder="LastName"
                                 />
                             </span>
+                            <br /> <br />
+                            <div className="col-lg-12">
+                                <input style={{ borderRadius: "7px", border: "2px solid #B1E1FF", padding: "20px", display: "block", margin: "auto", width: "100%", height: "150px" }}
+                                    type="text"
+                                    placeholder="Leave a Message..." />
+                            </div>
+                            <button type="button" className="btn-submit">
+                                Submit</button>
                         </div>
                     </div>
                 </div>

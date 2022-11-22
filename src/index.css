@@ -871,6 +871,19 @@ h2.materials{
   padding: 0px 10px;
 }
 
+.btn-submit{
+   background: #1bd190;
+  border: none;
+  border-radius: 11px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 12px 20px;
+  text-decoration: none;
+ display: block;
+ margin: 20px auto;
+
+}
+
 /* .financial-form{
   display: flex;
   justify-content: space-between;
