@@ -871,6 +871,12 @@ h2.materials{
   padding: 0px 10px;
 }
 
+/* .financial-form{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+} */
+
 /* Media Querry */
 
 @media (max-width:1200px){

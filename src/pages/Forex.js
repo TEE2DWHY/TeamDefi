@@ -72,7 +72,7 @@ const Forex = () => {
                     </div>
                 </div>
                 <br /> <br />
-                <div className="financial-form">
+                <div className="container financial-form">
                     <div className="row">
                         <div className="col-lg-6">
                             <h1 style={{ fontSize: "38px" }}>
@@ -83,8 +83,18 @@ const Forex = () => {
                                 Ask us how we can update your day-to-day and long term strategies with the future of decentralised technology through consultancy, education and bespoke solutions.
                             </p>
                         </div>
-                        <div className="col-lg-6">
-
+                        <div className="col-lg-6 financial-form">
+                            <span className="col-lg-6" >
+                                <input style={{ borderRadius: "7px", border: "2px solid grey", padding: "20px", margin: "10px" }}
+                                    type="text"
+                                    placeholder="FirstName" />
+                            </span>
+                            <span className="col-lg-6">
+                                <input style={{ borderRadius: "7px", border: "2px solid grey", padding: "20px" }}
+                                    type="text"
+                                    placeholder="LastName"
+                                />
+                            </span>
                         </div>
                     </div>
                 </div>
