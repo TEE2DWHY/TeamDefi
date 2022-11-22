@@ -101,6 +101,8 @@ const Forex = () => {
                                     type="text"
                                     placeholder="Leave a Message..." />
                             </div>
+                            <br />
+                            <p className="col-lg-9" style={{ opacity: "0.8" }}><input type="checkbox" />I have read and agree to the <a href="/#">Terms of Service</a> and <a href="/#">Privacy Policy</a></p>
                             <button type="button" className="btn-submit">
                                 Submit</button>
                         </form>
