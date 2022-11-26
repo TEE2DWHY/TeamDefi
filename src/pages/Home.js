@@ -72,7 +72,6 @@ function Home() {
             <div style={{ textAlign: "center" }}>
                 <Link to="/blog"><button className="btn btn-success articles" type="button">All articles</button></Link>
             </div>
-
             <Mission />
             <Footer />
 

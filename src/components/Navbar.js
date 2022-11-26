@@ -34,8 +34,8 @@ function Navbar() {
 
                     <button className="nav-link active nav-nav join-community" aria-current="page" href="/#" data-bs-toggle="modal" data-bs-target="#exampleModal"><i className="fa-brands fa-telegram" style={{ marginRight: "5px", fontSize: "16px" }}></i> JOIN COMMUNITY</button>
                     {/* Modal */}
-                    <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div className="modal-dialog modal-dialog-centered">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal-dialog">
                             <div className="modal-content">
                                 <div className="modal-header">
                                     <h1 className="modal-title fs-5" id="exampleModalLabel" style={{ fontSize: "14px" }}>Hello Mate <i className="fa-solid fa-hands-clapping"></i></h1>

@@ -67,6 +67,107 @@ const OurCourses = () => {
             </div>
             <br /> <br />
             <p style={{ textAlign: "center", opacity: "0.6" }}>You’ve viewed 8 of 8 materials</p>
+            <br />
+            <div className="container">
+                <h3>Short answers to <span style={{ opacity: "0.6" }}>common criticisms of Bitcoin</span></h3>
+                <br />
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Bitcoin is a bubble
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style={{ opacity: "0.6" }}>
+                                Bitcoin is often compared to the economic bubbles like the Tulip Mania of 1636, but by their nature bubbles are discrete one-off events. You cannot reinflate a burst balloon, so if the 2017 bull-run was a bubble, how come Bitcoin recovered and has now surpassed that high?
+                                Cryptocurrencies do experience significant price volatility but should be evaluated over broad time periods. 2014 and 2018 were the only years where Bitcoin's price was lower at the end than it started.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Bitcoin is a fad, it will never catch on
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style={{ opacity: "0.6" }}>
+                                Kodak thought that about digital cameras. Sony thought that about digital music. The same was said about cars, the radio, the TV, movies with sound and the internet.
+                                If money didn’t evolve we’d still be exchanging shells.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                If you shut down the internet Bitcoin stops working
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style={{ opacity: "0.6" }}>
+                                Bitcoin can keep working without broadband and without mains power. A node can be updated via Satellite and be powered by natural resources; in fact a significant proportion of Bitcoin mining is powered by sustainable energy sources.
+                                Aside from that, if all power and communications are down, humanity will be in such a state that digital money will cease to be useful. Regardless of that, if/when society gets back on its feet nodes could quickly resume from the last known agreed ledger.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Gold is the best store of value
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style={{ opacity: "0.6" }}>
+                                Gold has been a very effective store of value for about 6,000 years, but it isn’t very suitable for the digital age. The most obvious reason being the difficulty in transporting it.
+
+
+                                Bitcoin doesn’t need to replace Gold, it simply provides an alternative, and to those in the crypto community, it is a better store of value.
+
+
+                                Stock-to-flow models are one argument why. $1 invested in bitcoin in 2009 is now worth almost $75million*, while the same investment in Gold would be worth $1.73.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                What happens to my bitcoin when I die?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style={{ opacity: "0.6" }}>
+                                Bitcoin - and crypto is general - does come with a different level of responsibility to regular money. This is a feature not a bug. It means that you should make plans for passing it on should you….well...pass on.
+
+
+                                Without precaution, your bitcoin may simply be lost; estimates vary but around three million bitcoin are considered lost for numerous reasons. This shouldn’t be considered a weakness as much traditional wealth gets lost, forgotten or rendered unusable.
+
+
+                                Specialist services already exist to ensure your bitcoin are passed on if you die, see Estate and Inheritance planning from services like Casa.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Regular money works fine for me, why do I need crypto?
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style={{ opacity: "0.6" }}>
+                                Bitcoin - and crypto is general - does come with a different level of responsibility to regular money. This is a feature not a bug. It means that you should make plans for passing it on should you….well...pass on.
+
+
+                                Without precaution, your bitcoin may simply be lost; estimates vary but around three million bitcoin are considered lost for numerous reasons. This shouldn’t be considered a weakness as much traditional wealth gets lost, forgotten or rendered unusable.
+
+
+                                Specialist services already exist to ensure your bitcoin are passed on if you die, see Estate and Inheritance planning from services like Casa.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br /> <br />
             <Link to="/"><h2 className="tool-visit"><span className="k-b">Exit Academy </span><i className="fa-solid fa-arrow-right"></i></h2></Link>
             <br /> <br />
             <div className='FAQ-bitcoin'>
@@ -77,8 +178,8 @@ const OurCourses = () => {
                         <button className='join-channel' data-bs-toggle="modal" data-bs-target="#exampleModal"> <i className="fa-brands fa-telegram" style={{ color: "#000" }}></i> join community</button>
                     </div>
                     {/* Modal */}
-                    <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div className="modal-dialog modal-dialog-centered">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal-dialog">
                             <div className="modal-content">
                                 <div className="modal-header">
                                     <h1 className="modal-title fs-5" id="exampleModalLabel" style={{ fontSize: "14px" }}>Hello Mate <i className="fa-solid fa-hands-clapping"></i></h1>
@@ -91,7 +192,7 @@ const OurCourses = () => {
                                 </div>
                                 <div className="modal-footer">
                                     <button type="button" className="btn btn-secondary" data-bs-dismiss="modal" style={{ fontSize: "14px" }}>Close</button>
-                                    <a href="https://wa.me/+2349032533461"><button type="button" className="btn btn-primary" style={{ fontSize: "14px" }}>Get in touch</button></a>
+                                    <a href="https://wa.me/+2349032533461"><button type="button" class="btn btn-primary" style={{ fontSize: "14px" }}>Get in touch</button></a>
                                 </div>
                             </div>
                         </div>
