@@ -79,7 +79,7 @@ const Forex = () => {
                 <div className="cont-provision">
                     <div className="row">
                         <div className="col-lg-3">
-                            <img className="prov-img2" src="funding.webp" alt="provide1" />
+                            <img className="prov-img2" src="funding.gif" alt="provide1" />
                         </div>
                         <div className="col-lg-9">
                             <h3 className="provision-h3">Funding</h3>
