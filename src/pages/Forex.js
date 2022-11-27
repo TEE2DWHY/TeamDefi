@@ -18,12 +18,12 @@ const Forex = () => {
                         <br />
                         <p className="understand-p">To those alien to the world of trading, they think of trading as a giant task of beautiful charts and candlesticks patterns while a vast majority of traders approach the market as a get quick-rich-scheme, hence the reason while many people struggle.
                             <br />
-                            The financial market comprises of  comprises Cryptocurrencies, Forex, Indices, Metals, Stocks and lots more.
+                            The financial market comprises of Cryptocurrencies, Forex, Indices, Metals, Stocks and lots more.
                             Having solid rudimentary to proficient knowledge can help you weather the storms.. Thats why we are here!
                         </p>
-                        <button type="button" className="btn-financials">  <span className="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                        <a href="#financial-form"><button type="button" className="btn-financials">  <span className="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
                             <span className="visually-hidden">Loading...</span>
-                            Get Started...</button>
+                            Get Started...</button></a>
                     </div>
                     <div className="col-lg-6">
                         <img className="banner" src="banner-image.svg" alt="" />
@@ -36,7 +36,7 @@ const Forex = () => {
                 <h1 style={{ display: "inline" }}>What do we provide? </h1>
                 <br /> <br />
                 <p className="provide-p col-lg-7">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum, quaerat dolorem doloremque quos iure in asperiores.Optio a voluptas magnam, maxime et quaerat laboriosam voluptates quibusdam perspiciatis quos ab molestias est pariatur cumque recusandae.
+                    We provide value related and comprehensive courses that helps every of our students harness the ability to become profitable in the financial markets/\.
                 </p>
                 {/* Details */}
                 <br /> <br />
@@ -46,7 +46,7 @@ const Forex = () => {
                             <img className="prov-img1" src="provide1.svg" alt="provide1" />
                         </div>
                         <div className="col-lg-9">
-                            <h3 className="provision-h3">Advocacy Partnerships</h3>
+                            <h3 className="provision-h3">Tutoring from experts</h3>
                             <p className="provision-p col-lg-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum.</p>
                         </div>
                     </div>
@@ -76,34 +76,60 @@ const Forex = () => {
                     </div>
                 </div>
                 <br /> <br />
-                <div className="container financial-form">
+                <div className="cont-provision">
+                    <div className="row">
+                        <div className="col-lg-3">
+                            <img className="prov-img2" src="funding.webp" alt="provide1" />
+                        </div>
+                        <div className="col-lg-9">
+                            <h3 className="provision-h3">Funding</h3>
+                            <p className="provision-p col-lg-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum.</p>
+                        </div>
+                    </div>
+                </div>
+                <br /> <br />
+                <div className="container financial-form" id="financial-form">
                     <div className="row">
                         <div className="col-lg-6">
                             <h1 style={{ fontSize: "38px" }}>
-                                Contact us for partnership
+                                Join us today!
                             </h1>
                             <br />
                             <p className="provision-p" style={{ opacity: "0.6" }}>
-                                Ask us how we can update your day-to-day and long term strategies with the future of decentralised technology through consultancy, education and bespoke solutions.
+                                Get started with your journey on understanding every details of the financial markets through through education, consultancy, and bespoke solutions.
+                                Proceed for a one-time sign up by feeling the forms below as we take up from there. We are glad to have you around!💙
                             </p>
                         </div>
                         <form action="/" className="col-lg-6 financial-form" method="POST">
                             <span className="col-lg-6" >
                                 <input style={{ borderRadius: "7px", border: "2px solid #B1E1FF", padding: "20px", margin: "10px" }}
                                     type="text"
-                                    placeholder="FirstName" />
+                                    placeholder="FirstName" required />
                             </span>
                             <span className="col-lg-6">
                                 <input style={{ borderRadius: "7px", border: "2px solid #B1E1FF", padding: "20px" }}
                                     type="text"
                                     placeholder="LastName"
+                                    required
+                                />
+                            </span>
+                            <span className="col-lg-6" >
+                                <input style={{ borderRadius: "7px", border: "2px solid #B1E1FF", padding: "20px", margin: "10px" }}
+                                    type="email"
+                                    placeholder="Email" required />
+                            </span>
+                            <span className="col-lg-6">
+                                <input style={{ borderRadius: "7px", border: "2px solid #B1E1FF", padding: "20px" }}
+                                    type="text"
+                                    placeholder="Phone number"
+                                    required
                                 />
                             </span>
                             <br /> <br />
                             <div className="col-lg-12">
                                 <input style={{ borderRadius: "7px", border: "2px solid #B1E1FF", padding: "20px", display: "block", margin: "auto", width: "100%", height: "150px" }}
                                     type="text"
-                                    placeholder="Leave a Message..." />
+                                    placeholder="Have something to say??..Leave a Message..." />
                             </div>
                             <br />
                             <p className="col-lg-9" style={{ opacity: "0.8" }}><input type="checkbox" />I have read and agree to the <a href="/#">Terms of Service</a> and <a href="/#">Privacy Policy</a></p>
