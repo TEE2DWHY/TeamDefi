@@ -16,7 +16,11 @@ const Forex = () => {
                     <div className="col-lg-6">
                         <h1 className="header-financials">Want to Understand the Financial Markets?</h1>
                         <br />
-                        <p className="understand-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum, quaerat dolorem doloremque quos iure in asperiores. Optio a voluptas magnam, maxime et quaerat laboriosam voluptates quibusdam perspiciatis quos ab molestias est pariatur cumque recusandae.</p>
+                        <p className="understand-p">To those alien to the world of trading, they think of trading as a giant task of beautiful charts and candlesticks patterns while a vast majority of traders approach the market as a get quick-rich-scheme, hence the reason while many people struggle.
+                            <br />
+                            The financial market comprises of  comprises Cryptocurrencies, Forex, Indices, Metals, Stocks and lots more.
+                            Having solid rudimentary to proficient knowledge can help you weather the storms.. Thats why we are here!
+                        </p>
                         <button type="button" className="btn-financials">  <span className="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
                             <span className="visually-hidden">Loading...</span>
                             Get Started...</button>
@@ -27,7 +31,7 @@ const Forex = () => {
                 </div>
             </div>
 
-
+            <br />
             <div className="container">
                 <h1 style={{ display: "inline" }}>What do we provide? </h1>
                 <br /> <br />

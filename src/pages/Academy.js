@@ -30,7 +30,7 @@ const OurCourses = () => {
             <div className='academy-header'>
                 <h1 className='wta'>Welcome to the Academy</h1>
             </div>
-            <div className='course-card1'>
+            <div className='course-card1' style={{ cursor: "pointer" }}>
                 <div className='row'>
                     <div className='col-lg-6'>
                         <img className='academy1' src="academy1.webp" alt='academy' />
@@ -46,7 +46,6 @@ const OurCourses = () => {
                     </div>
                 </div>
             </div>
-            <br /> <br />
             <div className="container" id="library">
                 <h1 className="library">Library</h1>
                 <h2 className="materials">The storage of all materials inside the Academy</h2>
@@ -74,7 +73,7 @@ const OurCourses = () => {
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style={{ fontSize: "18px", lineHeight: "23px", letterSpacing: "-.6px", color: "#181818", fontWeight: "600" }}>
                                 Bitcoin is a bubble
                             </button>
                         </h2>
@@ -87,7 +86,7 @@ const OurCourses = () => {
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style={{ fontSize: "18px", lineHeight: "23px", letterSpacing: "-.6px", color: "#181818", fontWeight: "600" }}>
                                 Bitcoin is a fad, it will never catch on
                             </button>
                         </h2>
@@ -100,7 +99,7 @@ const OurCourses = () => {
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style={{ fontSize: "18px", lineHeight: "23px", letterSpacing: "-.6px", color: "#181818", fontWeight: "600" }}>
                                 If you shut down the internet Bitcoin stops working
                             </button>
                         </h2>
@@ -113,7 +112,7 @@ const OurCourses = () => {
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style={{ fontSize: "18px", lineHeight: "23px", letterSpacing: "-.6px", color: "#181818", fontWeight: "600" }}>
                                 Gold is the best store of value
                             </button>
                         </h2>
@@ -131,7 +130,7 @@ const OurCourses = () => {
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFive">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style={{ fontSize: "18px", lineHeight: "23px", letterSpacing: "-.6px", color: "#181818", fontWeight: "600" }}>
                                 What happens to my bitcoin when I die?
                             </button>
                         </h2>
@@ -149,7 +148,7 @@ const OurCourses = () => {
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingSix">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" style={{ fontSize: "18px", lineHeight: "23px", letterSpacing: "-.6px", color: "#181818", fontWeight: "600" }}>
                                 Regular money works fine for me, why do I need crypto?
                             </button>
                         </h2>
