@@ -14,7 +14,7 @@ const OurCourses = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link" href="/#"><button className="sign-in">Sign in</button></a>
+                                <a className="nav-link" href="/sign-in"><button className="sign-in">Sign in</button></a>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link active" aria-current="page" to="/academy"><i class="fa-solid fa-house"></i> Campus</Link>
