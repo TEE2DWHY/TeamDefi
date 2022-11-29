@@ -21,6 +21,7 @@ import MarketMakers from "./pages/MarketMakers"
 import Dex from "./pages/Dex"
 import Forex from "./pages/Forex"
 import User from "./pages/User"
+import Books from "./pages/Books"
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
                     <Route path="/decentralized-exchanges" element={<Dex />} />
                     <Route path="/financial-markets" element={<Forex />} />
                     <Route path="/sign-in" element={<User />} />
+                    <Route path="/books" element={<Books />} />
                 </Routes>
             </ScrollToTop>
         </BrowserRouter>

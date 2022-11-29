@@ -26,7 +26,7 @@ function Footer() {
                                 <ul className="nav flex-column">
                                     <li className="nav-item mb-2"><Link to="/blog" className="nav-link p-0" style={{ color: "#fff" }}>Blog</Link></li>
                                     <li className="nav-item mb-2"><Link to="/tools" className="nav-link p-0" style={{ color: "#fff" }}>Tools</Link></li>
-                                    <li className="nav-item mb-2"><a href="https://selar.co/zzz6" className="nav-link p-0" style={{ color: "#fff" }}>Books</a></li>
+                                    <li className="nav-item mb-2"><a href="/books" className="nav-link p-0" style={{ color: "#fff" }}>Books</a></li>
                                     <li className="nav-item mb-2"><Link to="/about" className="nav-link p-0" style={{ color: "#fff" }}>About</Link></li>
                                     <li className="nav-item mb-2"><a href="/#" className="nav-link p-0" style={{ color: "#fff" }}>Podcast</a></li>
                                 </ul>
