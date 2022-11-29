@@ -181,6 +181,8 @@ const Books = () => {
                     </div>
                 </div>
             </div>
+            <br /> <br />
+            <Link to="/academy"><h2 className="tool-visit"><span className="k-b">Proceed to Academy? </span><i className="fa-solid fa-arrow-right"></i></h2></Link>
             <Footer />
         </>
 
