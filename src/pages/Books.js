@@ -91,7 +91,7 @@ const Books = () => {
                                         <a href="https://www.amazon.co.uk/Price-Tomorrow-Deflation-Abundant-Future/dp/1999257405"><button className="visit-site"> visit site <i className="fa-solid fa-arrow-right"></i></button></a>
                                         <br />
                                     </div>
-                                    <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px" }}>Mastering Bitcoin is one of the most comprehensive and thoughtful guides to what Bitcoin is, and how it works. Great for anyone thinking about it from a coding perspective.</p>
+                                    <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px" }}>Jeff Booth's book isn’t explicitly about crypto, but he clearly had it in mind presenting a compelling argument for how deflation is the only sensible route out of the mess that fiat money has landed modern economies in. Must read.</p>
                                 </div>
                             </div>
                         </div>
