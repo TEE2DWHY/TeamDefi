@@ -32,7 +32,7 @@ const Books = () => {
                                         <a href="https://www.amazon.co.uk/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861"><button className="visit-site"> visit site <i className="fa-solid fa-arrow-right"></i></button></a>
                                         <br />
                                     </div>
-                                    <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}>If you're looking for a well reasoned argument for Bitcoin, read the Bitcoin Standard. Regarded as one of the best cases for Bitcoin it analyses the historical context, the economic properties and future implications.</p>
+                                    <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px" }}>If you're looking for a well reasoned argument for Bitcoin, read the Bitcoin Standard. Regarded as one of the best cases for Bitcoin it analyses the historical context, the economic properties and future implications.</p>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ const Books = () => {
                                         <a href="https://www.amazon.co.uk/Mastering-Bitcoin-Unlocking-Digital-Cryptocurrencies/dp/1449374042"><button className="visit-site"> visit site <i className="fa-solid fa-arrow-right"></i></button></a>
                                         <br />
                                     </div>
-                                    <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}>Mastering Bitcoin is one of the most comprehensive and thoughtful guides to what Bitcoin is, and how it works. Great for anyone thinking about it from a coding perspective.</p>
+                                    <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px" }}>Mastering Bitcoin is one of the most comprehensive and thoughtful guides to what Bitcoin is, and how it works. Great for anyone thinking about it from a coding perspective.</p>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ const Books = () => {
                                         <a href="https://www.amazon.co.uk/Moon-Camila-Russo/dp/0062886142"><button className="visit-site"> visit site <i className="fa-solid fa-arrow-right"></i></button></a>
                                         <br />
                                     </div>
-                                    <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}>A great insight into the origins and history of Ethereum written as a narrative focused on the characters, their motivations and the drama, rather than technical details. If you like Michael Lewis (Flashboys, The Big Short) you’ll love this.</p>
+                                    <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px" }}>A great insight into the origins and history of Ethereum written as a narrative focused on the characters, their motivations and the drama, rather than technical details. If you like Michael Lewis (Flashboys, The Big Short) you’ll love this.</p>
                                 </div>
                             </div>
                         </div>
@@ -91,7 +91,7 @@ const Books = () => {
                                         <a href="https://www.amazon.co.uk/Price-Tomorrow-Deflation-Abundant-Future/dp/1999257405"><button className="visit-site"> visit site <i className="fa-solid fa-arrow-right"></i></button></a>
                                         <br />
                                     </div>
-                                    <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}>Mastering Bitcoin is one of the most comprehensive and thoughtful guides to what Bitcoin is, and how it works. Great for anyone thinking about it from a coding perspective.</p>
+                                    <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px" }}>Mastering Bitcoin is one of the most comprehensive and thoughtful guides to what Bitcoin is, and how it works. Great for anyone thinking about it from a coding perspective.</p>
                                 </div>
                             </div>
                         </div>
@@ -116,7 +116,7 @@ const Books = () => {
                                         <a href="https://www.amazon.co.uk/Where-Does-Money-Come-Ryan-Collins/dp/1521043892"><button className="visit-site"> visit site <i className="fa-solid fa-arrow-right"></i></button></a>
                                         <br />
                                     </div>
-                                    <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}>Crypto is described as the antidote to uncontrolled central bank money printing, but what does that really mean, and where does money actually come from? Read this book for an answer that is fascinating and surprising in equal parts.</p>
+                                    <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px" }}>Crypto is described as the antidote to uncontrolled central bank money printing, but what does that really mean, and where does money actually come from? Read this book for an answer that is fascinating and surprising in equal parts.</p>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +133,7 @@ const Books = () => {
                                         <a href="https://www.amazon.co.uk/When-Money-Dies-nightmare-Hyper-Inflation/dp/1906964440"><button className="visit-site"> visit site <i className="fa-solid fa-arrow-right"></i></button></a>
                                         <br />
                                     </div>
-                                    <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}>To really 'get' crypto you have to imagine what life would be like if money stopped working. Adam Ferguson's brilliant account of hyperinflation in the Weimar Republic details what happens when money dies. Spoiler alert.....it isn't pretty.</p>
+                                    <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px" }}>To really 'get' crypto you have to imagine what life would be like if money stopped working. Adam Ferguson's brilliant account of hyperinflation in the Weimar Republic details what happens when money dies. Spoiler alert.....it isn't pretty.</p>
                                 </div>
                             </div>
                         </div>
@@ -157,7 +157,7 @@ const Books = () => {
                                         <a href="https://selar.co/zzz6"><button className="visit-site"> visit site <i className="fa-solid fa-arrow-right"></i></button></a>
                                         <br />
                                     </div>
-                                    <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}>Olorunfemi Tayo here segregates the difference between approaching the market as an investor and a trader. This material is recommended for any beginner who is willing to take the investor path in the world of cryptocurrencies.</p>
+                                    <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px" }}>Olorunfemi Tayo here segregates the difference between approaching the market as an investor and a trader. This material is recommended for any beginner who is willing to take the investor path in the world of cryptocurrencies.</p>
                                 </div>
                             </div>
                         </div>
@@ -174,7 +174,7 @@ const Books = () => {
                                         <a href="https://www.amazon.co.uk/David-Graeber/e/B001IQXM5K"><button className="visit-site"> visit site <i className="fa-solid fa-arrow-right"></i></button></a>
                                         <br />
                                     </div>
-                                    <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px", margin: "10px" }}>David Graeber examines the history of money, debunking many widely held ideas along the way, and tracing its roots to the concept of debt across social, religious and economy relationships.</p>
+                                    <p style={{ opacity: "0.6", padding: "6px", fontSize: "14px" }}>David Graeber examines the history of money, debunking many widely held ideas along the way, and tracing its roots to the concept of debt across social, religious and economy relationships.</p>
                                 </div>
                             </div>
                         </div>
