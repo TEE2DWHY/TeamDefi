@@ -94,7 +94,7 @@ const Forex = () => {
                             <img className="prov-img2" src="backtesting.svg" alt="provide1" />
                         </div>
                         <div className="col-lg-9">
-                            <h3 className="provision-h3">Pratical Trade-Sessions</h3>
+                            <h3 className="provision-h3">Live Trade-Sessions</h3>
                             <p className="provision-p col-lg-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum.</p>
                         </div>
                     </div>
