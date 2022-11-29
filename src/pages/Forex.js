@@ -79,10 +79,46 @@ const Forex = () => {
                 <div className="cont-provision">
                     <div className="row">
                         <div className="col-lg-3">
-                            <img className="prov-img2" src="funding.gif" alt="provide1" />
+                            <img className="prov-img2" src="funding.svg" alt="provide1" />
                         </div>
                         <div className="col-lg-9">
                             <h3 className="provision-h3">Funding</h3>
+                            <p className="provision-p col-lg-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum.</p>
+                        </div>
+                    </div>
+                </div>
+                <br /> <br />
+                <div className="cont-provision">
+                    <div className="row">
+                        <div className="col-lg-3">
+                            <img className="prov-img2" src="backtesting.svg" alt="provide1" />
+                        </div>
+                        <div className="col-lg-9">
+                            <h3 className="provision-h3">Pratical Trade-Sessions</h3>
+                            <p className="provision-p col-lg-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum.</p>
+                        </div>
+                    </div>
+                </div>
+                <br /> <br />
+                <div className="cont-provision">
+                    <div className="row">
+                        <div className="col-lg-3">
+                            <img className="prov-img2" src="community.svg" alt="provide1" />
+                        </div>
+                        <div className="col-lg-9">
+                            <h3 className="provision-h3">Community Based Learning</h3>
+                            <p className="provision-p col-lg-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum.</p>
+                        </div>
+                    </div>
+                </div>
+                <br /> <br />
+                <div className="cont-provision">
+                    <div className="row">
+                        <div className="col-lg-3">
+                            <img className="prov-img2" src="Exams.svg" alt="provide1" />
+                        </div>
+                        <div className="col-lg-9">
+                            <h3 className="provision-h3">Test and Exams</h3>
                             <p className="provision-p col-lg-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum.</p>
                         </div>
                     </div>
