@@ -46,6 +46,7 @@ const OurCourses = () => {
                     </div>
                 </div>
             </div>
+            <br />
             <div className="container" id="library">
                 <h1 className="library">Library</h1>
                 <h2 className="materials">The storage of all materials inside the Academy</h2>
