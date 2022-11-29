@@ -133,7 +133,7 @@ const Forex = () => {
                             <br />
                             <p className="provision-p" style={{ opacity: "0.6" }}>
                                 Get started with your journey on understanding every details of the financial markets through through education, consultancy, and bespoke solutions.
-                                Proceed for a one-time sign up by feeling the forms below as we take up from there. We are glad to have you around!💙
+                                Proceed for a one-time sign up by filling the form below, we would take up from there. We are glad to have you around!💙
                             </p>
                         </div>
                         <form action="/" className="col-lg-6 financial-form" method="POST">
