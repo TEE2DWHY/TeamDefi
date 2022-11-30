@@ -118,7 +118,8 @@ export const FeatureData = [
 export const articleData = [
     {
         img: "satoshi.webp",
-        content: "The Legacy Of Satoshi"
+        content: "The Legacy Of Satoshi",
+        link: "/legacy-of-satoshi"
     },
     {
         img: "Defi-comes-to- XRP-&-Dogecoin.webp",
