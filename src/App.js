@@ -22,6 +22,7 @@ import Dex from "./pages/Dex"
 import Forex from "./pages/Forex"
 import User from "./pages/User"
 import Books from "./pages/Books"
+import LegacyOfSatoshi from "./pages/LegacyOfSatoshi"
 
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
                     <Route path="/financial-markets" element={<Forex />} />
                     <Route path="/sign-in" element={<User />} />
                     <Route path="/books" element={<Books />} />
+                    <Route path="/legacy-of-satoshi" element={<LegacyOfSatoshi />} />
                 </Routes>
             </ScrollToTop>
         </BrowserRouter>

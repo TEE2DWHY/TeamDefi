@@ -129,6 +129,16 @@ export const articleData = [
         content: "How does an NFT have value?"
     }
 ]
+export const articleData2 = [
+    {
+        img: "Defi-comes-to- XRP-&-Dogecoin.webp",
+        content: "Defi comes to XRP & Dogecoin"
+    },
+    {
+        img: "nft-new-frontier-digital-ownership.webp",
+        content: "How does an NFT have value?"
+    }
+]
 
 export const cryptoBasics = [
     {

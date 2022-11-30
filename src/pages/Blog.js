@@ -18,13 +18,14 @@ const Blog = (props) => {
                     <div className="row">
                         <div className="col-lg-6">
                             <h1 style={{ fontWeight: "900" }}>Team Defi Articles</h1>
-                            <div className="card" style={{ width: "100%", marginTop: "10%", borderRadius: "12px", cursor: "pointer" }}>
+                            <Link to="/legacy-of-satoshi"> <div className="card" style={{ width: "100%", marginTop: "10%", borderRadius: "12px", cursor: "pointer" }}>
                                 <img src="satoshi.webp" className="card-img-top" alt="satoshi" />
                                 <br />
                                 <div className="card-body">
                                     <h5 className="card-text" style={{ fontWeight: "900" }}>The Legacy of Satoshi Nakamoto</h5>
                                 </div>
                             </div>
+                            </Link>
                         </div>
                         <div className="col-lg-6">
                             <div className="blog-card" style={{ cursor: "pointer" }}>
