@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import { Link } from "react-router-dom"
 
+
 const Forex = () => {
     return (
         <>
@@ -16,9 +17,9 @@ const Forex = () => {
                     <div className="col-lg-6">
                         <h1 className="header-financials">Want to Understand the Financial Markets?</h1>
                         <br />
-                        <p className="understand-p">To those alien to the world of trading, they think of trading as a giant task of beautiful charts and candlesticks patterns while a vast majority of traders approach the market as a get quick-rich-scheme, hence the reason while many people struggle.
+                        <p className="understand-p">Without the helpful resource and basic skill set, trading can become a very hard task. Most people approach the market as a get quick-rich-scheme, hence the reason while many people struggle.
                             <br />
-                            The financial market comprises of Cryptocurrencies, Forex, Indices, Metals, Stocks and lots more.
+                            The financial market comprises of <em> Cryptocurrencies, Forex, Indices, Metals, Stocks </em> and lots more.
                             Having solid rudimentary to proficient knowledge can help you weather the storms.. Thats why we are here!
                         </p>
                         <a href="#financial-form"><button type="button" className="btn-financials">  <span className="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>

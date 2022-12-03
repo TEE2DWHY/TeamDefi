@@ -10,7 +10,7 @@ function LearnCrypto() {
                             <h1 className="header-financials">About Team Defi...</h1>
                             <p style={{ marginTop: "26px", opacity: "0.6" }}>
 
-                                Team Defi is a an educational platform designed to help users easily learn about cryptocurrency, with simple, relevant and engaging content.
+                                Team Defi is a an educational platform designed to help users easily learn about cryptocurrency and every of its related technologies, with simple, relevant and engaging content.
                                 <br /> <br />
                                 You can proceed by starting with the basics of cryptocurrecies or choose from our other available courses.
                             </p>
