@@ -1,9 +1,30 @@
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import { Link } from "react-router-dom"
+import { useState } from "react"
 
 
 const Forex = () => {
+
+    const [formData, setFormData] = useState({
+        firstName: "", lastName: "", email: "", phoneNumber: "", details: ""
+    })
+
+    const handleChange = (event) => {
+        setFormData(prevFormData => {
+            return {
+                ...prevFormData,
+                [event.target.name]: event.target.value
+            }
+        }
+        )
+    }
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        console.log(formData)
+    }
+
     return (
         <>
             <Navbar />
@@ -17,7 +38,7 @@ const Forex = () => {
                     <div className="col-lg-6">
                         <h1 className="header-financials">Want to Understand the Financial Markets?</h1>
                         <br />
-                        <p className="understand-p">Without the helpful resource and basic skill set, trading can become a very hard task. Most people approach the market as a get quick-rich-scheme, hence the reason while many people struggle.
+                        <p className="understand-p">Without helpful resources and basic skill set, trading can become a very hard task. Most people approach the market as a get quick-rich-scheme, hence the reason while many struggle.
                             <br />
                             The financial market comprises of <em> Cryptocurrencies, Forex, Indices, Metals, Stocks </em> and lots more.
                             Having solid rudimentary to proficient knowledge can help you weather the storms.. Thats why we are here!
@@ -137,41 +158,50 @@ const Forex = () => {
                                 Proceed for a one-time sign up by filling the form below, we would take up from there. We are glad to have you around!💙
                             </p>
                         </div>
-                        <form action="/" className="col-lg-6 financial-form" method="POST">
+                        <form onSubmit={handleSubmit} className="col-lg-6 financial-form">
                             <span className="col-lg-6" >
                                 <input style={{ borderRadius: "7px", border: "2px solid #B1E1FF", padding: "20px", margin: "10px" }}
                                     type="text"
-                                    placeholder="FirstName" required />
+                                    placeholder="FirstName"
+                                    name="firstName"
+                                    onChange={handleChange} />
                             </span>
                             <span className="col-lg-6">
                                 <input style={{ borderRadius: "7px", border: "2px solid #B1E1FF", padding: "20px" }}
                                     type="text"
                                     placeholder="LastName"
-                                    required
+                                    name="lastName"
+                                    onChange={handleChange}
                                 />
                             </span>
                             <span className="col-lg-6" >
                                 <input style={{ borderRadius: "7px", border: "2px solid #B1E1FF", padding: "20px", margin: "10px" }}
                                     type="email"
-                                    placeholder="Email" required />
+                                    placeholder="Email"
+                                    name="email"
+                                    onChange={handleChange}
+                                />
                             </span>
                             <span className="col-lg-6">
                                 <input style={{ borderRadius: "7px", border: "2px solid #B1E1FF", padding: "20px" }}
                                     type="text"
                                     placeholder="Phone number"
-                                    required
+                                    name="phoneNumber"
+                                    onChange={handleChange}
                                 />
                             </span>
                             <br /> <br />
                             <div className="col-lg-12">
                                 <input style={{ borderRadius: "7px", border: "2px solid #B1E1FF", padding: "20px", display: "block", margin: "auto", width: "100%", height: "150px" }}
                                     type="text"
-                                    placeholder="Have something to say??..Leave a Message..." />
+                                    placeholder="Have something to say??..Leave a Message..."
+                                    name="details"
+                                    onChange={handleChange}
+                                />
                             </div>
                             <br />
-                            <p className="col-lg-9" style={{ opacity: "0.8" }}><input type="checkbox" />I have read and agree to the <a href="/#">Terms of Service</a> and <a href="/#">Privacy Policy</a></p>
-                            <button type="button" className="btn-submit">
-                                Submit</button>
+                            {/* <p className="col-lg-9" style={{ opacity: "0.8" }}><input type="checkbox" />I have read and agree to the <a href="/#">Terms of Service</a> and <a href="/#">Privacy Policy</a></p> */}
+                            <button className="btn-submit"> Submit</button>
                         </form>
                     </div>
                 </div>
