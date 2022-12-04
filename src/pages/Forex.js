@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import { Link } from "react-router-dom"
 import { useState } from "react"
+import axios from "axios"
 
 
 const Forex = () => {
@@ -9,6 +10,7 @@ const Forex = () => {
     const [formData, setFormData] = useState({
         firstName: "", lastName: "", email: "", phoneNumber: "", details: ""
     })
+
 
     const handleChange = (event) => {
         setFormData(prevFormData => {
@@ -20,9 +22,15 @@ const Forex = () => {
         )
     }
 
-    const handleSubmit = (event) => {
+    const handleSubmit = async (event) => {
         event.preventDefault();
-        console.log(formData)
+        try {
+            const res = await axios.post("http://localhost:5000/api/register", formData)
+            console.log(res)
+        } catch (err) {
+
+        };
+        // console.log(formData)
     }
 
     return (
