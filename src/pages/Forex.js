@@ -30,11 +30,12 @@ const Forex = () => {
         } catch (err) {
 
         };
-    }
-    const submission = () => {
         document.getElementById("submission").innerHTML = "Submitted!💦";
         document.getElementById("back-home").style.display = "block"
     }
+    // const submission = () => {
+
+    // }
     return (
         <>
             <Navbar />
@@ -215,7 +216,7 @@ const Forex = () => {
                             </div>
                             <br />
                             {/* <p className="col-lg-9" style={{ opacity: "0.8" }}><input type="checkbox" />I have read and agree to the <a href="/#">Terms of Service</a> and <a href="/#">Privacy Policy</a></p> */}
-                            <button className="btn-submit" id="submission" onClick={submission}> Submit</button>
+                            <button className="btn-submit" id="submission"> Submit</button>
                         </form>
                     </div>
                 </div>
