@@ -32,7 +32,8 @@ const Forex = () => {
         };
     }
     const submission = () => {
-        document.getElementById("submission").innerHTML = "Submitted!💦"
+        document.getElementById("submission").innerHTML = "Submitted!💦";
+        document.getElementById("back-home").style.display = "block"
     }
     return (
         <>
@@ -219,6 +220,9 @@ const Forex = () => {
                     </div>
                 </div>
             </div>
+            <br /> <br />
+            <Link to="/"><h2 className="tool-visit" id="back-home" style={{ display: "none" }}><span className="k-b" >Go to Homepage </span><i className="fa-solid fa-arrow-right"></i></h2></Link>
+
             <Footer />
         </>
     )
