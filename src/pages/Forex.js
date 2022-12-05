@@ -30,9 +30,10 @@ const Forex = () => {
         } catch (err) {
 
         };
-        // console.log(formData)
     }
-
+    const submission = () => {
+        document.getElementById("submission").innerHTML = "Submitted!💦"
+    }
     return (
         <>
             <Navbar />
@@ -170,32 +171,36 @@ const Forex = () => {
                             <span className="col-lg-6" >
                                 <input style={{ borderRadius: "7px", border: "2px solid #B1E1FF", padding: "20px", margin: "10px" }}
                                     type="text"
-                                    placeholder="FirstName"
+                                    placeholder="FirstName*"
                                     name="firstName"
-                                    onChange={handleChange} />
+                                    onChange={handleChange}
+                                    required />
                             </span>
                             <span className="col-lg-6">
                                 <input style={{ borderRadius: "7px", border: "2px solid #B1E1FF", padding: "20px" }}
                                     type="text"
-                                    placeholder="LastName"
+                                    placeholder="LastName*"
                                     name="lastName"
                                     onChange={handleChange}
+                                    required
                                 />
                             </span>
                             <span className="col-lg-6" >
                                 <input style={{ borderRadius: "7px", border: "2px solid #B1E1FF", padding: "20px", margin: "10px" }}
                                     type="email"
-                                    placeholder="Email"
+                                    placeholder="Email*"
                                     name="email"
                                     onChange={handleChange}
+                                    required
                                 />
                             </span>
                             <span className="col-lg-6">
                                 <input style={{ borderRadius: "7px", border: "2px solid #B1E1FF", padding: "20px" }}
                                     type="text"
-                                    placeholder="Phone number"
+                                    placeholder="Phone number*"
                                     name="phoneNumber"
                                     onChange={handleChange}
+                                    required
                                 />
                             </span>
                             <br /> <br />
@@ -209,7 +214,7 @@ const Forex = () => {
                             </div>
                             <br />
                             {/* <p className="col-lg-9" style={{ opacity: "0.8" }}><input type="checkbox" />I have read and agree to the <a href="/#">Terms of Service</a> and <a href="/#">Privacy Policy</a></p> */}
-                            <button className="btn-submit"> Submit</button>
+                            <button className="btn-submit" id="submission" onClick={submission}> Submit</button>
                         </form>
                     </div>
                 </div>
