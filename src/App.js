@@ -23,6 +23,8 @@ import Forex from "./pages/Forex"
 import User from "./pages/User"
 import Books from "./pages/Books"
 import LegacyOfSatoshi from "./pages/LegacyOfSatoshi"
+import CryptocurrencyTrading from "./pages/CryptocurrencyTrading"
+import NotFound from "./pages/NotFound"
 
 
 function App() {
@@ -53,6 +55,8 @@ function App() {
                     <Route path="/sign-in" element={<User />} />
                     <Route path="/books" element={<Books />} />
                     <Route path="/legacy-of-satoshi" element={<LegacyOfSatoshi />} />
+                    <Route path="/cryptocurrency-trading" element={<CryptocurrencyTrading />} />
+                    <Route path="*" element={<NotFound />} />
                 </Routes>
             </ScrollToTop>
         </BrowserRouter>

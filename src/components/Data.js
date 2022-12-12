@@ -211,7 +211,7 @@ export const tradecrypto = [
     {
         courseTitle: "What is cryptocurrency trading?",
         courseContent: "Learn what cryptocurrency trading involves & the concept of risk. Understand the difference between Technical & Fundamental Analysis and the level of commitment required.",
-        link: ""
+        link: "/cryptocurrency-trading"
     },
     {
         courseTitle: "Where do crypto prices come from?",

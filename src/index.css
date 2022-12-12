@@ -3,7 +3,7 @@ body {
   -webkit-font-smoothing: antialiased;
   padding: 0;
   /* color: #fff; */
-  /* font-family: "Work Sans",sans-serif; */
+  font-family: "Work Sans",sans-serif;
 }
 
 .logo{
@@ -910,6 +910,9 @@ h2.materials{
   display: block;
   margin: auto;
 }
+
+/* 404 */
+
 
 /* Media Querry */
 
