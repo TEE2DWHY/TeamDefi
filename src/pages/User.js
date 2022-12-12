@@ -12,7 +12,7 @@ const User = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link" href="/sign-in"><button className="sign-in">Sign in</button></a>
+                                <a className="nav-link" href="/sign-in"><button className="sign-in">Sign up</button></a>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link active" aria-current="page" to="/academy"><i class="fa-solid fa-house"></i> Campus</Link>
@@ -29,7 +29,7 @@ const User = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-lg-6 col-md-6 col-sm-6">
-                            <img className="img-fluid" src="Privacy policy.gif" alt="login" />
+                            <img className="img-fluid" src="Privacy policy.gif" alt="login" style={{ display: "block", margin: "auto" }} />
                             {/* <p>Lets plug you into the world of cryptocurrencies.</p> */}
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 login-form">
@@ -52,13 +52,14 @@ const User = () => {
                                 </div>
                                 <button className="btn-login">Login</button>
                                 <br /> <br />
-                                <span style={{ color: "#007aff" }}>Forgotten password?</span>
-                                <br />
-                                <hr />
-                                <span style={{ color: "#000", opacity: "0.6" }}>Already have an account?</span>
-                                <br /> <br />
-                                <button className="create-account">Create New Account</button>
+
                             </form>
+                            <span style={{ color: "#007aff" }}>Forgotten password?</span>
+                            <br />
+                            <hr />
+                            <span style={{ color: "#000", opacity: "0.6" }}>Already have an account?</span>
+                            <br /> <br />
+                            <button className="create-account">Create New Account</button>
                         </div>
                     </div>
                 </div>

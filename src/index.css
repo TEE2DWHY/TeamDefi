@@ -919,13 +919,13 @@ h2.materials{
 /* Sign-in */
 .login-form{
   text-align: center;
-  display: block;
   margin: auto;
   border-radius: 7px;
   border: 2px solid #ABD9FF;
   box-shadow: 5px 5px 9px 0px rgba(26,24,24,0.67);
-  padding: 20px;
+  padding: 10px;
   background-color: #fff;
+  /* width: 80%; */
 }
 
 .login-input{
@@ -958,6 +958,7 @@ h2.materials{
   padding: 10px;
   border: none;
   border-radius: 7px;
+  margin-bottom: 20px;
 }
 
 /* Media Querry */
@@ -1116,5 +1117,7 @@ text-align: right;
  width: 300px;
  height: 300px;
 }
-
+.login-form{
+  width: 90%;
+}
 }
