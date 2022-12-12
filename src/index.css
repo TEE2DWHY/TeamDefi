@@ -5,6 +5,9 @@ body {
   /* color: #fff; */
   font-family: "Work Sans",sans-serif;
 }
+a{
+  color: #8a8c90;
+}
 
 .logo{
   width: 50px;
@@ -913,6 +916,49 @@ h2.materials{
 
 /* 404 */
 
+/* Sign-in */
+.login-form{
+  text-align: center;
+  display: block;
+  margin: auto;
+  border-radius: 7px;
+  border: 2px solid #ABD9FF;
+  box-shadow: 5px 5px 9px 0px rgba(26,24,24,0.67);
+  padding: 20px;
+  background-color: #fff;
+}
+
+.login-input{
+  font-size: 17px;
+  border-radius: 6px;
+  padding: 14px 16px;
+  width: 80%;
+  border: 2px solid #ABD9FF;
+}
+
+.form-component{
+  margin: 20px 0;
+ font-size: 18px;
+}
+
+.btn-login{
+  background-color:#007aff;
+  color: #fff;
+  font-size: 16px;
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+}
+.create-account{
+  background-color:#1cbb82;
+  color: #fff;
+  font-size: 16px;
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+}
 
 /* Media Querry */
 

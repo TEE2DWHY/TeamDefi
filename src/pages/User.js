@@ -25,7 +25,44 @@ const User = () => {
                 </div>
             </nav>
             <br />
-
+            <section>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6 col-lg-6 col-md-6 col-sm-6">
+                            <img className="img-fluid" src="Privacy policy.gif" alt="login" />
+                            {/* <p>Lets plug you into the world of cryptocurrencies.</p> */}
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 login-form">
+                            <form>
+                                <div className="form-component">
+                                    <input
+                                        className="login-input"
+                                        type="email"
+                                        placeholder="Email address"
+                                        required
+                                    />
+                                </div>
+                                <div className="form-component">
+                                    <input
+                                        className="login-input"
+                                        type="password"
+                                        placeholder="Password"
+                                        required
+                                    />
+                                </div>
+                                <button className="btn-login">Login</button>
+                                <br /> <br />
+                                <span style={{ color: "#007aff" }}>Forgotten password?</span>
+                                <br />
+                                <hr />
+                                <span style={{ color: "#000", opacity: "0.6" }}>Already have an account?</span>
+                                <br /> <br />
+                                <button className="create-account">Create New Account</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <Footer />
         </>
     )

@@ -19,7 +19,7 @@ function WhyCrypto() {
             <section id="ultimate-store-of-value">
                 <br /> <br />
                 <div className="container" style={{ textAlign: "left" }}>
-                    <p style={{ fontSize: "13px" }}><Link to="/"><span className="redierction">Home</span></Link> /<span style={{ opacity: "0.6" }}> About</span></p>
+                    <p style={{ fontSize: "13px" }}><Link to="/"><span className="redierction">Home</span></Link> /<span style={{ opacity: "0.6" }}> WhyCrypto</span></p>
                 </div>
                 <br /> <br />
                 <h2 className="ultimate">Bitcoin — the ultimate <br />store of value</h2>
