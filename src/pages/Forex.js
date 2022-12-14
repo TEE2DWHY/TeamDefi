@@ -27,11 +27,17 @@ const Forex = () => {
         try {
             const res = await axios.post("http://localhost:5000/api/register", formData)
             console.log(res)
+            if (res.status === 200) {
+                document.getElementById("submission").innerHTML = "Submitted!💦";
+                window.location = "/course-pack"
+            }
+            else {
+                document.getElementById("submission").innerHTML = "Error";
+            }
         } catch (err) {
 
         };
-        document.getElementById("submission").innerHTML = "Submitted!💦";
-        document.getElementById("back-home").style.display = "block"
+
     }
     // const submission = () => {
 
@@ -221,9 +227,6 @@ const Forex = () => {
                     </div>
                 </div>
             </div>
-            <br /> <br />
-            <Link to="/"><h2 className="tool-visit" id="back-home" style={{ display: "none" }}><span className="k-b" >Go to Homepage </span><i className="fa-solid fa-arrow-right"></i></h2></Link>
-
             <Footer />
         </>
     )
