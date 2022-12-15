@@ -18,7 +18,7 @@ function HeroSection() {
                     <form action="#" method="post">
                         <span className="CTA"><input className="cta" type="email" placeholder="SatoshiNakamoto@gmail.com" required /> <button className="btn btn-success subscribe" type="submit">Subscribe</button></span>
                     </form>
-                    <br /> <br /> <br /> <br /> <br />
+                    <br /> <br />
                 </div>
             </div>
 
