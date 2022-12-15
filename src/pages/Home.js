@@ -49,6 +49,7 @@ function Home() {
                 </div>
             </section>
             <BitcoinFeatures />
+
             <section id="Features">
                 <br /> <br />
                 <h2 style={{ textAlign: "center", fontWeight: "bolder" }}>Features <i class="fa-solid fa-chart-simple"></i></h2>
@@ -56,6 +57,27 @@ function Home() {
                 <div className="container">
                     <div className="row">
                         {dataFeatures}
+                    </div>
+                </div>
+            </section>
+
+            <br /> <br /> <br />
+
+            <section id="financial-markets">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <h1>Our Financial Market Section</h1>
+                            <br />
+                            <h5 style={{ lineHeight: "1.5rem" }}>Having proper understanding about financial markets helps relieves a lot of burdens  that a whole lot of traders and investors
+                                have to battle with when getting familiar with various markets (ranging from cryptocurrencies, stocks, the foreign exchange market and all)</h5>
+                            <br />
+                            <p>Come on Board!</p>
+                            <Link to="/financial-markets"><button className="btn btn-outline-success" type="button" style={{ padding: "10px" }}>Financial Market Section <i class="fa-solid fa-right-to-bracket"></i></button></Link>
+                        </div>
+                        <div className="col-lg-6">
+                            <img className="img-fluid" src="Conversion rate optimization.gif" alt="" style={{ width: "80%" }} />
+                        </div>
                     </div>
                 </div>
             </section>
