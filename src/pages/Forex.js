@@ -28,7 +28,7 @@ const Forex = () => {
             const res = await axios.post("http://localhost:5000/api/register", formData)
             console.log(res)
             if (res.status === 200) {
-                document.getElementById("submission").innerHTML = "Submitted!💦";
+                document.getElementById("submission").innerHTML = "Submitted!🎈";
                 window.location = "/course-pack"
             }
             else {
