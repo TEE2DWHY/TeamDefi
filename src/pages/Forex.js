@@ -29,7 +29,7 @@ const Forex = () => {
             console.log(res)
             if (res.status === 200) {
                 document.getElementById("submission").innerHTML = "Submitted!🎈";
-                window.location = "/course-pack"
+                window.location = "/success"
             }
             else {
                 document.getElementById("submission").innerHTML = "Error";

@@ -3,7 +3,7 @@ body {
   -webkit-font-smoothing: antialiased;
   padding: 0;
   /* color: #fff; */
-  font-family: "Work Sans",sans-serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 a{
   color: #8a8c90;

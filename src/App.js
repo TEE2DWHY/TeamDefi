@@ -25,6 +25,7 @@ import Books from "./pages/Books"
 import LegacyOfSatoshi from "./pages/LegacyOfSatoshi"
 import CryptocurrencyTrading from "./pages/CryptocurrencyTrading"
 import NotFound from "./pages/NotFound"
+import Success from "./pages/Success"
 
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
                     <Route path="/legacy-of-satoshi" element={<LegacyOfSatoshi />} />
                     <Route path="/cryptocurrency-trading" element={<CryptocurrencyTrading />} />
                     <Route path="*" element={<NotFound />} />
+                    <Route path="/success" element={<Success />} />
                 </Routes>
             </ScrollToTop>
         </BrowserRouter>
