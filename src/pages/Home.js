@@ -69,7 +69,7 @@ function Home() {
                         <div className="col-lg-6">
                             <h1>Our Financial Market Section</h1>
                             <br />
-                            <h5 style={{ lineHeight: "1.5rem" }}>Having proper understanding about financial markets helps relieves a lot of burdens  that a whole lot of traders and investors
+                            <h5 style={{ lineHeight: "1.5rem", fontSize: "16px" }}>Having proper understanding about financial markets helps relieves a lot of burdens  that a whole lot of traders and investors
                                 have to battle with when getting familiar with various markets (ranging from cryptocurrencies, stocks, the foreign exchange market and all)</h5>
                             <br />
                             <p>Come on Board!</p>
