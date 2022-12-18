@@ -33,9 +33,10 @@ const Forex = () => {
             }
             else {
                 document.getElementById("submission").innerHTML = "Error";
+                window.location = "/financial-markets"
             }
         } catch (err) {
-
+            console.log(err)
         };
 
     }

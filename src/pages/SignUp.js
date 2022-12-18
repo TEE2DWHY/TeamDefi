@@ -1,6 +1,32 @@
 import Footer from "../components/Footer"
 import { Link } from "react-router-dom"
-const User = () => {
+import axios from "axios"
+import { useState } from "react"
+
+const SignUp = () => {
+    const [formData, setFormData] = useState({
+        email: "", phoneNumber: "", password: "", confirmPassword: "", terms: ""
+    })
+
+    const handleChange = (e) => {
+        setFormData((prevFormData) => {
+            return {
+                ...prevFormData,
+                [e.target.name]: e.target.value
+            }
+        })
+    }
+    console.log(formData)
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
+    //     try {
+    //         const res = await axios.post("http://localhost:5000/register", formData)
+    //         console.log(res)
+    //     }
+    //     catch (err) {
+
+    //     }
+    // }
     return (
         <>
             <nav className="navbar navbar-expand-lg nav">
@@ -39,7 +65,19 @@ const User = () => {
                                         className="login-input"
                                         type="email"
                                         placeholder="Email address"
+                                        name="email"
                                         required
+                                        onChange={handleChange}
+                                    />
+                                </div>
+                                <div className="form-component">
+                                    <input
+                                        className="login-input"
+                                        type="text"
+                                        placeholder="Phone Number"
+                                        name="phoneNumber"
+                                        required
+                                        onChange={handleChange}
                                     />
                                 </div>
                                 <div className="form-component">
@@ -47,19 +85,38 @@ const User = () => {
                                         className="login-input"
                                         type="password"
                                         placeholder="Password"
+                                        name="password"
                                         required
+                                        onChange={handleChange}
                                     />
                                 </div>
-                                <button className="btn-login">Login</button>
+                                <div className="form-component">
+                                    <input
+                                        className="login-input"
+                                        type="password"
+                                        placeholder="Confirm Password"
+                                        name="confirmPassword"
+                                        required
+                                        onChange={handleChange}
+                                    />
+                                </div>
+                                <div className="form-component">
+                                    <input
+                                        type="checkbox"
+                                        required
+                                        name="terms"
+                                        onChange={handleChange}
+                                    /> <label>
+                                        Agree to terms and conditions
+                                    </label>
+                                </div>
+                                <button className="btn-login">Create Account</button>
                                 <br /> <br />
-
                             </form>
-                            <span style={{ color: "#007aff" }}>Forgotten password?</span>
-                            <br />
                             <hr />
-                            <span style={{ color: "#000", opacity: "0.6" }}>Do not have an account?</span>
+                            <Link to="/sign-up"><span style={{ color: "#000", opacity: "0.6" }}>Already have an account?</span></Link>
                             <br /> <br />
-                            <Link to="/sign-up"><button className="create-account">Create New Account</button></Link>
+                            <Link to="/sign-in"><button className="create-account">Login</button></Link>
                         </div>
                     </div>
                 </div>
@@ -69,4 +126,4 @@ const User = () => {
     )
 }
 
-export default User
+export default SignUp
