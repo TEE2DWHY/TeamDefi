@@ -9,17 +9,16 @@ function Mission() {
                     <div className="row mission">
                         <div className="col-lg-12">
                             <h1 style={{ fontWeight: "bolder" }}>Our Mission</h1>
-                            <p className="mission-paragraphs" style={{ opacity: "0.6" }}>Team Defi is a free education platform designed to help users easily learn about cryptocurrency, with simple, relevant and engaging content.
+                            <p className="mission-paragraphs" style={{ opacity: "0.6" }}>
+                                With our straightforward, pertinent, and interesting information, Team Defi is a free educational platform made to make it easier for consumers to learn about cryptocurrencies.
                                 <br /> <br />
-                                We appreciate that for beginners, learning about cryptocurrency is both complex and unfamiliar, so we've designed the site to be accessible to newcomers for a full crypto knowledge base divided into five categories.
-                                <br /> <br />
-                                We believe in the potential of crypto, but for anyone new to the subject, just understanding why it has value is a challenge. To help those not yet convinced about crypto, our Why Crypto section offers easily accessible data to make a case for crypto.
+                                We understand that learning about cryptocurrencies can be difficult and foreign for novices, so we built the website with a comprehensive crypto information base.
                                 <br /> <br />
                                 We also acknowledges that cryptocurrency has its critics, so our TLDR section is designed to respond directly to the most common criticisms of Bitcoin (and other cryptocurrencies) as well as popular myths and misconceptions. These are purposely short answers to the big crypto questions.
                                 <br /> <br />
                                 We regularly add new content to the Crypto blog to expose new perspectives on cryptocurrency, bust myths, provide suggestions to help you grow your crypto stack as well creative ways to just keep learning.
                                 <br /> <br />
-                                If you don't understand the unique language of the subject, our crypto glossary will help, while you can extend your learning with a guide to popular crypto books and podcasts.
+                                If you don't understand the unique language of the subject, you can extend your learning with a guide to popular crypto books.
                                 <br /> <br />
                                 Team Defi - Profitability and Development all in One.</p>
                         </div>

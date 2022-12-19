@@ -1,9 +1,22 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "react-router-dom"
 
 
 function Footer() {
-    const year = new Date().getFullYear()
+    const year = new Date().getFullYear();
+
+    const [email, setEmail] = useState("");
+
+    const handleChange = (e) => {
+        setEmail(
+            e.target.value
+        )
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(email);
+    }
     return (
         <>
             <section id="footer">
@@ -34,13 +47,13 @@ function Footer() {
 
                             <br /> <br />
                             <div className="col-md-6 offset-md-1 mb-3">
-                                <form>
+                                <form onSubmit={handleSubmit}>
                                     <h5>BE PART OF OUR COMMUNITY <i className="fa-solid fa-people-group" style={{ color: "#fff" }}></i></h5>
                                     <p>Get monthly digest of whats new and exciting about cryptocurrencies from us.</p>
                                     <div className="d-flex w-100 gap-2">
                                         <label for="newsletter1" className="visually-hidden">Email address</label>
-                                        <input id="newsletter1" type="email" className="form-control" placeholder="Email address" required />
-                                        <button className="btn btn-primary" type="button">Subscribe</button>
+                                        <input type="email" className="form-control" name="email" placeholder="Email address" required onChange={handleChange} />
+                                        <button className="btn btn-primary">Subscribe</button>
                                     </div>
                                 </form>
                             </div>

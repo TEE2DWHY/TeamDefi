@@ -306,7 +306,7 @@ li.course-list{
 
 .mission-paragraphs{
   opacity: 0.6;
-  margin: 0 20px;
+  /* margin: 0 20px; */
 }
 
 i{
@@ -1121,4 +1121,9 @@ text-align: right;
 .login-form{
   width: 90%;
 }
+.mission-paragraphs{
+  margin: 0 20px;
+  justify-content: right;
+}
+
 }
