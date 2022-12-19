@@ -12,14 +12,14 @@ const User = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link" href="/sign-in"><button className="sign-in">Sign up</button></a>
+                                <a className="nav-link" href="/sign-up"><button className="sign-in">Sign up</button></a>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link active" aria-current="page" to="/academy"><i class="fa-solid fa-house"></i> Campus</Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a className="nav-link" href="#library"><i className="fa-solid fa-book-open-reader"></i> Library</a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>

@@ -145,7 +145,7 @@ small{
   left: 0;
   margin-top: -100px;
   /* text-align: center; */
-  width: 312px;
+  width: 212px;
   animation: backInLeft;
   animation-duration: 3s;
 }
@@ -182,12 +182,14 @@ button.cta{
 }
 
 button.subscribe{
-  padding: 10px;
+  padding: 10px 40px;
   margin-left: 1%;
   background-color: #1bd190;
-  width: 130px;
 }
-
+button.subscribe:hover{
+  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+}
 button.kickstart{
   padding: 10px;
   margin-left: 1%;
@@ -1027,10 +1029,9 @@ button.cta{
 }
 
 button.subscribe{
-    padding: 10px;
     margin: auto;
     background-color: #1bd190;
-    width: 130px;
+    padding: 10px 40px;
     display: block;
 }
 

@@ -5,7 +5,7 @@ import { useState } from "react"
 
 const SignUp = () => {
     const [formData, setFormData] = useState({
-        email: "", phoneNumber: "", password: "", confirmPassword: "", terms: ""
+        firstName: "", lastName: "", email: "", phoneNumber: "", password: "", confirmPassword: "", terms: ""
     })
 
     const handleChange = (e) => {
@@ -38,14 +38,14 @@ const SignUp = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link" href="/sign-in"><button className="sign-in">Sign up</button></a>
+                                <a className="nav-link" href="/sign-in"><button className="sign-in">Sign in</button></a>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link active" aria-current="page" to="/academy"><i class="fa-solid fa-house"></i> Campus</Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a className="nav-link" href="#library"><i className="fa-solid fa-book-open-reader"></i> Library</a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
@@ -60,6 +60,26 @@ const SignUp = () => {
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 login-form">
                             <form>
+                                <div className="form-component">
+                                    <input
+                                        className="login-input"
+                                        type="text"
+                                        placeholder="First Name"
+                                        name="firstName"
+                                        required
+                                        onChange={handleChange}
+                                    />
+                                </div>
+                                <div className="form-component">
+                                    <input
+                                        className="login-input"
+                                        type="text"
+                                        placeholder="Last Name"
+                                        name="lastName"
+                                        required
+                                        onChange={handleChange}
+                                    />
+                                </div>
                                 <div className="form-component">
                                     <input
                                         className="login-input"

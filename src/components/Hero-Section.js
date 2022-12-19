@@ -1,5 +1,5 @@
 import React from "react";
-import "../index.css"
+import { Link } from "react-router-dom";
 
 function HeroSection() {
     return (
@@ -14,10 +14,7 @@ function HeroSection() {
                         One of the major obstacles to understanding crypto is that it is both complex and unfamiliar.
                         <br /><span style={{ fontStyle: "italic" }}>Have no fears. We're here to help! <i className="fa-solid fa-handshake-angle" style={{ color: "#fff" }}></i></span></p>
                     <img className="learn-img" src="learn.png" alt="" />
-                    <br />
-                    <form action="#" method="post">
-                        <span className="CTA"><input className="cta" type="email" placeholder="SatoshiNakamoto@gmail.com" required /> <button className="btn btn-success subscribe" type="submit">Subscribe</button></span>
-                    </form>
+                    <Link to="/academy"><button className="btn btn-success subscribe" type="submit">Proceed to Academy <i class="fa-solid fa-graduation-cap" style={{ color: "#fff" }}></i></button></Link>
                     <br /> <br />
                 </div>
             </div>
