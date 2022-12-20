@@ -1,6 +1,20 @@
 import Footer from "../components/Footer"
 import { Link } from "react-router-dom"
+import { useState } from "react"
 const User = () => {
+    const [formData, setFormData] = useState({
+        email: "", password: ""
+    })
+
+    const handleChange = (e) => {
+        setFormData((preventDefault) => {
+            return {
+                ...preventDefault,
+                [e.target.name]: e.target.value
+            }
+        })
+    }
+    console.log(formData)
     return (
         <>
             <nav className="navbar navbar-expand-lg nav">
@@ -40,6 +54,8 @@ const User = () => {
                                         type="email"
                                         placeholder="Email address"
                                         required
+                                        name="password"
+                                        onChange={handleChange}
                                     />
                                 </div>
                                 <div className="form-component">
@@ -48,6 +64,8 @@ const User = () => {
                                         type="password"
                                         placeholder="Password"
                                         required
+                                        name="email"
+                                        onChange={handleChange}
                                     />
                                 </div>
                                 <button className="btn-login">Login</button>
