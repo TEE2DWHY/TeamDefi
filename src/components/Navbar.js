@@ -3,6 +3,7 @@ import "../index.css"
 import { Link } from "react-router-dom"
 
 function Navbar() {
+    const user = false
     return (
         <nav className="navbar navbar-expand-lg nav-header" >
 
@@ -17,7 +18,7 @@ function Navbar() {
                             <Link to="/" className="nav-link active" aria-current="page" href="/#" style={{ color: "#fff" }}>Home</Link>
                         </li>
                         <li className="nav-item position-relative">
-                            <Link to="/academy" className="nav-link" style={{ color: " #fff" }}>Academy
+                            <Link to={user ? "/academy" : "/sign-in"} className="nav-link" style={{ color: " #fff" }}>Academy
                                 <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
                                     new
                                     <span className="visually-hidden">unread messages</span>
