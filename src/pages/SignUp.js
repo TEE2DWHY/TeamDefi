@@ -134,7 +134,7 @@ const SignUp = () => {
                                 <br /> <br />
                             </form>
                             <hr />
-                            <Link to="/sign-up"><span style={{ color: "#000", opacity: "0.6" }}>Already have an account?</span></Link>
+                            <Link to="/sign-up"><span style={{ color: "#000", opacity: "0.6" }}>Already have an account? <i class="fa-solid fa-arrow-down"></i></span></Link>
                             <br /> <br />
                             <Link to="/sign-in"><button className="create-account">Login</button></Link>
                         </div>

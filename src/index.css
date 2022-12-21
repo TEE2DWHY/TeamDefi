@@ -60,7 +60,9 @@ a{
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
-
+.list-unstyled{
+  opacity: 0.6;
+}
 /* Logo */
 .logo{
   width: 50px;

@@ -75,7 +75,7 @@ const User = () => {
                             <span style={{ color: "#007aff" }}>Forgotten password?</span>
                             <br />
                             <hr />
-                            <span style={{ color: "#000", opacity: "0.6" }}>Do not have an account?</span>
+                            <span style={{ color: "#000", opacity: "0.6" }}>Do not have an account? <i class="fa-solid fa-arrow-down"></i></span>
                             <br /> <br />
                             <Link to="/sign-up"><button className="create-account">Create New Account</button></Link>
                         </div>
