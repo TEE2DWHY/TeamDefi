@@ -17,16 +17,10 @@ const SignUp = () => {
         })
     }
     console.log(formData)
-    // const handleSubmit = async (e) => {
-    //     e.preventDefault();
-    //     try {
-    //         const res = await axios.post("http://localhost:5000/register", formData)
-    //         console.log(res)
-    //     }
-    //     catch (err) {
-
-    //     }
-    // }
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(formData)
+    }
     return (
         <>
             <nav className="navbar navbar-expand-lg nav">
@@ -59,7 +53,7 @@ const SignUp = () => {
                             {/* <p>Lets plug you into the world of cryptocurrencies.</p> */}
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 login-form">
-                            <form>
+                            <form onSubmit={handleSubmit}>
                                 <div className="form-component">
                                     <input
                                         className="login-input"
@@ -68,6 +62,8 @@ const SignUp = () => {
                                         name="firstName"
                                         required
                                         onChange={handleChange}
+                                        pattern="^[A-Za-z]+$"
+                                        title="first name should only be alphabets"
                                     />
                                 </div>
                                 <div className="form-component">
@@ -78,6 +74,8 @@ const SignUp = () => {
                                         name="lastName"
                                         required
                                         onChange={handleChange}
+                                        pattern="^[A-Za-z]+$"
+                                        title="last name should only be alphabets"
                                     />
                                 </div>
                                 <div className="form-component">
@@ -108,6 +106,8 @@ const SignUp = () => {
                                         name="password"
                                         required
                                         onChange={handleChange}
+                                        pattern=".{8,}"
+                                        title="password should be minimum of 8 characters"
                                     />
                                 </div>
                                 <div className="form-component">

@@ -14,7 +14,12 @@ const User = () => {
             }
         })
     }
-    console.log(formData)
+
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        console.log(formData)
+    }
     return (
         <>
             <nav className="navbar navbar-expand-lg nav">
@@ -47,14 +52,14 @@ const User = () => {
                             {/* <p>Lets plug you into the world of cryptocurrencies.</p> */}
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 login-form">
-                            <form>
+                            <form onSubmit={handleSubmit}>
                                 <div className="form-component">
                                     <input
                                         className="login-input"
                                         type="email"
                                         placeholder="Email address"
                                         required
-                                        name="password"
+                                        name="email"
                                         onChange={handleChange}
                                     />
                                 </div>
@@ -64,8 +69,10 @@ const User = () => {
                                         type="password"
                                         placeholder="Password"
                                         required
-                                        name="email"
+                                        name="password"
                                         onChange={handleChange}
+                                        pattern=".{8,}"
+                                        title="password must contain 8 or more characters"
                                     />
                                 </div>
                                 <button className="btn-login">Login</button>
