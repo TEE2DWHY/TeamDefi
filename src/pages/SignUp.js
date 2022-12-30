@@ -118,6 +118,8 @@ const SignUp = () => {
                                         name="confirmPassword"
                                         required
                                         onChange={handleChange}
+                                        pattern={formData.password}
+                                        title="passwords do not match"
                                     />
                                 </div>
                                 <div className="form-component">
