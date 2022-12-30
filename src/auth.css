@@ -42,13 +42,13 @@
   border-radius: 7px;
   margin-bottom: 20px;
 }
-span{
+span.user-err{
   color: red;
   font-size: 12px;
   margin-top: 10px;
   display: none;
 }
 
-input:invalid:focus ~ span{
+input:invalid:focus ~ span.user-err{
     display: block;
 }

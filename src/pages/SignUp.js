@@ -68,7 +68,7 @@ const SignUp = () => {
                                         onChange={handleChange}
                                         pattern="^[A-Za-z\s]*$"
                                     />
-                                    <span>First name should be only alphabets</span>
+                                    <span className="user-err">First name should be only alphabets</span>
                                 </div>
                                 <div className="form-component">
                                     <input
@@ -80,7 +80,7 @@ const SignUp = () => {
                                         onChange={handleChange}
                                         pattern="^[A-Za-z\s]*$"
                                     />
-                                    <span>Last name should be only alphabets</span>
+                                    <span className="user-err">Last name should be only alphabets</span>
                                 </div>
                                 <div className="form-component">
                                     <input
@@ -91,7 +91,7 @@ const SignUp = () => {
                                         required
                                         onChange={handleChange}
                                     />
-                                    <span>Enter a valid email address e.g satoshi@gmail.com</span>
+                                    <span className="user-err">Enter a valid email address e.g satoshi@gmail.com</span>
                                 </div>
                                 <div className="form-component">
                                     <input
@@ -113,7 +113,7 @@ const SignUp = () => {
                                         onChange={handleChange}
                                         pattern=".{8,}"
                                     />
-                                    <span>password should be minimum of 8 characters</span>
+                                    <span className="user-err">password should be minimum of 8 characters</span>
                                 </div>
                                 <div className="form-component">
                                     <input
@@ -126,9 +126,8 @@ const SignUp = () => {
                                         pattern={formData.password}
                                         onFocus="true"
                                     />
-                                    <span>password do not match</span>
+                                    <span className="user-err">password do not match</span>
                                 </div>
-                                <span>Passwords do not match!</span>
                                 <div className="form-component">
                                     <input
                                         type="checkbox"
