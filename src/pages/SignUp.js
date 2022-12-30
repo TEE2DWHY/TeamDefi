@@ -80,7 +80,7 @@ const SignUp = () => {
                                         onChange={handleChange}
                                         pattern="^[A-Za-z\s]*$"
                                     />
-                                    <span>First name should be only alphabets</span>
+                                    <span>Last name should be only alphabets</span>
                                 </div>
                                 <div className="form-component">
                                     <input
