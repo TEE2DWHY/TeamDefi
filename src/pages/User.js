@@ -62,6 +62,7 @@ const User = () => {
                                         name="email"
                                         onChange={handleChange}
                                     />
+                                    <span className="user-err">Enter a valid email address e.g satoshi@gmail.com</span>
                                 </div>
                                 <div className="form-component">
                                     <input
@@ -72,8 +73,9 @@ const User = () => {
                                         name="password"
                                         onChange={handleChange}
                                         pattern=".{8,}"
-                                        title="password must contain 8 or more characters"
+                                    // title="password must contain 8 or more characters"
                                     />
+                                    <span className="user-err">Password should be minimum of 8 characters</span>
                                 </div>
                                 <button className="btn-login">Login</button>
                                 <br /> <br />
