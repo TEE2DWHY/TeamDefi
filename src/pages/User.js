@@ -63,6 +63,7 @@ const User = () => {
                                         onChange={handleChange}
                                     />
                                 </div>
+                                <span>Stop playing</span>
                                 <div className="form-component">
                                     <input
                                         className="login-input"

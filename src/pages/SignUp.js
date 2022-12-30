@@ -2,8 +2,10 @@ import Footer from "../components/Footer"
 import { Link } from "react-router-dom"
 // import axios from "axios"
 import { useState } from "react"
+import "../auth.css"
 
 const SignUp = () => {
+
     const [formData, setFormData] = useState({
         firstName: "", lastName: "", email: "", phoneNumber: "", password: "", confirmPassword: "", terms: ""
     })
@@ -16,11 +18,13 @@ const SignUp = () => {
             }
         })
     }
-    console.log(formData)
+
     const handleSubmit = (e) => {
         e.preventDefault();
+
         console.log(formData)
     }
+
     return (
         <>
             <nav className="navbar navbar-expand-lg nav">
@@ -62,9 +66,9 @@ const SignUp = () => {
                                         name="firstName"
                                         required
                                         onChange={handleChange}
-                                        pattern="^[A-Za-z]+$"
-                                        title="first name should only be alphabets"
+                                        pattern="^[A-Za-z\s]*$"
                                     />
+                                    <span>First name should be only alphabets</span>
                                 </div>
                                 <div className="form-component">
                                     <input
@@ -74,9 +78,9 @@ const SignUp = () => {
                                         name="lastName"
                                         required
                                         onChange={handleChange}
-                                        pattern="^[A-Za-z]+$"
-                                        title="last name should only be alphabets"
+                                        pattern="^[A-Za-z\s]*$"
                                     />
+                                    <span>First name should be only alphabets</span>
                                 </div>
                                 <div className="form-component">
                                     <input
@@ -87,6 +91,7 @@ const SignUp = () => {
                                         required
                                         onChange={handleChange}
                                     />
+                                    <span>Enter a valid email address e.g satoshi@gmail.com</span>
                                 </div>
                                 <div className="form-component">
                                     <input
@@ -107,8 +112,8 @@ const SignUp = () => {
                                         required
                                         onChange={handleChange}
                                         pattern=".{8,}"
-                                        title="password should be minimum of 8 characters"
                                     />
+                                    <span>password should be minimum of 8 characters</span>
                                 </div>
                                 <div className="form-component">
                                     <input
@@ -119,9 +124,11 @@ const SignUp = () => {
                                         required
                                         onChange={handleChange}
                                         pattern={formData.password}
-                                        title="passwords do not match"
+                                        onFocus="true"
                                     />
+                                    <span>password do not match</span>
                                 </div>
+                                <span>Passwords do not match!</span>
                                 <div className="form-component">
                                     <input
                                         type="checkbox"
