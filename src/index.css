@@ -786,7 +786,7 @@ h2.materials{
 }
 
 .courses1{
-  filter: blur(5px) brightness(0.7);
+  filter: blur(3px) brightness(0.8);
 }
 
 .course-container{
@@ -860,6 +860,14 @@ h2.materials{
     background-color: #303643;
     border-radius: 100%;
     transition: background-color .3s;
+}
+.sign-in-text{
+  text-align: center;
+  font-size: 24px;
+  margin: 50px 0;
+  letter-spacing: 0.02rem;
+  line-height: 1.5;
+  background-image: url("../public/background.png");
 }
 /* Crypto=Basics */
 .crypto-basics{

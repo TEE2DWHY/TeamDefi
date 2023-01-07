@@ -17,7 +17,7 @@ const OurCourses = () => {
                                 <a className="nav-link" href="/sign-in"><button className="sign-in">Sign in</button></a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/academy"><i class="fa-solid fa-house"></i> Campus</Link>
+                                <Link className="nav-link active" aria-current="page" to="/academy"><i class="fa-solid fa-house"></i> Courses</Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#library"><i className="fa-solid fa-book-open-reader"></i> Library</a>

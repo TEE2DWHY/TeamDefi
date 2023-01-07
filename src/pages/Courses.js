@@ -59,6 +59,12 @@ const Courses = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="container sign-in-text">
+                        <br />
+                        Sign-in to Access <br />Full Course & Materials
+                        <br /> <br />
+                        <Link to="/sign-in"><button className="btn btn-primary sign-in" style={{ padding: "20px 80px" }}>Sign in</button></Link>
+                    </div>
                     {coursePage.map((items) => (
                         <div className="courses1">
                             <hr />
