@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function HeroSection() {
-    const user = false
+    // const user = false
     return (
         <>
             <div className="Hero-Section">
@@ -15,7 +15,7 @@ function HeroSection() {
                         One of the major obstacles to understanding crypto is that it is both complex and unfamiliar.
                         <br /><span style={{ fontStyle: "italic" }}>Have no fears. We're here to help! <i className="fa-solid fa-handshake-angle" style={{ color: "#fff" }}></i></span></p>
                     <img className="learn-img" src="learn.png" alt="" />
-                    <Link to={user ? "/academy" : "/sign-in"}><button className="btn btn-success subscribe" type="submit">Proceed to Academy <i class="fa-solid fa-graduation-cap" style={{ color: "#fff" }}></i></button></Link>
+                    <Link to="/academy"><button className="btn btn-success subscribe" type="submit">Proceed to Academy <i class="fa-solid fa-graduation-cap" style={{ color: "#fff" }}></i></button></Link>
                     <br /> <br />
                 </div>
             </div>

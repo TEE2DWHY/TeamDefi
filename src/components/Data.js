@@ -336,21 +336,6 @@ export const academyData = [
 
 export const coursePage = [
     {
-        header: "Module 1: What is Cryptocurrency?",
-        subheader: "Understand the concept of cryptocurrency as a new type of digital money",
-        lessons: "4 lessons",
-        img: "about module.webp",
-        unit1: "Lesson 1",
-        unit2: "Lesson 2",
-        unit3: "Lesson 3",
-        unit4: "Lesson 4",
-        details1: "Bitcoin and the birth of cryptocurrency",
-        details2: "Cryptocurrency as an entirely new type of money",
-        details3: "Why cryptocurrency is real money",
-        details4: "A universal currency available to all"
-    },
-    {
-
         header: "Module 2: Cryptocurrency in Our World: Why More People Are Using Crypto",
         subheader: "Understand why more people are using crypto and the challenges in adoption",
         lessons: "4 lessons",

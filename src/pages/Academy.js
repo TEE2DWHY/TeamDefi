@@ -42,7 +42,7 @@ const OurCourses = () => {
                         <div className='academy-details'> <i class="fa-solid fa-clock" style={{ color: "#fff" }}></i> 60 minutes</div>
                         <div className='academy-details'> <i class="fa-solid fa-chart-simple" style={{ color: "#fff" }}></i> Basics</div>
 
-                        <Link to="/sign-in"><button className='academy-button'>Start Learning</button></Link>
+                        <Link to="/course-pack"><button className='academy-button'>Start Learning</button></Link>
                     </div>
                 </div>
             </div>

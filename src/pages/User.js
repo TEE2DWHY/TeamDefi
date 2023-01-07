@@ -18,6 +18,7 @@ const User = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
+        window.location = "/academy"
         console.log(formData)
     }
     return (

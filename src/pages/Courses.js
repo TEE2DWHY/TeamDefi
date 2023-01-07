@@ -30,8 +30,37 @@ const Courses = () => {
             <h1 className="welcome-header">The Complete Crypto-Stack Course <img className="crypto-stack" src="image_8_f6ed3c2990.webp" alt="crypto-stack" /></h1>
             <section>
                 <div className="container course-container">
+                    <div className="courses">
+                        <hr />
+                        <div className="row">
+                            <div className="col-lg-10">
+                                <h2 className="module-header">Module 1: What is Cryptocurrency?<br /><span className="grey" style={{ opacity: "0.6", fontSize: "22px" }}>Understand the concept of cryptocurrency as a new type of digital money</span></h2>
+                            </div>
+                            <div className="col-lg-2">
+                                <p className="lesson-count">4 lessons</p>
+                            </div>
+                        </div>
+                        <br />
+                        <div className="row">
+                            <div className="col-lg-6" style={{ alignItems: "center", justifyContent: "center", position: "relative", display: "flex" }}>
+                                <img src="about module.webp" alt="" className="course-img" />
+                                <button className="play-video"><i className="fa-solid fa-play" style={{ color: "#fff" }}></i></button>
+                            </div>
+                            <div className="col-lg-6 course-details">
+                                <div className="lessons">
+                                    <h1 className="lesson-details"><p style={{ opacity: "0.6", fontSize: "12px" }}>Lesson 1</p> Bitcoin and the birth of cryptocurrency</h1>
+
+                                    <h1 className="lesson-details"><p style={{ opacity: "0.6", fontSize: "12px" }}>Lesson 2</p>Cryptocurrency as an entirely new type of money</h1>
+
+                                    <h1 className="lesson-details"><p style={{ opacity: "0.6", fontSize: "12px" }}>Lesson 3</p>Why cryptocurrency is real money</h1>
+
+                                    <h1 className="lesson-details"><p style={{ opacity: "0.6", fontSize: "12px" }}>Lesson 4</p>A universal currency available to all</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     {coursePage.map((items) => (
-                        <div className="courses">
+                        <div className="courses1">
                             <hr />
                             <div className="row">
                                 <div className="col-lg-10">

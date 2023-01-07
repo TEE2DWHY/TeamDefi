@@ -25,6 +25,16 @@ const SignUp = () => {
         console.log(formData)
     }
 
+    const showPassword = () => {
+        var showPassword = document.getElementById("password")
+        if (showPassword.type === "text") {
+            showPassword.type = "password"
+        }
+        else {
+            showPassword.type = "text"
+        }
+    }
+
     return (
         <>
             <nav className="navbar navbar-expand-lg nav">
@@ -112,7 +122,9 @@ const SignUp = () => {
                                         required
                                         onChange={handleChange}
                                         pattern=".{8,}"
+                                        id="password"
                                     />
+                                    <input className="show-password" type="checkbox" onClick={showPassword}></input>
                                     <span className="user-err">password should be minimum of 8 characters</span>
                                 </div>
                                 <div className="form-component">

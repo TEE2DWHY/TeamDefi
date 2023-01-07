@@ -785,10 +785,14 @@ h2.materials{
   background: linear-gradient(to bottom, white 25%, #f6f7f9 50%, #f6f7f9) no-repeat;
 }
 
+.courses1{
+  filter: blur(5px) brightness(0.7);
+}
+
 .course-container{
   border-radius: 40px 44px 22px 30px;
   -webkit-border-radius: 40px 44px 22px 30px;
-  -moz-border-radius: 40px 44px 22px 30px
+  -moz-border-radius: 40px 44px 22px 30px;
 }
 
 .course-img{
