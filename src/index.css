@@ -868,6 +868,7 @@ h2.materials{
   letter-spacing: 0.02rem;
   line-height: 1.5;
   background-image: url("../public/background.png");
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /* Crypto=Basics */
 .crypto-basics{
