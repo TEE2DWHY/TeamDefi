@@ -45,6 +45,22 @@ const Courses = () => {
                         </div>
                     </div>
                 </div>
+                <div className='course-card2' style={{ cursor: "pointer" }}>
+                    <div className='row'>
+                        <div className='col-lg-6'>
+                            <img className='academy1' src="academy1.webp" alt='academy' />
+                        </div>
+                        <div className='col-lg-6'>
+                            <h2 style={{ color: "#fff", marginTop: "10%" }}>The Complete <br />Crypto Stack Course: <br /> </h2>
+                            <p style={{ color: "#fff", fontSize: "16px", marginTop: "5%", padding: "10px" }}>Your full guide into the world of cryptocurrency. In this course we cover every of the technicalities ranging from bitcoins origination, decentralized financing, fundamentals and lots more.</p>
+                            <div className='academy-details'> <i class="fa-solid fa-person-chalkboard" style={{ color: "#fff" }}></i> 10 lessons</div>
+                            <div className='academy-details'> <i class="fa-solid fa-clock" style={{ color: "#fff" }}></i> 8hrs:30Min</div>
+                            <div className='academy-details'> <i class="fa-solid fa-chart-simple" style={{ color: "#fff" }}></i> Basics</div>
+
+                            <Link to="/course"><button className='academy-button'>Start Learning</button></Link>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </>
