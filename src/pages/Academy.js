@@ -17,7 +17,7 @@ const OurCourses = () => {
                                 <a className="nav-link" href="/sign-in"><button className="sign-in">Sign in</button></a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/academy"><i class="fa-solid fa-house"></i> Courses</Link>
+                                <Link className="nav-link active" aria-current="page" to="/course"><i class="fa-solid fa-house"></i> Courses</Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#library"><i className="fa-solid fa-book-open-reader"></i> Library</a>
@@ -37,7 +37,7 @@ const OurCourses = () => {
                     </div>
                     <div className='col-lg-6'>
                         <h2 style={{ color: "#fff", marginTop: "10%" }}>Getting to Know <br />Cryptocurrencies: <br /> A Beginners - Expert Guide</h2>
-                        <p style={{ color: "#fff", fontSize: "16px", marginTop: "5%", paddingRight: "100px" }}>Our academy is focused on onboarding our users to the world of blockchain technology via efficient training, resource and tools.</p>
+                        <p style={{ color: "#fff", fontSize: "16px", marginTop: "5%" }}>Our academy is focused on onboarding our users to the world of blockchain technology via efficient training, resource and tools.</p>
                         <div className='academy-details'> <i class="fa-solid fa-person-chalkboard" style={{ color: "#fff" }}></i> Optimum lessons</div>
                         <div className='academy-details'> <i class="fa-solid fa-clock" style={{ color: "#fff" }}></i> Time efficient</div>
                         <div className='academy-details'> <i class="fa-solid fa-chart-simple" style={{ color: "#fff" }}></i> Easy to grasp</div>
