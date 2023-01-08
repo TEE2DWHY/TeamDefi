@@ -10,7 +10,8 @@ import Blog from "./pages/Blog"
 import EarnCrypto from "./pages/EarnCrypto"
 import TradeCrypto from "./pages/TradeCrypto"
 import UseCrypto from "./pages/UseCrypto"
-import Courses from "./pages/Courses"
+import Course from "./pages/Course"
+import Courses from "./pages/CryptoCourses"
 import BuildCrypto from "./pages/BuildCrypto"
 import ScrollToTop from "./components/Top"
 import BitcoinLimitation from "./pages/BitcoinLimitation"
@@ -61,6 +62,7 @@ function App() {
                     <Route path="*" element={<NotFound />} />
                     <Route path="/success" element={<Success />} />
                     <Route path="/sign-up" element={<SignUp />} />
+                    <Route path="/course" element={<Course />} />
                 </Routes>
             </ScrollToTop>
         </BrowserRouter>

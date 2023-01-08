@@ -36,76 +36,17 @@ const OurCourses = () => {
                         <img className='academy1' src="academy1.webp" alt='academy' />
                     </div>
                     <div className='col-lg-6'>
-                        <h2 style={{ color: "#fff", marginTop: "10%" }}>Getting to Know <br />Cryptocurrencies: <br /> A Beginners Guide</h2>
-                        <p style={{ color: "#fff", fontSize: "16px", marginTop: "5%" }}>This is the first course in the Academy, <br /> designed for complete newcomers to cryptocurrencies</p>
-                        <div className='academy-details'> <i class="fa-solid fa-person-chalkboard" style={{ color: "#fff" }}></i> 8 lessons</div>
-                        <div className='academy-details'> <i class="fa-solid fa-clock" style={{ color: "#fff" }}></i> 60 minutes</div>
-                        <div className='academy-details'> <i class="fa-solid fa-chart-simple" style={{ color: "#fff" }}></i> Basics</div>
+                        <h2 style={{ color: "#fff", marginTop: "10%" }}>Getting to Know <br />Cryptocurrencies: <br /> A Beginners - Expert Guide</h2>
+                        <p style={{ color: "#fff", fontSize: "16px", marginTop: "5%", paddingRight: "100px" }}>Our academy is focused on onboarding our users to the world of blockchain technology via efficient training, resource and tools.</p>
+                        <div className='academy-details'> <i class="fa-solid fa-person-chalkboard" style={{ color: "#fff" }}></i> Optimum lessons</div>
+                        <div className='academy-details'> <i class="fa-solid fa-clock" style={{ color: "#fff" }}></i> Time efficient</div>
+                        <div className='academy-details'> <i class="fa-solid fa-chart-simple" style={{ color: "#fff" }}></i> Easy to grasp</div>
 
-                        <Link to="/course-pack"><button className='academy-button'>Start Learning</button></Link>
+                        <Link to="/course"><button className='academy-button'>Start Learning</button></Link>
                     </div>
                 </div>
             </div>
             <br />
-            <div className="container">
-                <div className="pricing-header p-3 pb-md-4 mx-auto text-center">
-                    <h3 className="display-6 fw-normal">Other Related Technologies...</h3>
-                    <p className="fs-5 text-muted">Are you interested in acquiring more tech-related skills like front-end engineering, back-end engineering , or blockchain development? Our knowledgeable staff has you covered.</p>
-                </div>
-                <div className="row row-cols-1 row-cols-md-3 mb-3 text-center">
-                    <div className="col">
-                        <div className="card mb-4 rounded-3 shadow-sm">
-                            <div className="card-header py-3">
-                                <h4 className="my-0 fw-normal">Front End Dev</h4>
-                            </div>
-                            <div className="card-body">
-                                <h1 className="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
-                                <ul className="list-unstyled mt-3 mb-4">
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>Javascript</li>
-                                    <li>ReactJs & NextJs</li>
-                                </ul>
-                                <button type="button" className="w-100 btn btn-lg btn-outline-primary">Get Started</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card mb-4 rounded-3 shadow-sm">
-                            <div class="card-header py-3">
-                                <h4 class="my-0 fw-normal">Back End Dev</h4>
-                            </div>
-                            <div class="card-body">
-                                <h1 className="card-title pricing-card-title">$15<small className="text-muted fw-light">/mo</small></h1>
-                                <ul className="list-unstyled mt-3 mb-4">
-                                    <li>NodeJs</li>
-                                    <li>Databases (MongoDB & MYSQL)</li>
-                                    <li>Authentication</li>
-                                    <li>Understanding API's ... and lots more</li>
-                                </ul>
-                                <button type="button" className="w-100 btn btn-lg btn-primary">Get started</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card mb-4 rounded-3 shadow-sm border-primary">
-                            <div className="card-header py-3 text-bg-primary border-primary">
-                                <h4 className="my-0 fw-normal">Blockchain Dev</h4>
-                            </div>
-                            <div className="card-body">
-                                <h1 className="card-title pricing-card-title">$29<small className="text-muted fw-light">/mo</small></h1>
-                                <ul className="list-unstyled mt-3 mb-4">
-                                    <li>Build <i class="fa-solid fa-building-shield"></i></li>
-                                    <li>Maintain</li>
-                                    <li>Design Blockchain Systems</li>
-                                    <li>Decentralized Applications</li>
-                                </ul>
-                                <button type="button" className="w-100 btn btn-lg btn-primary">Get started</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <br />
             <div className="container" id="library">
                 <h1 className="library">Library</h1>

@@ -870,7 +870,7 @@ h2.materials{
   background-image: url("../public/background.png");
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-/* Crypto=Basics */
+/* Crypto Basics */
 .crypto-basics{
   width:100%;
   margin: 60px 0;
@@ -986,7 +986,19 @@ h2.materials{
 
 /* 404 */
 
-
+/* Course-list */
+.courses-list:hover{
+  background-image: url("../public/background.png");
+}
+.course-card2{
+  background-color: #2769ff;
+  width: 100%;
+  display: block;
+  margin: auto;
+  border-radius: 36px;
+  margin-top: 1%;
+  overflow: hidden;
+}
 /* Media Querry */
 
 @media (max-width:1200px){
