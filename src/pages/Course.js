@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 
 const Courses = () => {
+    const year = new Date().getFullYear()
     return (
         <>
             <nav className="navbar navbar-expand-lg nav">
@@ -41,7 +42,7 @@ const Courses = () => {
                             <div className='academy-details'> <i class="fa-solid fa-clock" style={{ color: "#fff" }}></i> 8hrs:30Min</div>
                             <div className='academy-details'> <i class="fa-solid fa-chart-simple" style={{ color: "#fff" }}></i> Basics</div>
 
-                            <Link to="/course"><button className='academy-button'>Start Learning</button></Link>
+                            <Link to="/course-pack"><button className='academy-button'>Start Learning</button></Link>
                         </div>
                     </div>
                 </div>
@@ -53,7 +54,7 @@ const Courses = () => {
                         </div>
                         <div className='col-lg-6'>
                             <h3 style={{ color: "#fff", marginTop: "5%", fontSize: "20px", }}>Front-End Development <br /> </h3>
-                            <p style={{ color: "#fff", fontSize: "14px", padding: "0 5px 0 0" }}>Learn how to build optimum client side applications for users. <br />Become an expert in the following: <br />HTML, CSS (and its frameworks- Tailwind CSS), JavaScript & ReactJs.</p>
+                            <p style={{ color: "#fff", fontSize: "14px", padding: "0 5px 0 0" }}>Build optimum client side applications for users. <br />Become an expert in the following: <br />HTML, CSS (and its frameworks- Tailwind CSS), JavaScript & ReactJs.</p>
                             <div className='academy-details'> <i class="fa-solid fa-person-chalkboard" style={{ color: "#fff" }}></i> 25 lessons</div>
                             <div className='academy-details'> <i class="fa-solid fa-clock" style={{ color: "#fff" }}></i> 12hrs:30Min</div>
                             <div className='academy-details'> <i class="fa-solid fa-chart-simple" style={{ color: "#fff" }}></i> Basics</div>
@@ -66,19 +67,26 @@ const Courses = () => {
                 <div className='course-card2' style={{ cursor: "pointer" }}>
                     <div className='row'>
                         <div className='col-lg-6'>
-                            <img className='academy1' src="academy-img2.webp" alt='academy' />
+                            <img className='academy1' src="Pair programming-bro.svg" alt='academy' />
                         </div>
                         <div className='col-lg-6'>
-                            <h3 style={{ color: "#fff", marginTop: "5%", fontSize: "20px", }}>The Complete <br />Crypto Stack Course: <br /> </h3>
-                            <p style={{ color: "#fff", fontSize: "14px", padding: "0 5px 0 0" }}>In this course we cover a variety of topics from <br />bitcoin as an asset, de-fi, fundamentals and profiting with crypto etc.</p>
+                            <h3 style={{ color: "#fff", marginTop: "5%", fontSize: "20px", }}>Backend Development</h3>
+                            <p style={{ color: "#fff", fontSize: "14px", padding: "0 5px 0 0" }}>Learn server side development using NodeJs, Databases (Sequel & Non-Sequel databases), API's and lots more..</p>
                             <div className='academy-details'> <i class="fa-solid fa-person-chalkboard" style={{ color: "#fff" }}></i> 10 lessons</div>
-                            <div className='academy-details'> <i class="fa-solid fa-clock" style={{ color: "#fff" }}></i> 8hrs:30Min</div>
+                            <div className='academy-details'> <i class="fa-solid fa-clock" style={{ color: "#fff" }}></i> 10hrs:33Min</div>
                             <div className='academy-details'> <i class="fa-solid fa-chart-simple" style={{ color: "#fff" }}></i> Basics</div>
 
                             <Link to="/course"><button className='academy-button'>Start Learning</button></Link>
                         </div>
                     </div>
                 </div>
+
+                <br />
+                <p style={{ textAlign: "center", color: "#2769ff", fontStyle: "italic" }}>Want to become an experts in the financial markets??🎈...See our <Link to="/financial-markets" style={{ color: "#2769ff", textDecoration: "underline" }}>Financial market page</Link></p>
+
+                <footer style={{ marginTop: "5%", marginBottom: "0" }}>
+                    <p style={{ textAlign: "center", opacity: "0.8", marginTop: "3%" }}>{year} <Link to="/" style={{ color: "#000", opacity: "0.8", textDecoration: "underline" }}>Team Defi</Link>. <br />  All rights reserved. Designed by <a href="https://lucent-buttercream-1a7dd9.netlify.app/">Tee2dWhy</a></p>
+                </footer>
             </div>
 
         </>
