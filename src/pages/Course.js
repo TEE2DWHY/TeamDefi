@@ -81,6 +81,23 @@ const Courses = () => {
                     </div>
                 </div>
 
+                <div className='course-card2' style={{ cursor: "pointer" }}>
+                    <div className='row'>
+                        <div className='col-lg-6'>
+                            <img className='academy1' src="Bitcoin P2P-bro.svg" alt='academy' />
+                        </div>
+                        <div className='col-lg-6'>
+                            <h3 style={{ color: "#fff", marginTop: "5%", fontSize: "20px", }}>Web3 Development</h3>
+                            <p style={{ color: "#fff", fontSize: "14px", padding: "0 5px 0 0" }}>Create Blockchain based solutions using solidity, web3 frameworks (such as moralis and lots more), hardhat, truffle, creation of dapps and lots more.</p>
+                            <div className='academy-details'> <i class="fa-solid fa-person-chalkboard" style={{ color: "#fff" }}></i> 16 lessons</div>
+                            <div className='academy-details'> <i class="fa-solid fa-clock" style={{ color: "#fff" }}></i> 15hrs:25Min</div>
+                            <div className='academy-details'> <i class="fa-solid fa-chart-simple" style={{ color: "#fff" }}></i> Basics</div>
+
+                            <Link to="/course"><button className='academy-button'>Start Learning</button></Link>
+                        </div>
+                    </div>
+                </div>
+
                 <br />
                 {/* <p style={{ textAlign: "center", color: "#2769ff", fontStyle: "italic" }}>Want to become an experts in the financial markets??🎈...See our <Link to="/financial-markets" style={{ color: "#2769ff", textDecoration: "underline" }}>Financial market page</Link></p> */}
 
