@@ -82,7 +82,7 @@ const Courses = () => {
                 </div>
 
                 <br />
-                <p style={{ textAlign: "center", color: "#2769ff", fontStyle: "italic" }}>Want to become an experts in the financial markets??🎈...See our <Link to="/financial-markets" style={{ color: "#2769ff", textDecoration: "underline" }}>Financial market page</Link></p>
+                {/* <p style={{ textAlign: "center", color: "#2769ff", fontStyle: "italic" }}>Want to become an experts in the financial markets??🎈...See our <Link to="/financial-markets" style={{ color: "#2769ff", textDecoration: "underline" }}>Financial market page</Link></p> */}
 
                 <footer style={{ marginTop: "5%", marginBottom: "0" }}>
                     <p style={{ textAlign: "center", opacity: "0.8", marginTop: "3%" }}>{year} <Link to="/" style={{ color: "#000", opacity: "0.8", textDecoration: "underline" }}>Team Defi</Link>. <br />  All rights reserved. Designed by <a href="https://lucent-buttercream-1a7dd9.netlify.app/">Tee2dWhy</a></p>
