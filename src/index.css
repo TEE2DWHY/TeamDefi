@@ -678,8 +678,8 @@ button.sign-in:hover{
     color:#fff
 }
 .academy1{
-  width: 344px;
-  height: 300px;
+  width: 320px;
+  height: 250px;
   margin: 20px;
 }
 
@@ -699,7 +699,7 @@ button.sign-in:hover{
   border-radius: 46px;
   box-shadow: #fff;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 16px;
   padding: 19px 39px 21px 40px;
   text-decoration: none;
   display: block;
@@ -995,7 +995,7 @@ h2.materials{
   width: 100%;
   display: block;
   margin: auto;
-  border-radius: 36px;
+  border-radius: 1.5rem;
   margin-top: 1%;
   overflow: hidden;
 }
@@ -1106,6 +1106,7 @@ h1.wta{
 
 .academy-button{
   margin: 15px auto 20px auto ;
+  font-size: 16px;
 }
 
 h1.library{
@@ -1141,7 +1142,7 @@ text-align: right;
 -moz-border-radius: 28px 27px 22px 30px;
   }
 
-  .course-details{
+.course-details{
   height: 100%;
   overflow-y: none;
 }
@@ -1160,6 +1161,11 @@ text-align: right;
 .mission-paragraphs{
   margin: 0 20px;
   justify-content: right;
+}
+.academy1{
+  width: 172px;
+  height: 150px;
+  margin: 20px;
 }
 
 }
