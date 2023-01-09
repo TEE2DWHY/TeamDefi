@@ -80,7 +80,7 @@ const Courses = () => {
                         </div>
                     </div>
                 </div>
-
+                <br />
                 <div className='course-card2' style={{ cursor: "pointer" }}>
                     <div className='row'>
                         <div className='col-lg-6'>
