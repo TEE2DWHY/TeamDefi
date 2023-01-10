@@ -25,14 +25,19 @@ const SignUp = () => {
         console.log(formData)
     }
 
-    const showPassword = () => {
+    const handlePassword = () => {
         var showPassword = document.getElementById("password")
         if (showPassword.type === "text") {
             showPassword.type = "password"
+            document.getElementById("hide-password").style.display = "inline"
+            document.getElementById("password-reveal").style.display = "none"
         }
         else {
             showPassword.type = "text"
+            document.getElementById("password-reveal").style.display = "inline"
+            document.getElementById("hide-password").style.display = "none"
         }
+
     }
 
     return (
@@ -124,7 +129,9 @@ const SignUp = () => {
                                         pattern=".{8,}"
                                         id="password"
                                     />
-                                    <input className="show-password" type="checkbox" onClick={showPassword}></input>
+                                    <i class="fa-solid fa-eye password-icons" onClick={handlePassword}></i>
+                                    <i class="fa-solid fa-eye-slash password-icons" id="hide-password" onClick={handlePassword}></i>
+                                    {/* <input className="show-password" type="checkbox" onClick={showPassword}></input> */}
                                     <span className="user-err">password should be minimum of 8 characters</span>
                                 </div>
                                 <div className="form-component">

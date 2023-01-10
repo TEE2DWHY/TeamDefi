@@ -52,3 +52,12 @@ span.user-err{
 input:invalid:focus ~ span.user-err{
     display: block;
 }
+
+/* password */
+.password-icons{
+   position: absolute;
+   margin-left: -30px; 
+   margin-top: 20px;
+   cursor: "pointer";
+    color: "lightgray" 
+  }
