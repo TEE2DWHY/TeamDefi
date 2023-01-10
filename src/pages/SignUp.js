@@ -7,7 +7,7 @@ import "../auth.css"
 const SignUp = () => {
 
     const [formData, setFormData] = useState({
-        firstName: "", lastName: "", email: "", phoneNumber: "", password: "", confirmPassword: "", terms: ""
+        fullName: "", email: "", phoneNumber: "", password: "", confirmPassword: "", terms: ""
     })
 
     const handleChange = (e) => {
@@ -91,25 +91,13 @@ const SignUp = () => {
                                     <input
                                         className="login-input"
                                         type="text"
-                                        placeholder="First Name"
-                                        name="firstName"
+                                        placeholder="Full Name"
+                                        name="fullName"
                                         required
                                         onChange={handleChange}
                                         pattern="^[A-Za-z\s]*$"
                                     />
                                     <span className="user-err">First name should be only alphabets</span>
-                                </div>
-                                <div className="form-component">
-                                    <input
-                                        className="login-input"
-                                        type="text"
-                                        placeholder="Last Name"
-                                        name="lastName"
-                                        required
-                                        onChange={handleChange}
-                                        pattern="^[A-Za-z\s]*$"
-                                    />
-                                    <span className="user-err">Last name should be only alphabets</span>
                                 </div>
                                 <div className="form-component">
                                     <input
@@ -169,7 +157,7 @@ const SignUp = () => {
                                         required
                                         name="terms"
                                         onChange={handleChange}
-                                    /> <label>
+                                    /> <label style={{ fontSize: "14px" }}>
                                         Agree to terms and conditions
                                     </label>
                                 </div>
