@@ -39,6 +39,20 @@ const SignUp = () => {
         }
 
     }
+    const handleConfirmPassword = () => {
+        var showPassword = document.getElementById("confirm-password")
+        if (showPassword.type === "text") {
+            showPassword.type = "password"
+            document.getElementById("hide-confirmPassword").style.display = "inline"
+            document.getElementById("confirmPassword-reveal").style.display = "none"
+        }
+        else {
+            showPassword.type = "text"
+            document.getElementById("confirmPassword-reveal").style.display = "inline"
+            document.getElementById("hide-confirmPassword").style.display = "none"
+        }
+
+    }
 
     return (
         <>
@@ -131,7 +145,6 @@ const SignUp = () => {
                                     />
                                     <i className="fa-solid fa-eye password-icons" onClick={handlePassword} id="password-reveal"></i>
                                     <i className="fa-solid fa-eye-slash password-icons" id="hide-password" onClick={handlePassword}></i>
-                                    {/* <input className="show-password" type="checkbox" onClick={showPassword}></input> */}
                                     <span className="user-err">password should be minimum of 8 characters</span>
                                 </div>
                                 <div className="form-component">
@@ -144,7 +157,10 @@ const SignUp = () => {
                                         onChange={handleChange}
                                         pattern={formData.password}
                                         onFocus="true"
+                                        id="confirm-password"
                                     />
+                                    <i className="fa-solid fa-eye password-icons" onClick={handleConfirmPassword} id="confirmPassword-reveal"></i>
+                                    <i className="fa-solid fa-eye-slash password-icons" id="hide-confirmPassword" onClick={handleConfirmPassword}></i>
                                     <span className="user-err">password do not match</span>
                                 </div>
                                 <div className="form-component">

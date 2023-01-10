@@ -1,6 +1,7 @@
 import Footer from "../components/Footer"
 import { Link } from "react-router-dom"
 import { useState } from "react"
+import "../auth.css"
 const User = () => {
     const [formData, setFormData] = useState({
         email: "", password: ""
@@ -15,6 +16,20 @@ const User = () => {
         })
     }
 
+    const handlePassword = () => {
+        var showPassword = document.getElementById("password")
+        if (showPassword.type === "text") {
+            showPassword.type = "password"
+            document.getElementById("hide-password").style.display = "inline"
+            document.getElementById("password-reveal").style.display = "none"
+        }
+        else {
+            showPassword.type = "text"
+            document.getElementById("password-reveal").style.display = "inline"
+            document.getElementById("hide-password").style.display = "none"
+        }
+
+    }
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -74,8 +89,11 @@ const User = () => {
                                         name="password"
                                         onChange={handleChange}
                                         pattern=".{8,}"
+                                        id="password"
                                     // title="password must contain 8 or more characters"
                                     />
+                                    <i className="fa-solid fa-eye password-icons" onClick={handlePassword} id="password-reveal"></i>
+                                    <i className="fa-solid fa-eye-slash password-icons" id="hide-password" onClick={handlePassword}></i>
                                     <span className="user-err">Password should be minimum of 8 characters</span>
                                 </div>
                                 <button className="btn-login">Login</button>

@@ -58,6 +58,10 @@ input:invalid:focus ~ span.user-err{
    position: absolute;
    margin-left: -30px; 
    margin-top: 20px;
-   cursor: "pointer";
-   color: "lightgray" 
+   cursor: pointer;
+   color:lightgray;
+   font-size: 16px;
   }
+.password-icons:hover{
+  color: #ABD9FF;
+}
