@@ -129,8 +129,8 @@ const SignUp = () => {
                                         pattern=".{8,}"
                                         id="password"
                                     />
-                                    <i class="fa-solid fa-eye password-icons" onClick={handlePassword}></i>
-                                    <i class="fa-solid fa-eye-slash password-icons" id="hide-password" onClick={handlePassword}></i>
+                                    <i className="fa-solid fa-eye password-icons" onClick={handlePassword} id="password-reveal"></i>
+                                    <i className="fa-solid fa-eye-slash password-icons" id="hide-password" onClick={handlePassword}></i>
                                     {/* <input className="show-password" type="checkbox" onClick={showPassword}></input> */}
                                     <span className="user-err">password should be minimum of 8 characters</span>
                                 </div>
