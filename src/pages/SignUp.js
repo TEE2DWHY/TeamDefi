@@ -1,28 +1,37 @@
 import Footer from "../components/Footer"
 import { Link } from "react-router-dom"
-// import axios from "axios"
+import axios from "axios"
 import { useState } from "react"
 import "../auth.css"
 
 const SignUp = () => {
 
     const [formData, setFormData] = useState({
-        fullName: "", email: "", phoneNumber: "", password: "", confirmPassword: "", terms: ""
+        fullName: "", email: "", phoneNumber: "", password: "", confirmPassword: "", terms: false
     })
 
     const handleChange = (e) => {
+        const { name, type, checked, value } = e.target
         setFormData((prevFormData) => {
             return {
                 ...prevFormData,
-                [e.target.name]: e.target.value
+                [name]: type === "checkbox" ? checked : value
             }
         })
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-
         console.log(formData)
+        try {
+            const res = await axios.post("http://localhost:5000/api/v1/auth/register", formData)
+            console.log(res)
+            if (res.status === 200) {
+                window.location = "/sign-in"
+            }
+        } catch (err) {
+            console.log(err)
+        }
     }
 
     const handlePassword = () => {
@@ -157,15 +166,16 @@ const SignUp = () => {
                                         required
                                         name="terms"
                                         onChange={handleChange}
+                                        checked={formData.terms}
                                     /> <label style={{ fontSize: "14px" }}>
-                                        Agree to terms and conditions
+                                        Agree to <Link to="/privacy" style={{ textDecoration: "underline", color: "#5181f1" }}>terms and conditions</Link>
                                     </label>
                                 </div>
                                 <button className="btn-login">Create Account</button>
                                 <br /> <br />
                             </form>
                             <hr />
-                            <Link to="/sign-up"><span style={{ color: "#000", opacity: "0.6" }}>Already have an account? <i class="fa-solid fa-arrow-down"></i></span></Link>
+                            <span style={{ color: "#000", opacity: "0.6" }}>Already have an account? <i class="fa-solid fa-arrow-down"></i></span>
                             <br /> <br />
                             <Link to="/sign-in"><button className="create-account">Login</button></Link>
                         </div>

@@ -16,6 +16,7 @@ import BuildCrypto from "./pages/BuildCrypto"
 import ScrollToTop from "./components/Top"
 import BitcoinLimitation from "./pages/BitcoinLimitation"
 import Fork from "./pages/Fork"
+import Privacy from "./pages/Privacy"
 import HowBitcoinWorks from "./pages/HowBitcoinWorks"
 import Blockchain from "./pages/Blockchain"
 import MarketMakers from "./pages/MarketMakers"
@@ -63,6 +64,7 @@ function App() {
                     <Route path="/success" element={<Success />} />
                     <Route path="/sign-up" element={<SignUp />} />
                     <Route path="/course" element={<Course />} />
+                    <Route path="/privacy" element={<Privacy />} />
                 </Routes>
             </ScrollToTop>
         </BrowserRouter>
