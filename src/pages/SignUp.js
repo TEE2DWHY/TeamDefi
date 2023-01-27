@@ -3,6 +3,8 @@ import { Link } from "react-router-dom"
 import axios from "axios"
 import { useState } from "react"
 import "../auth.css"
+// require('dotenv').config()
+// import "../.env"
 
 const SignUp = () => {
 
@@ -26,9 +28,9 @@ const SignUp = () => {
         try {
             const res = await axios.post("http://localhost:5000/api/v1/auth/register", formData)
             console.log(res)
-            if (res.status === 200) {
-                window.location = "/sign-in"
-            }
+            // if (res.status === 200) {
+            //     window.location = "/sign-in"
+            // }
         } catch (err) {
             console.log(err)
         }

@@ -100,7 +100,7 @@ const User = () => {
                                 <br /> <br />
 
                             </form>
-                            <span style={{ color: "#007aff" }}>Forgotten password?</span>
+                            <Link to="/forgot-password"><span style={{ color: "#007aff" }}>Forgot password?</span></Link>
                             <br />
                             <hr />
                             <span style={{ color: "#000", opacity: "0.6" }}>Do not have an account? <i class="fa-solid fa-arrow-down"></i></span>
