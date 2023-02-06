@@ -123,7 +123,8 @@ export const articleData = [
     },
     {
         img: "Defi-comes-to- XRP-&-Dogecoin.webp",
-        content: "Defi comes to XRP & Dogecoin"
+        content: "Defi comes to XRP & Dogecoin",
+        link: "/defi-comes-to-xrp-dogecoin"
     },
     {
         img: "nft-new-frontier-digital-ownership.webp",

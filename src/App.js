@@ -29,7 +29,7 @@ import CryptocurrencyTrading from "./pages/CryptocurrencyTrading"
 import NotFound from "./pages/NotFound"
 import Success from "./pages/Success"
 import SignUp from "./pages/SignUp"
-
+import DeFiXrp from "./pages/DeFiXrp"
 
 function App() {
     return (
@@ -59,6 +59,7 @@ function App() {
                     <Route path="/sign-in" element={<User />} />
                     <Route path="/books" element={<Books />} />
                     <Route path="/legacy-of-satoshi" element={<LegacyOfSatoshi />} />
+                    <Route path="/defi-comes-to-xrp-dogecoin" element={<DeFiXrp/>} />
                     <Route path="/cryptocurrency-trading" element={<CryptocurrencyTrading />} />
                     <Route path="*" element={<NotFound />} />
                     <Route path="/success" element={<Success />} />

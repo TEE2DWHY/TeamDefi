@@ -3,7 +3,7 @@ body {
   -webkit-font-smoothing: antialiased;
   padding: 0;
   /* color: #fff; */
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Work Sans', sans-serif;;
 }
 a{
   color: #8a8c90;
@@ -868,7 +868,7 @@ h2.materials{
   letter-spacing: 0.02rem;
   line-height: 1.5;
   background-image: url("../public/background.png");
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 /* Crypto Basics */
 .crypto-basics{
@@ -876,7 +876,7 @@ h2.materials{
   margin: 60px 0;
 }
 
-/* Forex */
+/* Fx */
 .header-financials{
   font-size: 48px;
   font-weight: 600;
@@ -998,6 +998,12 @@ h2.materials{
   border-radius: 1.5rem;
   margin-top: 1%;
   overflow: hidden;
+}
+
+/* Defi */
+.defi{
+  border-radius: 7px;
+  margin-top: 20px;
 }
 /* Media Querry */
 

@@ -5,7 +5,6 @@ import { Link } from "react-router-dom"
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg nav-header" >
-
             <div className="container-fluid">
                 <a className="navbar-brand" href="/#" style={{ color: " #fff" }}><img className="logo" src="blockchain.png" alt="" /></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

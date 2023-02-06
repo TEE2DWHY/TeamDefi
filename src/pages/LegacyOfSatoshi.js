@@ -18,7 +18,7 @@ const LegacyOfSatoshi = () => {
                 <img src="satoshi.webp" className="card-img-top" alt="satoshi" />
                 <br /> <br />
                 <p style={{ fontSize: "25px" }}>*Key Discussions</p>
-                <ul style={{ listStyle: "none" }}>
+                <ul>
                     <li><i class="fa-solid fa-spinner" style={{ color: "#1bd190" }}></i> Taking one for the team</li>
                     <li><i class="fa-solid fa-spinner" style={{ color: "#1bd190" }}></i> Could Bitcoin have remained decentralised with Satoshi around?</li>
                 </ul>
