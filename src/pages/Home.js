@@ -45,7 +45,7 @@ function Home() {
                     <br /> <br />
                     <h2 style={{ textAlign: "center", fontWeight: "900", lineHeight: "28px", color: "#1bd190" }} id="learning">
                     <Typewriter
-                        words={['Choose what you want to learn..', 'Get Started...', 'Stay Committed💡..', 'Repeat!']}
+                        words={['Choose a Suitable Course..', 'Get Started..', 'Stay Committed💡..', 'Repeat!']}
                         loop={0}
                         cursor
                         typeSpeed={70}
