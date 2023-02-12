@@ -11,9 +11,11 @@ import Articles from "../components/Articles";
 import { articleData } from "../components/Data";
 import Mission from "../components/OurMission";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import { Typewriter} from 'react-simple-typewriter'
 
 function Home() {
+
     const data = courseSection.map(function (items) {
         return <Learn
             {...items}
@@ -31,6 +33,7 @@ function Home() {
             {...article}
         />
     })
+
     return (
         <>
             <Navbar />
@@ -40,7 +43,16 @@ function Home() {
             <section id="learn">
                 <div className="course">
                     <br /> <br />
-                    <h2 style={{ textAlign: "center", fontWeight: "900", lineHeight: "28px", color: "#181818;" }}>Choose what you want to learn <br></br><br /><i class="fa-brands fa-bitcoin"></i> <i class="fa-brands fa-ethereum"></i> <i class="fa-brands fa-hive"></i></h2>
+                    <h2 style={{ textAlign: "center", fontWeight: "900", lineHeight: "28px", color: "#1bd190" }} id="learning">
+                    <Typewriter
+                        words={['Choose what you want to learn..', 'Get Started...', 'Stay Committed💡..', 'Repeat!']}
+                        loop={0}
+                        cursor
+                        typeSpeed={70}
+                        deleteSpeed={50}
+                        delaySpeed={1000}
+                    />
+                    <br></br><br /><i class="fa-brands fa-bitcoin"></i> <i class="fa-brands fa-ethereum"></i> <i class="fa-brands fa-hive"></i></h2>
                     <div className="container">
                         <div className="row courses-content">
                             {data}
