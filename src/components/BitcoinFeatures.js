@@ -1,15 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "../index.css"
-import Aos from "aos";
-import "aos/dist/aos.css"
+import Animate from "../slider/animate";
 
 function BitcoinFeatures() {
-    useEffect(() =>{
-        Aos.init({
-            duration: 2000
-        })
-    },[])
+   
     return (
         <>
             <section id="bitcoinfeatures" data-aos="fade-up">
@@ -34,5 +29,6 @@ function BitcoinFeatures() {
     )
 }
 
+Animate()
 
 export default BitcoinFeatures;
