@@ -2,7 +2,7 @@ import Footer from "../components/Footer"
 import { Link } from "react-router-dom"
 import axios from "axios"
 import { useState } from "react"
-import "../auth.css"
+import "../assets/auth.css"
 // require('dotenv').config()
 // import "../.env"
 

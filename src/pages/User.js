@@ -1,7 +1,7 @@
 import Footer from "../components/Footer"
 import { Link } from "react-router-dom"
 import { useState } from "react"
-import "../auth.css"
+import "../assets/auth.css"
 const User = () => {
     const [formData, setFormData] = useState({
         email: "", password: ""

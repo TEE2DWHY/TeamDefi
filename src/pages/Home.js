@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/Hero-Section";
 import LearnCrypto from "../components/LearnCrypto";
@@ -12,9 +12,18 @@ import { articleData } from "../components/Data";
 import Mission from "../components/OurMission";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
-import { Typewriter} from 'react-simple-typewriter'
+import { Typewriter} from 'react-simple-typewriter';
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 function Home() {
+
+    useEffect(() =>{
+        Aos.init({
+            duration: 2000,
+            delay: 100
+        })
+    },[])
 
     const data = courseSection.map(function (items) {
         return <Learn
@@ -38,9 +47,9 @@ function Home() {
         <>
             <Navbar />
             <HeroSection />
-            <LearnCrypto />
+           <div data-aos="fade-up"> <LearnCrypto /> </div> 
             {/* This data is populated by the CardData.js file and contains the courses taught by team defi using props and map method */}
-            <section id="learn">
+            <section id="learn" data-aos="fade-up">
                 <div className="course">
                     <br /> <br />
                     <h2 style={{ textAlign: "center", fontWeight: "900", lineHeight: "28px", color: "#1bd190" }} id="learning">
@@ -48,7 +57,7 @@ function Home() {
                         words={['Choose a Suitable Course..', 'Get Started..', 'Stay Committed💡..', 'Repeat!']}
                         loop={0}
                         cursor
-                        typeSpeed={70}
+                        typeSpeed={50}
                         deleteSpeed={50}
                         delaySpeed={1000}
                     />
@@ -60,9 +69,9 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <BitcoinFeatures />
+            <div data-aos="fade-up"><BitcoinFeatures /></div>
 
-            <section id="Features">
+            <section id="Features" data-aos="fade-up">
                 <br /> <br />
                 <h2 style={{ textAlign: "center", fontWeight: "bolder" }}>Features <i class="fa-solid fa-chart-simple"></i></h2>
                 <br />
@@ -78,7 +87,7 @@ function Home() {
             <section id="financial-markets">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6">
+                        <div className="col-lg-6" data-aos="fade-left">
                             <h1>Our Financial Market Section</h1>
                             <br />
                             <h5 style={{ lineHeight: "1.5rem", fontSize: "16px" }}>Having proper understanding about financial markets helps relieves a lot of burdens  that a whole lot of traders and investors
@@ -87,14 +96,14 @@ function Home() {
                             <p>Come on Board!</p>
                             <Link to="/financial-markets"><button className="btn btn-outline-success" type="button" style={{ padding: "10px" }}>Financial Market Section <i class="fa-solid fa-right-to-bracket"></i></button></Link>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6" data-aos="fade-right">
                             <img className="img-fluid" src="Conversion rate optimization.gif" alt="" style={{ width: "80%" }} />
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section id="articles">
+            <section id="articles" data-aos="fade-in">
                 <div className="container">
                     <h2 style={{ textAlign: "center", border: "none", fontWeight: "bolder" }}>Articles <i class="fa-solid fa-book-open"></i></h2>
                     <div className="row articles">
@@ -106,7 +115,7 @@ function Home() {
             <div style={{ textAlign: "center" }}>
                 <Link to="/blog"><button className="btn btn-success articles" type="button">All articles</button></Link>
             </div>
-            <Mission />
+            <div data-aos="fade-in"><Mission /></div>
             <Footer />
 
 

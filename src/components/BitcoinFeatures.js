@@ -1,17 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../index.css"
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 function BitcoinFeatures() {
+    useEffect(() =>{
+        Aos.init({
+            duration: 2000
+        })
+    },[])
     return (
         <>
             <section id="bitcoinfeatures">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6">
+                        <div className="col-lg-6" data-aos="fade-left">
                             <img className="btc-img" src="Crypto portfolio.gif" alt="" />
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6" data-aos="fade-right">
                             <h2>Our Why Crypto section makes a case for crypto</h2>
                             <br />
                             <h4>Did you know that big institutions are increasingly buying into Bitcoin?</h4>

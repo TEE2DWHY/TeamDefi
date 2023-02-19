@@ -32,6 +32,7 @@ import SignUp from "./pages/SignUp"
 import DeFiXrp from "./pages/DeFiXrp"
 
 function App() {
+
     return (
         <BrowserRouter>
             <ScrollToTop>
