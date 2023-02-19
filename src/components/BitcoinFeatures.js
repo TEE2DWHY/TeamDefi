@@ -12,13 +12,13 @@ function BitcoinFeatures() {
     },[])
     return (
         <>
-            <section id="bitcoinfeatures">
+            <section id="bitcoinfeatures" data-aos="fade-up">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6" data-aos="fade-left">
+                        <div className="col-lg-6">
                             <img className="btc-img" src="Crypto portfolio.gif" alt="" />
                         </div>
-                        <div className="col-lg-6" data-aos="fade-right">
+                        <div className="col-lg-6">
                             <h2>Our Why Crypto section makes a case for crypto</h2>
                             <br />
                             <h4>Did you know that big institutions are increasingly buying into Bitcoin?</h4>

@@ -84,10 +84,10 @@ function Home() {
 
             <br /> <br /> <br />
 
-            <section id="financial-markets">
+            <section id="financial-markets" data-aos="fade-up">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6" data-aos="fade-left">
+                        <div className="col-lg-6">
                             <h1>Our Financial Market Section</h1>
                             <br />
                             <h5 style={{ lineHeight: "1.5rem", fontSize: "16px" }}>Having proper understanding about financial markets helps relieves a lot of burdens  that a whole lot of traders and investors
@@ -96,7 +96,7 @@ function Home() {
                             <p>Come on Board!</p>
                             <Link to="/financial-markets"><button className="btn btn-outline-success" type="button" style={{ padding: "10px" }}>Financial Market Section <i class="fa-solid fa-right-to-bracket"></i></button></Link>
                         </div>
-                        <div className="col-lg-6" data-aos="fade-right">
+                        <div className="col-lg-6">
                             <img className="img-fluid" src="Conversion rate optimization.gif" alt="" style={{ width: "80%" }} />
                         </div>
                     </div>
