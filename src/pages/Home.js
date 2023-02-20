@@ -43,7 +43,7 @@ function Home() {
         <>
             <Navbar />
             <HeroSection />
-           <div data-aos="fade-up"> <LearnCrypto /> </div> 
+           <div data-aos="zoom-in"> <LearnCrypto /> </div> 
             {/* This data is populated by the CardData.js file and contains the courses taught by team defi using props and map method */}
             <section id="learn" data-aos="fade-up">
                 <div className="course">
