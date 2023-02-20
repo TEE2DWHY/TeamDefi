@@ -54,8 +54,8 @@ const OurCourses = () => {
             </div>
             <div className="container">
                 <div className="row">
-                    {academyData.map((items) => (
-                        <div className="col-lg-3">
+                    {academyData.map((items) =>  (
+                        <div className="col-lg-3"  key = {items.id}>
                             <div className="card" style={{ width: "", borderRadius: "12px", cursor: "pointer", display: "block", margin: "5% auto" }}>
                                 <img src={items.img} className="card-img-top academy-img" alt={items.alt} />
                                 <div className="card-body">

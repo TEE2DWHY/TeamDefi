@@ -14,7 +14,7 @@ const TradeCrypto = () => {
                 <h2>How to Trade Crypto</h2>
                 <div className="row">
                     {tradecrypto.map((trade) => (
-                        <div className="col-lg-4">
+                        <div className="col-lg-4" key={trade.id}>
                             <div className="card course-card" style={{ height: "380px", borderRadius: "12px", cursor: "pointer", display: "block", margin: "5% auto" }}>
                                 <div className="card-body">
                                     <h5 className="card-title" style={{ fontWeight: "bolder" }}>{trade.courseTitle}</h5>

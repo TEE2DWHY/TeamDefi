@@ -74,7 +74,7 @@ const LegacyOfSatoshi = () => {
                 <h2 style={{ fontSize: "32px", letterSpacing: "0.1em", color: "#181818" }}>More Articles</h2>
                 <div className="row">
                     {articleData2.map((items) => (
-                        <div className="col-lg-6 col-sm-12">
+                        <div className="col-lg-6 col-sm-12" key={items.id}>
                             <div className="card" style={{ width: "25pxs", borderRadius: "12px", cursor: "pointer", display: "block", margin: "5% auto" }}>
                                 <img src={items.img} className="card-img-top" alt="" />
                                 <div className="card-body">

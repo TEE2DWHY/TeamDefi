@@ -14,14 +14,11 @@ import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import { Typewriter} from 'react-simple-typewriter';
 // animation
-import Aos from 'aos'
-import("aos/dist/aos.css")
+import Animate from "../slider/Animate";
 
 function Home() {
     useEffect(()=>{
-        Aos.init({
-            duration: 2000
-        })
+       Animate();
     },[])
 
     const data = courseSection.map(function (items) {

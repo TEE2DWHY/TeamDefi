@@ -12,7 +12,7 @@ const BuildCrypto = () => {
                 <h2>How to Build with Crypto</h2>
                 <div className="row">
                     {buildcrypto.map((build) => (
-                        <div className="col-lg-4">
+                        <div className="col-lg-4" key={build.id}>
                             <div className="card course-card" style={{ height: "380px", borderRadius: "12px", cursor: "pointer", display: "block", margin: "5% auto" }}>
                                 <div className="card-body">
                                     <h5 className="card-title" style={{ fontWeight: "bolder" }}>{build.courseTitle}</h5>
