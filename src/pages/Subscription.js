@@ -29,20 +29,13 @@ const Subscription = () => {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        try {
-            const res = await axios.post("http://localhost:5000/api/register", formData)
-            console.log(res)
-            if (res.status === 200) {
-                document.getElementById("submission").innerHTML = "Submitted!🎈";
-                window.location = "/success"
-            }
-            else {
-                document.getElementById("submission").innerHTML = "Error";
-                window.location = "/financial-markets"
-            }
-        } catch (err) {
-            console.log(err)
-        };
+        const fullName = `${formData.lastName} - ${formData.firstName} `;
+        const userEmail = formData.email;
+        const userNumber = formData.phoneNumber;
+        const message = formData.details;
+        const phoneNum = +2348168262613;
+        const url = `https://api.whatsapp.com/send?phone=${phoneNum}&text=${encodeURIComponent(`MAILING LIST\nFullName: ${fullName}\nEmail: ${userEmail}\nPhoneNumber: ${userNumber}Message: ${message}`)}`;
+        window.open(url);
 
     }
 
@@ -71,7 +64,7 @@ const Subscription = () => {
                         </span>
                         </h1>
                         <br />
-                        <p className="understand-p">Without efficient and helpful training/resources, Becoming good at any skill set can become a very hard task. Most people approach the tech industry as a get quick-rich-scheme, hence the reason while many fail to stick through the tough times.
+                        <p className="understand-p">Without efficient and helpful training/resources, Becoming good at any skill set can becomes a very hard task. Most people approach the tech industry as a get quick-rich-scheme, hence the reason while many fail to stick through the tough times.
                             <br />
                             The Tech industry is really a wide niche. It comprises of <em> CyberSecurity, Server Side Dev, Client Side Dev, Web3, UI/UX</em> and lots more.
                            Building real-life project, coupled with adequate mentorship is the fastest to move from <b>Amateur to Pro</b>.. Thats why we are here!
@@ -188,7 +181,7 @@ const Subscription = () => {
                             <br />
                             <p className="provision-p" style={{ opacity: "0.6" }}>
                                 Get started with your journey on becoming a proficient Tech-Bro or Tech-Sis😁 through education, consultancy, and bespoke solutions.
-                                Proceed for a one-time sign up to get updates from us via our mailing system before our full launch! <i class="fa-solid fa-rocket"></i>. Proceed to fill the form below, we would take it up from there. We look forward to this amazing journey with you!💙
+                                Proceed for a one-time sign up to get updates from us via our mailing system before our full launch! <i class="fa-solid fa-rocket"></i>. Fill the form below, we would take it up from there. We look forward to this amazing journey with you!💙
                             </p>
                         </div>
                         <form onSubmit={handleSubmit} className="col-lg-6 financial-form">
@@ -237,6 +230,7 @@ const Subscription = () => {
                                 />
                             </div>
                             <br />
+                            <span className="notice">Our database is down at the moment. You'll be redirected to our whatsapp line for now. Thank you <i class="fa-solid fa-hand-holding-heart"></i> </span>
                             {/* <p className="col-lg-9" style={{ opacity: "0.8" }}><input type="checkbox" />I have read and agree to the <a href="/#">Terms of Service</a> and <a href="/#">Privacy Policy</a></p> */}
                             <button className="btn-submit" id="submission"> Submit</button>
                         </form>

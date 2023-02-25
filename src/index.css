@@ -1018,6 +1018,12 @@ h2.materials{
   object-fit: cover;
   margin-top: 10%;
 }
+
+.notice{
+  font-size: 14px;
+  color:#1c96eb;
+  font-style: italic;
+}
 /* Media Query */
 
 @media (max-width:1200px){
