@@ -179,7 +179,7 @@ const Subscription = () => {
                     </div>
                 </div>
                 <br /> <br />
-                <div className="container financial-form" id="financial-form" data-aos="slide-up">
+                <div className="container financial-form" id="financial-form">
                     <div className="row">
                         <div className="col-lg-6">
                             <h1 style={{ fontSize: "38px" }}>
