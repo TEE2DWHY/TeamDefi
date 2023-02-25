@@ -33,7 +33,7 @@ const Subscription = () => {
         const userNumber = formData.phoneNumber;
         const message = formData.details;
         const phoneNum = +2348168262613;
-        const url = `https://api.whatsapp.com/send?phone=${phoneNum}&text=${encodeURIComponent(`MAILING LIST\nFullName: ${fullName}\nEmail: ${userEmail}\nPhoneNumber: ${userNumber}\nMessage: ${message}`)}`;
+        const url = `https://api.whatsapp.com/send?phone=${phoneNum}&text=${encodeURIComponent(`MAILING LIST\nFullName: ${fullName}\nEmail: ${userEmail}\nPhoneNumber: ${userNumber}\n${message ? `Message:` : ``} ${message}`)}`;
         window.open(url);
 
     }
@@ -66,7 +66,7 @@ const Subscription = () => {
                         <p className="understand-p">Without efficient and helpful training/resources, Becoming good at any skill set can becomes a very hard task. Most people approach the tech industry as a get quick-rich-scheme, hence the reason while many fail to stick through the tough times.
                             <br />
                             The Tech industry is really a wide niche. It comprises of <em> CyberSecurity, Server Side Dev, Client Side Dev, Web3, UI/UX</em> and lots more.
-                           Building real-life project, coupled with adequate mentorship is the fastest to move from <b>Amateur to Pro</b>.. Thats why we are here!
+                           Building real-life project, coupled with adequate mentorship is the fastest way to move from <b>Amateur to Pro</b>.. Thats why we are here!
                         </p>
                         <a href="#financial-form"><button type="button" className="btn-financials">  <span className="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
                             <span className="visually-hidden">Loading...</span>
