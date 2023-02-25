@@ -1019,6 +1019,11 @@ h2.materials{
   margin-top: 10%;
 }
 
+.web3:hover{
+  animation: pulse;
+  animation-duration: 3s;
+}
+
 .notice{
   font-size: 14px;
   color:#1c96eb;
