@@ -2,7 +2,6 @@ import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import { Link } from "react-router-dom"
 import { useEffect, useState } from "react"
-import axios from "axios"
 // libs
 import Animate from "../libs/Animate"
 // import TextChange from "../libs/TextChange"
