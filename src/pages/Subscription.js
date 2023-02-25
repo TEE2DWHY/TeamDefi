@@ -102,7 +102,7 @@ const Subscription = () => {
                 <div className="cont-provision" data-aos="slide-up">
                     <div className="row">
                         <div className="col-lg-3">
-                            <img className="prov-img1" src="Finance.gif" alt="provide1" />
+                            <img className="prov-img1" src="Resource.gif" alt="provide1" />
                         </div>
                         <div className="col-lg-9">
                             <h3 className="provision-h3">Helpful Resource(s)</h3>
@@ -114,7 +114,7 @@ const Subscription = () => {
                 <div className="cont-provision" data-aos="slide-up">
                     <div className="row">
                         <div className="col-lg-3">
-                            <img className="prov-img1" src="provide3.svg" alt="provide1" />
+                            <img className="prov-img1" src="Organizing projects.gif" alt="provide1" />
                         </div>
                         <div className="col-lg-9">
                             <h3 className="provision-h3">Project Based Learning</h3>
@@ -123,7 +123,7 @@ const Subscription = () => {
                     </div>
                 </div>
                 <br /> <br />
-                <div className="cont-provision" data-aos="slide-up">
+                {/* <div className="cont-provision" data-aos="slide-up">
                     <div className="row">
                         <div className="col-lg-3">
                             <img className="prov-img2" src="funding.svg" alt="provide1" />
@@ -134,7 +134,7 @@ const Subscription = () => {
                         </div>
                     </div>
                 </div>
-                <br /> <br />
+                <br /> <br /> */}
                 <div className="cont-provision" data-aos="slide-up">
                     <div className="row">
                         <div className="col-lg-3">
@@ -150,7 +150,7 @@ const Subscription = () => {
                 <div className="cont-provision" data-aos="slide-up">
                     <div className="row">
                         <div className="col-lg-3">
-                            <img className="prov-img2" src="community.svg" alt="provide1" />
+                            <img className="prov-img2" src="Certification.gif" alt="provide1" />
                         </div>
                         <div className="col-lg-9">
                             <h3 className="provision-h3">Certifications</h3>
