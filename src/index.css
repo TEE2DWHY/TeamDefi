@@ -1028,6 +1028,7 @@ h2.materials{
   font-size: 14px;
   color:#1c96eb;
   font-style: italic;
+  opacity: 0.6;
 }
 /* Media Query */
 

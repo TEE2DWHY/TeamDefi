@@ -94,7 +94,7 @@ const Subscription = () => {
                         </div>
                         <div className="col-lg-9">
                             <h3 className="provision-h3">Tutoring from experts</h3>
-                            <p className="provision-p col-lg-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum.</p>
+                            <p className="provision-p col-lg-7">Our team of experts in various tech fields are equipped with adequate experience and technical know-how to guide you through on your journey <i class="fa-solid fa-car-side"></i>.</p>
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ const Subscription = () => {
                         </div>
                         <div className="col-lg-9">
                             <h3 className="provision-h3">Helpful Resource(s)</h3>
-                            <p className="provision-p col-lg-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum.</p>
+                            <p className="provision-p col-lg-7">We supply helpful resources that are streamlined and well-detailed to meeting your very needs. This gives further insight in your desired field.</p>
                         </div>
                     </div>
                 </div>
@@ -117,8 +117,8 @@ const Subscription = () => {
                             <img className="prov-img1" src="provide3.svg" alt="provide1" />
                         </div>
                         <div className="col-lg-9">
-                            <h3 className="provision-h3">On-Time Market Analysis</h3>
-                            <p className="provision-p col-lg-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum.</p>
+                            <h3 className="provision-h3">Project Based Learning</h3>
+                            <p className="provision-p col-lg-7">We are an organization that is focused on building real life projects with our users. Let's say Sir John has decided to learn <em>"Server Side Development"</em>, upon completion of his course he would have build multiple real life projects associated with server side dev.</p>
                         </div>
                     </div>
                 </div>
@@ -141,8 +141,8 @@ const Subscription = () => {
                             <img className="prov-img2" src="backtesting.svg" alt="provide1" />
                         </div>
                         <div className="col-lg-9">
-                            <h3 className="provision-h3">Live Trade-Sessions</h3>
-                            <p className="provision-p col-lg-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum.</p>
+                            <h3 className="provision-h3">Securing Jobs</h3>
+                            <p className="provision-p col-lg-7">We totally understand the current hype in the tech industry. As a matter of fact one of the major issue in the world of tech is securing your first gig. Many developers are usually focused on the skillsets (which is very good) while a very few are positioned in the business side (monetizing their skills). We'll help connect you to platforms with a higher chance of securing a job followed with a well constructed CV, Cover letter and Github profiles<em>(-Github: for Devs Majorly)</em>.</p>
                         </div>
                     </div>
                 </div>
@@ -153,8 +153,8 @@ const Subscription = () => {
                             <img className="prov-img2" src="community.svg" alt="provide1" />
                         </div>
                         <div className="col-lg-9">
-                            <h3 className="provision-h3">Community Based Learning</h3>
-                            <p className="provision-p col-lg-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum.</p>
+                            <h3 className="provision-h3">Certifications</h3>
+                            <p className="provision-p col-lg-7">Upon successful completion of course. We provide certifications showing the respective user is equipped with enough expertise in his field.</p>
                         </div>
                     </div>
                 </div>
@@ -166,7 +166,7 @@ const Subscription = () => {
                         </div>
                         <div className="col-lg-9">
                             <h3 className="provision-h3">Test and Exams</h3>
-                            <p className="provision-p col-lg-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nesciunt itaque autem corrupti, dolorum delectus dicta ab praesentium quisquam ad vel temporibus vitae at ipsum harum.</p>
+                            <p className="provision-p col-lg-7">Examinations are tests that aimed at determining the ability and strength of a student. This is of great essence to us at it helps measure the level of progress of every users </p>
                         </div>
                     </div>
                 </div>
