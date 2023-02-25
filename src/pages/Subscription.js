@@ -179,8 +179,8 @@ const Subscription = () => {
                             </h1>
                             <br />
                             <p className="provision-p" style={{ opacity: "0.6" }}>
-                                Get started with your journey on becoming a proficient Tech-Bro or Tech-Sis😁 through education, consultancy, and bespoke solutions.
-                                Proceed for a one-time sign up to get updates from us via our mailing system before our full launch! <i class="fa-solid fa-rocket"></i>. Fill the form below, we would take it up from there. We look forward to this amazing journey with you!💙
+                                Get started on your journey on becoming a proficient Tech-Bro or Tech-Sis😁 through education, consultancy, and bespoke solutions.
+                                Proceed for a one-time Subscription to get updates from us via our mailing system before our full launch! <i class="fa-solid fa-rocket"></i>. Fill the form below, we would take it up from there. We look forward to this amazing journey with you!💙
                             </p>
                         </div>
                         <form onSubmit={handleSubmit} className="col-lg-6 financial-form">
