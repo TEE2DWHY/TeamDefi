@@ -1013,7 +1013,8 @@ h2.materials{
   border-radius: 30%;
   margin: auto;
   display: block;
-  width: 90%;
+  width: 95%;
+  height: 80%;
   object-fit: cover;
   margin-top: 10%;
 }
