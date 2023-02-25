@@ -60,7 +60,7 @@ const Subscription = () => {
                         <h1 className="header-financials">Want to Get On-Board in the World of 
                         <span style={{marginLeft:"15px", color:"#1bd190"}}>
                         <Typewriter
-                            words={['Tech?', 'Web3?', 'Design?']}
+                            words={['Tech?', 'Web3?', 'Design']}
                             loop={0}
                             cursor
                             cursorStyle='|'
