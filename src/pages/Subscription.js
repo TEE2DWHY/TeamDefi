@@ -33,7 +33,7 @@ const Subscription = () => {
         const userNumber = formData.phoneNumber;
         const message = formData.details;
         const phoneNum = +2348168262613;
-        const url = `https://api.whatsapp.com/send?phone=${phoneNum}&text=${encodeURIComponent(`MAILING LIST\nFullName: ${fullName}\nEmail: ${userEmail}\nPhoneNumber: ${userNumber}Message: ${message}`)}`;
+        const url = `https://api.whatsapp.com/send?phone=${phoneNum}&text=${encodeURIComponent(`MAILING LIST\nFullName: ${fullName}\nEmail: ${userEmail}\nPhoneNumber: ${userNumber}\nMessage: ${message}`)}`;
         window.open(url);
 
     }
