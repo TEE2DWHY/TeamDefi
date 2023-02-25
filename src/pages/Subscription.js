@@ -167,7 +167,7 @@ const Subscription = () => {
                     </div>
                 </div>
                 <br /> <br />
-                <div className="cont-provision" data-aos="slide-up">
+                <div className="cont-provision">
                     <div className="row">
                         <div className="col-lg-3">
                             <img className="prov-img2" src="Exams.svg" alt="provide1" />
