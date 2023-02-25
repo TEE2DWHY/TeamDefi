@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import { Link } from "react-router-dom";
 import "../index.css"
 // animation
-import Animate from "../slider/Animate";
+import Animate from "../libs/Animate";
 
 function BitcoinFeatures() {
     useEffect(()=>{

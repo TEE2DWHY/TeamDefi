@@ -12,9 +12,9 @@ import { articleData } from "../components/Data";
 import Mission from "../components/OurMission";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
-import { Typewriter} from 'react-simple-typewriter';
 // animation
-import Animate from "../slider/Animate";
+import Animate from "../libs/Animate";
+import { Typewriter} from 'react-simple-typewriter';
 
 function Home() {
     useEffect(()=>{

@@ -883,6 +883,8 @@ h2.materials{
   font-weight: 600;
   letter-spacing: -.04em;
   color: #181818;
+  animation: fadeIn;
+  animation-duration: 4s;
 }
 
 .banner{
@@ -907,8 +909,7 @@ h2.materials{
     letter-spacing: -.02em;
     color: #747474;
     margin: 0;
-    font-size: 18px; 
-    
+    font-size: 18px;    
 }
 
 .provide-p{
@@ -1006,7 +1007,17 @@ h2.materials{
   border-radius: 7px;
   margin-top: 20px;
 }
-/* Media Querry */
+
+/* Subscribe */
+.web3{
+  border-radius: 30%;
+  margin: auto;
+  display: block;
+  width: 90%;
+  object-fit: cover;
+  margin-top: 10%;
+}
+/* Media Query */
 
 @media (max-width:1200px){
 

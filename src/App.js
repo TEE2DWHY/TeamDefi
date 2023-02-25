@@ -30,6 +30,7 @@ import NotFound from "./pages/NotFound"
 import Success from "./pages/Success"
 import SignUp from "./pages/SignUp"
 import DeFiXrp from "./pages/DeFiXrp"
+import Subscription from "./pages/Subscription"
 
 function App() {
 
@@ -67,6 +68,7 @@ function App() {
                     <Route path="/sign-up" element={<SignUp />} />
                     <Route path="/course" element={<Course />} />
                     <Route path="/privacy" element={<Privacy />} />
+                    <Route path="/subscribe" element={<Subscription/>} />
                 </Routes>
             </ScrollToTop>
         </BrowserRouter>
