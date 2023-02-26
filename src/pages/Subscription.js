@@ -118,7 +118,7 @@ const Subscription = () => {
                         </div>
                         <div className="col-lg-9">
                             <h3 className="provision-h3">Project Based Learning</h3>
-                            <p className="provision-p col-lg-7">We are an organization that is focused on building real life projects with our users. Let's say Sir John has decided to learn <em>"Server Side Development"</em>, upon completion of his course he would have build multiple real life projects associated with server side dev.</p>
+                            <p className="provision-p col-lg-7">We are an organization that is focused on building real life projects with our users. Let's say Sir John has decided to learn <em>"Server Side Development"</em>, upon completion of his course he would have built multiple real life projects associated with server side dev.</p>
                         </div>
                     </div>
                 </div>
