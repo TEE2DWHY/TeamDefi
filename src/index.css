@@ -1184,6 +1184,11 @@ h2.materials {
     font-size: 40px;
   }
 
+  .navbar-toggler {
+    background-color: #fff;
+    font-size: 16px;
+  }
+
   .navbar-collapse {
     text-align: right;
   }
