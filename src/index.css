@@ -1188,11 +1188,9 @@ h2.materials {
     background-color: #007aff;
     font-size: 16px;
     border: none;
+    color: #ffff
   }
 
-  .navbar-toggler-icon {
-    color: "#fff"
-  }
 
 
   .navbar-collapse {
