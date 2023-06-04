@@ -3,183 +3,188 @@ body {
   -webkit-font-smoothing: antialiased;
   padding: 0;
   /* color: #fff; */
-  font-family: 'Work Sans', sans-serif;;
+  font-family: 'Work Sans', sans-serif;
+  ;
 }
 
-a{
+a {
   color: #8a8c90;
 }
 
 /* Crypto-Related-Tech */
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
 
-      .b-example-divider {
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
 
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
 
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
 
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
 
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-.list-unstyled{
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.list-unstyled {
   opacity: 0.6;
 }
+
 /* Logo */
-.logo{
+.logo {
   width: 50px;
   height: 50px;
 }
 
-#about-crypto{
+#about-crypto {
   margin-top: 10%;
 }
 
-#learn{
+#learn {
   background-image: url("../public/background.png");
   margin-top: 10%;
 }
 
-#bitcoinfeatures{
+#bitcoinfeatures {
   margin-top: 10%;
 }
 
-#Features{
+#Features {
   background-image: url("../public/background.png");
   margin-top: 10%;
   /* margin-left: 6%; */
 }
 
-#articles{
+#articles {
   margin-top: 10%;
 }
 
-#mission{
+#mission {
   margin-top: 3%;
   /* background-image: url("../public/background.png"); */
 }
 
-#footer{
+#footer {
   margin-top: 10%;
   background-color: #007aff;
   color: #fff;
 }
 
-#ultimate-store-of-value{
+#ultimate-store-of-value {
   text-align: center;
   /* background-image: url("../public/background.png"); */
 }
 
-#melting-ice{
+#melting-ice {
   margin-top: 9%;
   margin-left: 6%;
   margin-bottom: 5%;
 }
 
-#Learn-Crypto-Basics{
+#Learn-Crypto-Basics {
   text-align: center;
 }
 
-#understand-crypto{
+#understand-crypto {
   margin-top: 9%;
   margin-left: 6%;
 }
 
 .navbar-expand-lg .navbar-nav {
-    margin-left: 70px;
-  }
-.nav-header{
+  margin-left: 70px;
+}
+
+.nav-header {
   background-color: #007aff;
 }
-.nav-nav{
+
+.nav-nav {
   text-align: right;
 }
 
-.nav-list{
+.nav-list {
   padding-left: 30%;
   text-align: right;
 }
 
-button.nav-nav{
+button.nav-nav {
   text-decoration: none;
-    color: #2769ff;
-    background-color: #fff;
-    border-radius: 6px;
-    transition: .2s ease;
-    display: inline-flex;
-    align-items: center;
-    padding: 6px 12px;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 600;
-    border: none;
+  color: #2769ff;
+  background-color: #fff;
+  border-radius: 6px;
+  transition: .2s ease;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
 }
 
-button.nav-nav:hover{
+button.nav-nav:hover {
   background-color: #d9e2ed;
-   color: #2769ff;
+  color: #2769ff;
 }
 
-button.join{
-    text-decoration: none;
-    color: #2769ff;
-    background-color: #fff;
-    border-radius: 6px;
-    display: inline-flex;
-    align-items: center;
-    padding: 6px 12px;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 600;
-    border: none;
-    padding: 10px;
+button.join {
+  text-decoration: none;
+  color: #2769ff;
+  background-color: #fff;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  padding: 10px;
 }
 
-button.join:hover{
-   color: #2769ff;
+button.join:hover {
+  color: #2769ff;
 }
 
 
-.Hero-Section{
+.Hero-Section {
   background-color: #007aff;
   background-position: top;
   position: relative;
@@ -191,12 +196,12 @@ button.join:hover{
   background-image: url("../public/background.png");
 }
 
-small{
+small {
   font-size: 20px;
   animation: jello;
 }
 
-.learn-img{
+.learn-img {
   position: absolute;
   left: 0;
   margin-top: -100px;
@@ -206,11 +211,11 @@ small{
   animation-duration: 3s;
 }
 
-input.search{
+input.search {
   height: 35px
 }
 
-input.cta{
+input.cta {
   border-radius: 10px;
   /* border: 0; */
   border-style: none;
@@ -221,88 +226,93 @@ input.cta{
   color: grey;
 }
 
-h1.cta{
+h1.cta {
   font-weight: 800;
-  font-size:46px;
+  font-size: 46px;
   /* font-family: "cinzel"; */
   color: #fff;
   animation: flash;
   animation-duration: 2s;
 }
 
-button.cta{
+button.cta {
   padding: 10px;
   margin-left: 1%;
   background-color: #1bd190;
   width: 100%;
 }
 
-button.subscribe{
+button.subscribe {
   padding: 10px 40px;
   margin-left: 1%;
   background-color: #1bd190;
 }
-button.subscribe:hover{
-  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+
+button.subscribe:hover {
+  animation: pulse;
+  /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s;
 }
-button.kickstart{
+
+button.kickstart {
   padding: 10px;
   margin-left: 1%;
   background-color: #1bd190;
   width: 130px;
 }
 
-button.video{
+button.video {
   background-color: #fff;
-  color:#181818;
+  color: #181818;
   margin-left: 3%;
   width: 140px;
   padding: 10px;
   font-weight: 900;
 }
 
-button.video:hover{
+button.video:hover {
   background-color: #1bd190;
   color: #fff;
 }
 
-button.articles{
+button.articles {
   padding: 10px;
   margin-left: 1%;
   background-color: #1bd190;
   width: 350px;
 }
 
-button.cta:hover{
-  animation: pulse; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+button.cta:hover {
+  animation: pulse;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  /* don't forget to set a duration! */
 }
 
-button.k-b{
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: -.02em;
-    display: inline-block;
-    vertical-align: top;
-    background-color: #fff;
-    width: 100%;
-    text-align: center;
-    border-radius: 8px;
-    border: 2px solid #1cbb82;
-    padding: 16px 5px;
-    transition: .2s;
-    margin-bottom: 0;
+button.k-b {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -.02em;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid #1cbb82;
+  padding: 16px 5px;
+  transition: .2s;
+  margin-bottom: 0;
 }
 
-button.k-b:hover{
+button.k-b:hover {
   background-color: #1cbb82;
   color: #fff;
   transition: all 2s ease;
 }
 
-button.search{
-  height:40px;
+button.search {
+  height: 40px;
 
 }
 
@@ -313,7 +323,7 @@ line-height: 37px;
 color:#fff;
 } */
 
-img.about{
+img.about {
   width: 400px;
   margin-left: 12%;
 }
@@ -322,11 +332,11 @@ img.about{
   margin-left: 5%;
 } */
 
-.courses-content{
+.courses-content {
   margin-top: 5%;
 }
 
-.course-card{
+.course-card {
   margin-bottom: 5%;
   border-color: #B1E1FF;
   padding: 22px;
@@ -336,67 +346,74 @@ img.about{
 
 .course-card:hover {
   background-color: #007aff;
-  color:#fff;
-  animation: pulse; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+  color: #fff;
+  animation: pulse;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  /* don't forget to set a duration! */
 }
 
-ul.courses{
+ul.courses {
   list-style: none;
   padding: 10px;
   margin-top: 20px;
 }
 
-li.course-list{
+li.course-list {
   margin-bottom: 10px;
   opacity: 0.6;
 }
 
-.course-card:hover li.course-list{
- opacity: 1;
+.course-card:hover li.course-list {
+  opacity: 1;
 }
 
-.btc-img{
+.btc-img {
   width: 300px;
 }
 
-.mission-paragraphs{
+.mission-paragraphs {
   opacity: 0.6;
   /* margin: 0 20px; */
 }
 
-i{
+i {
   color: #007aff;
 }
 
-i:hover{
+i:hover {
   color: #1bd190;
-   animation: pulse; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+  animation: pulse;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  /* don't forget to set a duration! */
 }
 
 /* Glossary */
-.glossary-container{
+.glossary-container {
   margin-top: 3%;
 }
-.bitcoin{
-   animation: backInRight; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+
+.bitcoin {
+  animation: backInRight;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  /* don't forget to set a duration! */
   width: 400px;
   height: 400px;
 }
 
-.h1-glossary{
+.h1-glossary {
   font-weight: 400;
   line-height: .94;
   letter-spacing: -.03em;
   font-size: 74px;
-   letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
 /* Why Crypto Section */
 
-h2.ultimate{
+h2.ultimate {
   font-size: 32px;
   line-height: 100%;
   padding: 0 15px;
@@ -405,52 +422,52 @@ h2.ultimate{
   color: #181818;
 }
 
-.bitcoin-time{
+.bitcoin-time {
   width: 700px;
   height: 300px;
--webkit-box-shadow: 3px 0px 13px -7px #ABD9FF;
--moz-box-shadow: 3px 0px 13px -7px #ABD9FF;
-box-shadow: 3px 0px 13px -7px #ABD9FF;
-margin-bottom: 10px;
-overflow: hidden;
+  -webkit-box-shadow: 3px 0px 13px -7px #ABD9FF;
+  -moz-box-shadow: 3px 0px 13px -7px #ABD9FF;
+  box-shadow: 3px 0px 13px -7px #ABD9FF;
+  margin-bottom: 10px;
+  overflow: hidden;
 }
 
-.ice-cube{
+.ice-cube {
   width: 454px;
   width: 308px;
   display: block;
   margin: auto;
 }
 
-.whycrypto-container{
-background: #efddd4;
-margin: auto;
-width: 80%;
-border-radius: 16px;
-padding: 15px;
+.whycrypto-container {
+  background: #efddd4;
+  margin: auto;
+  width: 80%;
+  border-radius: 16px;
+  padding: 15px;
 }
 
-.LearnBanner{
+.LearnBanner {
   width: 240px;
   height: 240px;
 }
 
-button.learn{
-   padding: 10px 40px;
+button.learn {
+  padding: 10px 40px;
   margin-left: 1%;
   background-color: #1bd190;
   width: 60%;
 }
 
-.usdollar{
+.usdollar {
   width: 600px;
   -webkit-box-shadow: 3px 0px 13px -7px #ABD9FF;
--moz-box-shadow: 3px 0px 13px -7px #ABD9FF;
-box-shadow: 3px 0px 13px -7px #ABD9FF;
-margin-bottom: 10px;
+  -moz-box-shadow: 3px 0px 13px -7px #ABD9FF;
+  box-shadow: 3px 0px 13px -7px #ABD9FF;
+  margin-bottom: 10px;
 }
 
-.understand-crypto{
+.understand-crypto {
   width: 480px;
   height: 285px;
   display: block;
@@ -458,96 +475,100 @@ margin-bottom: 10px;
 }
 
 /* About Section*/
-.about-us{
+.about-us {
   text-align: center;
 }
 
-.details{
+.details {
   margin-top: 4%;
   /* margin-left: 6%; */
 }
 
-.top-secret{
+.top-secret {
   width: 300px;
   height: 300px;
-  animation: backInRight; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
+  animation: backInRight;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  /* don't forget to set a duration! */
 }
 
 /* Tool Section */
-.redierction:hover{
-  color:#1bd190
+.redierction:hover {
+  color: #1bd190
 }
 
-.blockchain-logo{
+.blockchain-logo {
   width: 273px;
   height: 29.9px;
   display: block;
   margin: auto;
 }
-.etherscan-logo{
+
+.etherscan-logo {
   width: 132.14px;
   height: 29.99px;
   display: block;
   margin: auto;
 }
-.coinigy-logo{
+
+.coinigy-logo {
   display: block;
   margin: auto;
   width: 76.25px;
   height: 30px;
 }
 
-.tradedash-logo{
+.tradedash-logo {
   width: 30px;
   height: 30px;
   display: block;
   margin: auto;
 }
 
-.tradingview-logo{
+.tradingview-logo {
   display: block;
   margin: auto;
   width: 51.33px;
   height: 30px;
 }
 
-.Cryptowatch-logo{
+.Cryptowatch-logo {
   display: block;
   margin: auto;
   width: 30px;
   height: 30px;
 }
 
-.coinmarketcap-logo{
+.coinmarketcap-logo {
   display: block;
   margin: auto;
   width: 30px;
   height: 30px;
 }
 
-.cryptocompare-logo{
+.cryptocompare-logo {
   display: block;
   margin: auto;
   width: 43.24px;
   height: 30px;
 }
 
-.Graphana-logo{
+.Graphana-logo {
   width: 182.75px;
   height: 29.99px;
   display: block;
   margin: auto;
 }
 
-.txstats-logo{
+.txstats-logo {
   display: block;
   margin: auto;
   width: 33.19px;
   height: 30px;
-} 
+}
 
-.tools-card{
+.tools-card {
   margin-bottom: 5%;
   border-color: #B1E1FF;
   background: #fff;
@@ -555,97 +576,102 @@ margin-bottom: 10px;
   border-radius: 7px;
 }
 
-button.visit-site{
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: -.02em;
-    margin: 0;
-    flex-shrink: 0;
-    /* opacity: 0; */
-    height: 38px;
-    color: #181818;
-    background: #fff;
-    border: 2px solid #1cbb82;
-    border-radius: 6px;
-    padding-left: 20px;
-    padding-right: 20px;
-    opacity: 0;
+button.visit-site {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: -.02em;
+  margin: 0;
+  flex-shrink: 0;
+  /* opacity: 0; */
+  height: 38px;
+  color: #181818;
+  background: #fff;
+  border: 2px solid #1cbb82;
+  border-radius: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0;
 }
 
-.tools-card:hover button.visit-site{
-   opacity: 1;
-   transition: all 1s ease
+.tools-card:hover button.visit-site {
+  opacity: 1;
+  transition: all 1s ease
 }
 
-button.visit-site:hover{
-   background: #1cbb82;
-   color:#fff;
+button.visit-site:hover {
+  background: #1cbb82;
+  color: #fff;
 }
 
 
-.tool-visit{
-   color: #1c96eb;
+.tool-visit {
+  color: #1c96eb;
   text-align: center;
 }
 
-.tool-visit:hover{
-  color:#1cbb82;
+.tool-visit:hover {
+  color: #1cbb82;
 }
 
 
-a{
+a {
   text-decoration: none;
 }
+
 /* BLOG */
-.blog-card{
-    width: 50%;
-    display: inline-block;
-    position: relative;
-    border-radius: 16px;
-    background: #fff;
-    box-shadow: 0 20px 20px rgb(70 125 249 / 4%), 0 41.7776px 33.4221px rgb(70 125 249 / 3%), 0 22.3363px 17.869px rgb(70 125 249 / 2%), 0 12.5216px 10.0172px rgb(70 125 249 / 2%), 0 6.6501px 5.32008px rgb(70 125 249 / 2%), 0 2.76726px 2.21381px rgb(70 125 249 / 1%);
-    text-decoration: none;
-    transition: .2s;
-    margin: 60px 10%  3px 10%;
-    padding: 10px;
+.blog-card {
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 20px 20px rgb(70 125 249 / 4%), 0 41.7776px 33.4221px rgb(70 125 249 / 3%), 0 22.3363px 17.869px rgb(70 125 249 / 2%), 0 12.5216px 10.0172px rgb(70 125 249 / 2%), 0 6.6501px 5.32008px rgb(70 125 249 / 2%), 0 2.76726px 2.21381px rgb(70 125 249 / 1%);
+  text-decoration: none;
+  transition: .2s;
+  margin: 60px 10% 3px 10%;
+  padding: 10px;
 }
 
-.pagination-nav{
+.pagination-nav {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   margin: 20px 0px;
 }
 
-.blogArticleTopImage{
-    width: calc(100% + 40px);
-    height: 65vw;
-    margin-left: -20px;
-    position: relative;
+.blogArticleTopImage {
+  width: calc(100% + 40px);
+  height: 65vw;
+  margin-left: -20px;
+  position: relative;
 }
 
-.blogArticleTopImage img{
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
+.blogArticleTopImage img {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
+
 /* ACADEMY*/
-.academy-header:hover, .nav:hover{
+.academy-header:hover,
+.nav:hover {
   background-image: url("../public/background.png");
 }
 
-h1.wta{
+h1.wta {
   font-size: 80px;
   font-weight: 900;
   padding-top: 5%;
   text-align: center;
   letter-spacing: .025em;
-  animation: flipInX; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2.5s; /* don't forget to set a duration! */
+  animation: flipInX;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2.5s;
+  /* don't forget to set a duration! */
 }
 
-.course-card1{
+.course-card1 {
   background-color: #2769ff;
   width: 100%;
   display: block;
@@ -655,36 +681,37 @@ h1.wta{
   overflow: hidden;
 }
 
-.course-card1:hover{
+.course-card1:hover {
   background: radial-gradient(circle 20vmax at var(--cursorX, -100%) var(--cursorY, -100%), transparent 0, rgba(39, 105, 255, 0.5) 50%, #2769ff 100%);
 }
 
-.navbar-collapse{
+.navbar-collapse {
   justify-content: flex-end;
   font-size: 18px;
   padding-right: 10px;
 }
 
-button.sign-in{
-    flex-shrink: 0;
-    color: #2769ff;
-    background: #dfe9ff;
-    border-radius: 3.75rem;
-    border: none;
-    padding: 3px 20px;
+button.sign-in {
+  flex-shrink: 0;
+  color: #2769ff;
+  background: #dfe9ff;
+  border-radius: 3.75rem;
+  border: none;
+  padding: 3px 20px;
 }
 
-button.sign-in:hover{
-    background-color: #2769ff;
-    color:#fff
+button.sign-in:hover {
+  background-color: #2769ff;
+  color: #fff
 }
-.academy1{
+
+.academy1 {
   width: 320px;
   height: 250px;
   margin: 20px;
 }
 
-.academy-details{
+.academy-details {
   background-color: #5181f1;
   color: #fff;
   border-radius: 10px;
@@ -695,7 +722,7 @@ button.sign-in:hover{
   margin-left: 8px;
 }
 
-.academy-button{
+.academy-button {
   background: #fff;
   border-radius: 46px;
   box-shadow: #fff;
@@ -705,7 +732,7 @@ button.sign-in:hover{
   text-decoration: none;
   display: block;
   margin: 15px 0;
-  color:#007aff;
+  color: #007aff;
   border: none;
 }
 
@@ -714,7 +741,7 @@ button.sign-in:hover{
   text-decoration: none;
 }
 
-.FAQ-bitcoin{
+.FAQ-bitcoin {
   background-color: #141821;
   width: 100%;
   display: block;
@@ -724,12 +751,14 @@ button.sign-in:hover{
   -moz-border-radius: 0px 0px 42px 36px;
   overflow: hidden;
 }
-.FAQ1{
- text-align: center;
- margin: 10% 0;
+
+.FAQ1 {
+  text-align: center;
+  margin: 10% 0;
 }
-.join-channel{
-   background: #ffffff;
+
+.join-channel {
+  background: #ffffff;
   background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
   background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
   background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
@@ -743,126 +772,127 @@ button.sign-in:hover{
   text-decoration: none;
 }
 
-button.all-courses{
-   padding: 10px;
+button.all-courses {
+  padding: 10px;
   margin-left: 1%;
   background-color: #5181f1;
   width: 350px;
 }
 
-button.all-courses:hover{
+button.all-courses:hover {
   background-color: #EEEEEE;
-  color:#181818;
+  color: #181818;
 }
 
-#library:hover{
-   background-image: url("../public/background.png");
+#library:hover {
+  background-image: url("../public/background.png");
 }
 
-h1.library{
-    position: relative;
-    margin-bottom: 2rem;
-    font-size: 6.5rem;
-    font-weight: 400;
-    line-height: 1.2;
+h1.library {
+  position: relative;
+  margin-bottom: 2rem;
+  font-size: 6.5rem;
+  font-weight: 400;
+  line-height: 1.2;
 }
 
-h2.materials{
-    position: relative;
-    font-size: 1.125rem;
-    color: #8a8c90;
-    font-weight: 400;
-    line-height: 1.2;
+h2.materials {
+  position: relative;
+  font-size: 1.125rem;
+  color: #8a8c90;
+  font-weight: 400;
+  line-height: 1.2;
 }
 
-.academy-img{
+.academy-img {
   height: 200px;
   border-radius: 0px 0px 22px 21px;
   object-fit: cover;
 }
 
 /* COURSES-PAGE */
-.courses-page{
+.courses-page {
   background: linear-gradient(to bottom, white 25%, #f6f7f9 50%, #f6f7f9) no-repeat;
 }
 
-.courses1{
+.courses1 {
   filter: blur(3px) brightness(0.8);
 }
 
-.course-container{
+.course-container {
   border-radius: 40px 44px 22px 30px;
   -webkit-border-radius: 40px 44px 22px 30px;
   -moz-border-radius: 40px 44px 22px 30px;
 }
 
-.course-img{
+.course-img {
   width: 100%;
   margin-bottom: 1.125rem;
   height: 50vh;
   border-radius: 28px 27px 22px 30px;
   -webkit-border-radius: 28px 27px 22px 30px;
   -moz-border-radius: 28px 27px 22px 30px;
-  }
+}
 
-.module-header{
-   letter-spacing: .025em;
-   font-weight: 400;
-   font-size: 1.75rem;
-  }
+.module-header {
+  letter-spacing: .025em;
+  font-weight: 400;
+  font-size: 1.75rem;
+}
 
-.lesson-count{
+.lesson-count {
   position: relative;
   top: 50px;
   opacity: 0.6;
   letter-spacing: .025em;
-  }
-
-.lesson-details{
-   border-radius: 16px 13px 20px 24px;
-  -webkit-border-radius: 16px 13px 20px 24px;
-  -moz-border-radius: 16px 13px 20px 24px;
-   background-color: #EEEEEE;
-   padding: 20px;
-   font-size: 16px;
-   margin-bottom: 1.125rem;
-   transition: color .3s;
-   line-height: 1.2;
 }
 
-.crypto-stack{
+.lesson-details {
+  border-radius: 16px 13px 20px 24px;
+  -webkit-border-radius: 16px 13px 20px 24px;
+  -moz-border-radius: 16px 13px 20px 24px;
+  background-color: #EEEEEE;
+  padding: 20px;
+  font-size: 16px;
+  margin-bottom: 1.125rem;
+  transition: color .3s;
+  line-height: 1.2;
+}
+
+.crypto-stack {
   width: 100px;
   height: 100px;
 }
 
-.course-details{
+.course-details {
   height: 50vh;
   overflow-y: scroll;
 }
 
-.welcome-header{
+.welcome-header {
   text-align: center;
   font-weight: 600;
   font-style: italic;
 }
 
-.play-video{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 1;
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 5rem;
-    height: 5rem;
-    color: #fff;
-    background-color: #303643;
-    border-radius: 100%;
-    transition: background-color .3s;
+.play-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  color: #fff;
+  background-color: #303643;
+  border-radius: 100%;
+  transition: background-color .3s;
 }
-.sign-in-text{
+
+.sign-in-text {
   text-align: center;
   font-size: 24px;
   margin: 50px 0;
@@ -871,14 +901,15 @@ h2.materials{
   background-image: url("../public/background.png");
   font-family: 'Work Sans', sans-serif;
 }
+
 /* Crypto Basics */
-.crypto-basics{
-  width:100%;
+.crypto-basics {
+  width: 100%;
   margin: 60px 0;
 }
 
 /* Fx */
-.header-financials{
+.header-financials {
   font-size: 48px;
   font-weight: 600;
   letter-spacing: -.04em;
@@ -887,13 +918,13 @@ h2.materials{
   animation-duration: 4s;
 }
 
-.banner{
+.banner {
   display: block;
   margin: 8% auto;
-  overflow:hidden;
+  overflow: hidden;
 }
 
-.btn-financials{
+.btn-financials {
   background: #1bd190;
   border: none;
   border-radius: 11px;
@@ -904,23 +935,23 @@ h2.materials{
   margin-top: 5%;
 }
 
-.understand-p{
-    line-height: 160%;
-    letter-spacing: -.02em;
-    color: #747474;
-    margin: 0;
-    font-size: 18px;    
+.understand-p {
+  line-height: 160%;
+  letter-spacing: -.02em;
+  color: #747474;
+  margin: 0;
+  font-size: 18px;
 }
 
-.provide-p{
-    line-height: 140%;
-    letter-spacing: -.02em;
-    color: #747474;
-    margin: 0;
-    font-size: 18px;
+.provide-p {
+  line-height: 140%;
+  letter-spacing: -.02em;
+  color: #747474;
+  margin: 0;
+  font-size: 18px;
 }
 
-.cont-provision{
+.cont-provision {
   margin-bottom: 5%;
   border-color: #B1E1FF;
   border-radius: 14px;
@@ -929,28 +960,28 @@ h2.materials{
   box-shadow: 0 100px 80px rgb(70 125 249 / 4%), 0 41.7776px 33.4221px rgb(70 125 249 / 3%), 0 22.3363px 17.869px rgb(70 125 249 / 2%), 0 12.5216px 10.0172px rgb(70 125 249 / 2%), 0 6.6501px 5.32008px rgb(70 125 249 / 2%), 0 2.76726px 2.21381px rgb(70 125 249 / 1%);
 }
 
-.prov-img1{
+.prov-img1 {
   object-fit: cover;
   border-radius: 21px 0px 0px 10px;
   width: 100%;
 }
 
-.prov-img2{
+.prov-img2 {
   object-fit: cover;
   border-radius: 21px 0px 0px 10px;
   width: 100%;
   height: 100%;
 }
 
-.provision-h3{
-    margin: 40px 0;
-    font-size: 28px;
-    line-height: 33px;
-    letter-spacing: -.04em;
-    font-weight: 600;
+.provision-h3 {
+  margin: 40px 0;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: -.04em;
+  font-weight: 600;
 }
 
-.provision-p{
+.provision-p {
   line-height: 170%;
   letter-spacing: -.04em;
   min-width: 320px;
@@ -960,16 +991,16 @@ h2.materials{
   padding: 0px 10px;
 }
 
-.btn-submit{
-   background: #1bd190;
+.btn-submit {
+  background: #1bd190;
   border: none;
   border-radius: 11px;
   color: #ffffff;
   font-size: 16px;
   padding: 12px 25px;
   text-decoration: none;
- display: block;
- margin: 20px auto;
+  display: block;
+  margin: 20px auto;
 
 }
 
@@ -979,7 +1010,7 @@ h2.materials{
   padding-left: 40px;
 } */
 
-.books-img{
+.books-img {
   width: 50px;
   /* height: 50px; */
   display: block;
@@ -989,10 +1020,11 @@ h2.materials{
 /* 404 */
 
 /* Course-list */
-.courses-list:hover{
+.courses-list:hover {
   background-image: url("../public/background.png");
 }
-.course-card2{
+
+.course-card2 {
   background-color: #2769ff;
   width: 100%;
   display: block;
@@ -1003,13 +1035,13 @@ h2.materials{
 }
 
 /* Defi */
-.defi{
+.defi {
   border-radius: 7px;
   margin-top: 20px;
 }
 
 /* Subscribe */
-.web3{
+.web3 {
   border-radius: 30%;
   margin: auto;
   display: block;
@@ -1019,184 +1051,202 @@ h2.materials{
   margin-top: 10%;
 }
 
-.web3:hover{
+.web3:hover {
   animation: pulse;
   animation-duration: 3s;
 }
 
-.notice{
+.notice {
   font-size: 14px;
-  color:#1c96eb;
+  color: #1c96eb;
   font-style: italic;
   opacity: 0.6;
 }
+
 /* Media Query */
 
-@media (max-width:1200px){
+@media (max-width:1200px) {
 
-  body{
+  body {
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
-  #mission{
+  #mission {
     margin-top: 9%;
   }
-  .learn-img{
+
+  .learn-img {
     display: none;
   }
-  button.articles{
+
+  button.articles {
     width: 90%;
   }
-  button.kickstart{
+
+  button.kickstart {
     width: 100%;
   }
 
-  button.video{
+  button.video {
     width: 98%;
     margin-top: 3%;
     border-color: #1cbb82;
   }
 
-  img.about{
-  width: 300px;
-  margin-right: 5%;
-  margin-top: 5%;
-}
+  img.about {
+    width: 300px;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
 
-.btc-img{
-  width: 300px;
-   margin-bottom: 4%;
-}
+  .btc-img {
+    width: 300px;
+    margin-bottom: 4%;
+  }
 
-.course-card:hover{
-  animation: pulse; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s; /* don't forget to set a duration! */
-}
+  .course-card:hover {
+    animation: pulse;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+  }
 
-h4{
-  font-size: 15px;
-  /* font-style: italic; */
-}
+  h4 {
+    font-size: 15px;
+    /* font-style: italic; */
+  }
 
-.mission-paragraphs{
-   text-align: left;
-}
+  .mission-paragraphs {
+    text-align: left;
+  }
 
-input.cta{
-  width: 70%;
-  margin-bottom: 3%;
-}
+  input.cta {
+    width: 70%;
+    margin-bottom: 3%;
+  }
 
-button.cta{
+  button.cta {
     padding: 10px;
     margin: auto;
     background-color: #1bd190;
     width: 100%;
     display: block;
-}
+  }
 
-button.subscribe{
+  button.subscribe {
     margin: auto;
     background-color: #1bd190;
-    padding: 10px 40px;
+    padding: 12px 30px;
     display: block;
-}
+  }
 
-a{
-  text-decoration: none;
-}
+  a {
+    text-decoration: none;
+  }
 
-.bitcoin-time{
-  width: 400px;
-  height: 200px;
-}
+  .bitcoin-time {
+    width: 400px;
+    height: 200px;
+  }
 
-button.learn{
-  width: 100%;
-}
+  button.learn {
+    width: 100%;
+  }
 
-.usdollar{
-  width: 300px;
-}
+  .usdollar {
+    width: 300px;
+  }
 
-.understand-crypto{
-  width: 100%;
-  height: 240px;
-}
+  .understand-crypto {
+    width: 100%;
+    height: 240px;
+  }
 
-button.visit-site{
-  width:100%
-}
-button.visit-site{
+  button.visit-site {
+    width: 100%
+  }
+
+  button.visit-site {
     opacity: 1;
-}
-
-h1.wta{
-  font-size: 40px;
-}
-
-.academy-button{
-  margin: 15px auto 20px auto ;
-  font-size: 16px;
-}
-
-h1.library{
-  font-size: 40px;
-}
-.navbar-collapse{
-text-align: right;
-}
-.academy-content{
-  font-size: 14px;
-}
-.module-header{
-   font-size: 18px;
-  }
-.lesson-count{
-  display: none;
-}
-.welcome-header{
-  font-size: 20px;
-}
-.crypto-stack{
-  display: block;
-  margin: auto;
-  width: 80px;
-  height: 80px;
-}
-.course-img{
-  width: 100%;
-  height: 90%;
-  margin-bottom: 1.125rem;
-  border-radius: 28px 27px 22px 30px;
--webkit-border-radius: 28px 27px 22px 30px;
--moz-border-radius: 28px 27px 22px 30px;
   }
 
-.course-details{
-  height: 100%;
-  overflow-y: none;
-}
+  h1.wta {
+    font-size: 40px;
+  }
 
-.prov-img1{
-  width: 100%;
-}
+  .academy-button {
+    margin: 15px auto 20px auto;
+    font-size: 16px;
+  }
 
-.banner{
- width: 300px;
- height: 300px;
-}
-.login-form{
-  width: 90%;
-}
-.mission-paragraphs{
-  margin: 0 20px;
-  justify-content: right;
-}
-.academy1{
-  width: 172px;
-  height: 150px;
-  margin: 20px;
-}
+  h1.library {
+    font-size: 40px;
+  }
+
+  .navbar-collapse {
+    text-align: right;
+  }
+
+  .academy-content {
+    font-size: 14px;
+  }
+
+  .module-header {
+    font-size: 18px;
+  }
+
+  .lesson-count {
+    display: none;
+  }
+
+  .welcome-header {
+    font-size: 20px;
+  }
+
+  .crypto-stack {
+    display: block;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+  }
+
+  .course-img {
+    width: 100%;
+    height: 90%;
+    margin-bottom: 1.125rem;
+    border-radius: 28px 27px 22px 30px;
+    -webkit-border-radius: 28px 27px 22px 30px;
+    -moz-border-radius: 28px 27px 22px 30px;
+  }
+
+  .course-details {
+    height: 100%;
+    overflow-y: none;
+  }
+
+  .prov-img1 {
+    width: 100%;
+  }
+
+  .banner {
+    width: 300px;
+    height: 300px;
+  }
+
+  .login-form {
+    width: 90%;
+  }
+
+  .mission-paragraphs {
+    margin: 0 20px;
+    justify-content: right;
+  }
+
+  .academy1 {
+    width: 172px;
+    height: 150px;
+    margin: 20px;
+  }
 
 }

@@ -30,10 +30,10 @@ function HeroSection() {
           <img className="learn-img" src="learn.png" alt="" />
           <Link to="/academy">
             <button className="btn btn-success subscribe" type="submit">
-              Proceed to Academy{" "}
+              Enter Academy
               <i
                 class="fa-solid fa-graduation-cap"
-                style={{ color: "#fff" }}
+                style={{ color: "#fff", marginLeft: "10px" }}
               ></i>
             </button>
           </Link>

@@ -1,10 +1,9 @@
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
-import axios from "axios";
 import { useState } from "react";
 import "../assets/auth.css";
-// require('dotenv').config()
-// import "../.env"
+// axios
+import authFetch from "../config/authFetch";
 
 const SignUp = () => {
   const [formData, setFormData] = useState({
@@ -29,16 +28,11 @@ const SignUp = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
     try {
-      const res = await axios.post(
-        "http://localhost:5000/api/v1/auth/register",
-        formData
-      );
-      console.log(res);
-      // if (res.status === 200) {
-      //     window.location = "/sign-in"
-      // }
+      const response = await authFetch.post("/register", formData);
+      if (response.status === 201) {
+        window.location = "/sign-in";
+      }
     } catch (err) {
       console.log(err);
     }
@@ -108,9 +102,6 @@ const SignUp = () => {
                   <i class="fa-solid fa-house"></i> Campus
                 </Link>
               </li>
-              {/* <li className="nav-item">
-                                <a className="nav-link" href="#library"><i className="fa-solid fa-book-open-reader"></i> Library</a>
-                            </li> */}
             </ul>
           </div>
         </div>
@@ -126,7 +117,6 @@ const SignUp = () => {
                 alt="login"
                 style={{ display: "block", margin: "auto" }}
               />
-              {/* <p>Lets plug you into the world of cryptocurrencies.</p> */}
             </div>
             <div className="col-lg-6 col-md-6 col-sm-6 login-form">
               <form onSubmit={handleSubmit}>
@@ -237,9 +227,9 @@ const SignUp = () => {
                     name="terms"
                     onChange={handleChange}
                     checked={formData.terms}
-                  />{" "}
+                  />
                   <label style={{ fontSize: "14px" }}>
-                    Agree to{" "}
+                    Agree to
                     <Link
                       to="/privacy"
                       style={{ textDecoration: "underline", color: "#5181f1" }}
