@@ -2,6 +2,8 @@ import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import "../assets/auth.css";
+// icon
+import Spinner from "../components/Spinner";
 // axios
 import authFetch from "../config/authFetch";
 
@@ -28,13 +30,24 @@ const SignUp = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const button = document.querySelector(".create-account-text");
+    button.classList.add("hide-text");
+    const spinner = document.querySelector(".spinner-border");
+    spinner.classList.add("show-spinner");
     try {
       const response = await authFetch.post("/register", formData);
       if (response.status === 201) {
         window.location = "/sign-in";
       }
     } catch (err) {
-      console.log(err);
+      const error = document.getElementById("sign-up-err");
+      error.innerHTML = err.response.data.msg;
+      error.style.color = "red";
+      button.classList.remove("hide-text");
+      spinner.classList.remove("show-spinner");
+      setTimeout(() => {
+        error.innerHTML = "";
+      }, 3000);
     }
   };
 
@@ -232,15 +245,25 @@ const SignUp = () => {
                     Agree to
                     <Link
                       to="/privacy"
-                      style={{ textDecoration: "underline", color: "#5181f1" }}
+                      style={{
+                        textDecoration: "underline",
+                        color: "#5181f1",
+                        marginLeft: "5px",
+                      }}
                     >
                       terms and conditions
                     </Link>
                   </label>
                 </div>
-                <button className="btn-login">Create Account</button>
+                <button className="btn-login">
+                  <span className="create-account-text">Create Account</span>
+                  <div className="spinner-border">
+                    <Spinner />
+                  </div>
+                </button>
                 <br /> <br />
               </form>
+              <p id="sign-up-err"></p>
               <hr />
               <span style={{ color: "#000", opacity: "0.6" }}>
                 Already have an account? <i class="fa-solid fa-arrow-down"></i>

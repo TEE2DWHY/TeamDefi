@@ -1,16 +1,16 @@
 /* Sign-in */
-.login-form{
+.login-form {
   text-align: center;
   margin: auto;
   border-radius: 7px;
   border: 2px solid #ABD9FF;
-  box-shadow: 5px 5px 9px 0px rgba(26,24,24,0.67);
+  box-shadow: 5px 5px 9px 0px rgba(26, 24, 24, 0.67);
   padding: 10px;
   background-color: #fff;
   /* width: 80%; */
 }
 
-.login-input{
+.login-input {
   font-size: 17px;
   border-radius: 6px;
   padding: 14px 16px;
@@ -18,13 +18,13 @@
   border: 2px solid #ABD9FF;
 }
 
-.form-component{
+.form-component {
   margin: 20px 0;
- font-size: 18px;
+  font-size: 18px;
 }
 
-.btn-login{
-  background-color:#007aff;
+.btn-login {
+  background-color: #007aff;
   color: #fff;
   font-size: 16px;
   width: 80%;
@@ -32,8 +32,22 @@
   border: none;
   border-radius: 7px;
 }
-.create-account{
-  background-color:#1cbb82;
+
+.spinner-border {
+  display: none;
+}
+
+.hide-text {
+  display: none;
+}
+
+.show-spinner {
+  display: block;
+  margin: auto;
+}
+
+.create-account {
+  background-color: #1cbb82;
   color: #fff;
   font-size: 16px;
   width: 80%;
@@ -42,26 +56,28 @@
   border-radius: 7px;
   margin-bottom: 20px;
 }
-span.user-err{
+
+span.user-err {
   color: red;
   font-size: 12px;
   margin-top: 10px;
   display: none;
 }
 
-input:invalid:focus ~ span.user-err{
-    display: block;
+input:invalid:focus~span.user-err {
+  display: block;
 }
 
 /* password */
-.password-icons{
-   position: absolute;
-   margin-left: -30px; 
-   margin-top: 20px;
-   cursor: pointer;
-   color:lightgray;
-   font-size: 16px;
-  }
-.password-icons:hover{
+.password-icons {
+  position: absolute;
+  margin-left: -30px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: lightgray;
+  font-size: 16px;
+}
+
+.password-icons:hover {
   color: #ABD9FF;
 }
