@@ -9,7 +9,7 @@ import authFetch from "../config/authFetch";
 
 const SignUp = () => {
   const [formData, setFormData] = useState({
-    firstName: "",
+    fullName: "",
     lastName: "",
     email: "",
     phoneNumber: "",
@@ -137,28 +137,14 @@ const SignUp = () => {
                   <input
                     className="login-input"
                     type="text"
-                    placeholder="First Name"
-                    name="firstName"
+                    placeholder="Full Name"
+                    name="fullName"
                     required
                     onChange={handleChange}
                     pattern="^[A-Za-z\s]*$"
                   />
                   <span className="user-err">
-                    First name should be only alphabets
-                  </span>
-                </div>
-                <div>
-                  <input
-                    className="login-input"
-                    type="text"
-                    placeholder="Last Name"
-                    name="lastName"
-                    required
-                    onChange={handleChange}
-                    pattern="^[A-Za-z\s]*$"
-                  />
-                  <span className="user-err">
-                    Last name should be only alphabets
+                    FullName name should be only alphabets
                   </span>
                 </div>
                 <div className="form-component">
