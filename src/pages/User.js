@@ -6,7 +6,8 @@ import "../assets/auth.css";
 import authFetch from "../config/authFetch";
 //session
 import { isLoggedIn } from "../config/session";
-
+//icon
+import Spinner from "../components/Spinner";
 const User = () => {
   const [formData, setFormData] = useState({
     email: "",
@@ -37,6 +38,10 @@ const User = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const loginText = document.querySelector(".login-text");
+    loginText.classList.add("hide-text");
+    const spinner = document.querySelector(".spinner-border");
+    spinner.classList.add("show-spinner");
     try {
       await authFetch.post("/login", formData);
       window.location = "/course";
@@ -45,6 +50,8 @@ const User = () => {
       const error = document.getElementById("login-err");
       error.style.color = "red";
       error.innerHTML = `${err.response.data.msg}...`;
+      loginText.classList.remove("hide-text");
+      spinner.classList.remove("show-spinner");
       setTimeout(() => {
         error.innerHTML = "";
       }, 3000);
@@ -146,7 +153,12 @@ const User = () => {
                     Password should be minimum of 8 characters
                   </span>
                 </div>
-                <button className="btn-login">Login</button>
+                <button className="btn-login">
+                  <span className="login-text">Login</span>
+                  <div className="spinner-border">
+                    <Spinner />
+                  </div>
+                </button>
                 <br /> <br />
               </form>
               <p id="login-err"></p>

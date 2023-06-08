@@ -137,7 +137,7 @@ const SignUp = () => {
                   <input
                     className="login-input"
                     type="text"
-                    placeholder="Full Name"
+                    placeholder="First name and Last name"
                     name="fullName"
                     required
                     onChange={handleChange}
